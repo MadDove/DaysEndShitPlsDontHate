@@ -1,0 +1,264 @@
+/* Ammo Maker by STIMP_TM */
+
+module ammomaker {
+
+	imports
+	{
+		Base
+	}
+
+/* Bullets */
+
+	recipe Make 9mm Bullet
+	{
+		GunPowder=10,
+		ScrapMetal=1,
+		BlowTorch=1,
+		keep Hammer/BallPeenHammer,
+
+		Result:Bullets9mm=1,
+		Sound:Hammering,
+		Time:50.0,
+        	Category:Ammo Maker,
+		OnGiveXP:Recipe.OnGiveXP.Reloading5,
+		NeedToBeLearn:false,
+	}
+
+	recipe Make .45 Bullet
+	{
+		GunPowder=10,
+		ScrapMetal=1,
+		BlowTorch=1,
+		keep Hammer/BallPeenHammer,
+
+		Result:Bullets45=1,
+		Sound:Hammering,
+		Time:50.0,
+        	Category:Ammo Maker,
+		OnGiveXP:Recipe.OnGiveXP.Reloading5,
+		NeedToBeLearn:false,
+	}
+
+	recipe Make .44 Bullet
+	{
+		GunPowder=10,
+		ScrapMetal=1,
+		BlowTorch=1,
+		keep Hammer/BallPeenHammer,
+
+		Result:Bullets44=1,
+		Sound:Hammering,
+		Time:50.0,
+        	Category:Ammo Maker,
+		OnGiveXP:Recipe.OnGiveXP.Reloading5,
+		NeedToBeLearn:false,
+	}
+
+	recipe Make .38 Bullet
+	{
+		GunPowder=10,
+		ScrapMetal=1,
+		BlowTorch=1,
+		keep Hammer/BallPeenHammer,
+
+		Result:Bullets38=1,
+		Sound:Hammering,
+		Time:50.0,
+        	Category:Ammo Maker,
+		OnGiveXP:Recipe.OnGiveXP.Reloading5,
+		NeedToBeLearn:false,
+	}
+
+	recipe Make Shotgun Shell
+	{
+		GunPowder=10,
+		ScrapMetal=1,
+		ammomaker_RecPlastic=1,
+		BlowTorch=1,
+		keep Hammer/BallPeenHammer,
+
+		Result:ShotgunShells=1,
+		Sound:Hammering,
+		Time:50.0,
+        	Category:Ammo Maker,
+		OnGiveXP:Recipe.OnGiveXP.Reloading5,
+		NeedToBeLearn:false,
+	}
+
+	recipe Make .223 Bullet
+	{
+		GunPowder=10,
+		ScrapMetal=1,
+		BlowTorch=1,
+		keep Hammer/BallPeenHammer,
+
+		Result:223Bullets=1,
+		Sound:Hammering,
+		Time:50.0,
+        	Category:Ammo Maker,
+		OnGiveXP:Recipe.OnGiveXP.Reloading5,
+		NeedToBeLearn:false,
+	}
+
+	recipe Make .308 Bullet
+	{
+		GunPowder=10,
+		ScrapMetal=1,
+		BlowTorch=1,
+		keep Hammer/BallPeenHammer,
+
+		Result:308Bullets=1,
+		Sound:Hammering,
+		Time:50.0,
+        	Category:Ammo Maker,
+		OnGiveXP:Recipe.OnGiveXP.Reloading5,
+		NeedToBeLearn:false,
+	}
+
+	recipe Make 5.56 Bullet
+	{
+		GunPowder=10,
+		ScrapMetal=1,
+		BlowTorch=1,
+		keep Hammer/BallPeenHammer,
+
+		Result:556Bullets=1,
+		Sound:Hammering,
+		Time:50.0,
+        	Category:Ammo Maker,
+		OnGiveXP:Recipe.OnGiveXP.Reloading5,
+		NeedToBeLearn:false,
+	}
+
+	recipe Make 7.62x39 Bullet
+	{
+		GunPowder=10,
+		ScrapMetal=1,
+		BlowTorch=1,
+		keep Hammer/BallPeenHammer,
+
+		Result:762x39Bullets=1,
+		Sound:Hammering,
+		Time:50.0,
+        	Category:Ammo Maker,
+		OnGiveXP:Recipe.OnGiveXP.Reloading5,
+		NeedToBeLearn:false,
+	}
+
+	recipe Make 7.62x51 Bullet
+	{
+		GunPowder=10,
+		ScrapMetal=1,
+		BlowTorch=1,
+		keep Hammer/BallPeenHammer,
+
+		Result:762x51Bullets=1,
+		Sound:Hammering,
+		Time:50.0,
+        	Category:Ammo Maker,
+		OnGiveXP:Recipe.OnGiveXP.Reloading5,
+		NeedToBeLearn:false,
+	}
+
+/* GunFighter Bullets
+
+	recipe Make BB177 Bullet
+	{
+		GunPowder=10,
+		ScrapMetal=1,
+		BlowTorch=1,
+		keep Hammer/BallPeenHammer,
+
+		Result:BB177=1,
+		Sound:Hammering,
+		Time:50.0,
+        	Category:Ammo Maker,
+		OnGiveXP:Recipe.OnGiveXP.Reloading5,
+		NeedToBeLearn:false,
+	}
+
+*/
+
+/* Raw Materials */
+
+	recipe Extract Sulfur
+	{
+		Stone=6,
+		EmptySandbag=1,
+		keep Hammer/HammerStone/Sledgehammer/BallPeenHammer/ClubHammer,
+
+		Result:ammomaker_Sulfur=5,
+		OnCreate:Recipe.OnCreate.ExtractSulfur,
+		Sound:Hammering,
+		Time:100.0,
+        	Category:Ammo Maker,
+		OnGiveXP:Recipe.OnGiveXP.Chemistry3,
+		NeedToBeLearn:false,
+	}
+
+	recipe Make Charcoal from Logs
+	{
+		Log=2,
+
+		Result:Charcoal=1,
+		NearItem:Campfire,
+		Time:500.0,
+        	Category:Ammo Maker,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Charcoal from Tree Branches
+	{
+		TreeBranch=18,
+
+		Result:Charcoal=1,
+		NearItem:Campfire,
+		Time:500.0,
+        	Category:Ammo Maker,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Gun Powder
+	{
+		ammomaker_BirdExcrement=40,
+		ammomaker_Sulfur=5,
+		Charcoal;1,
+		keep MortarPestle,
+
+		Result:GunPowder=50,
+		Sound:Hammering,
+		Time:500.0,
+        	Category:Ammo Maker,
+		OnGiveXP:Recipe.OnGiveXP.Chemistry3,
+		NeedToBeLearn:false,
+	}
+
+	recipe Recycle Metal
+	{
+		TinCanEmpty/UnusableMetal,
+		BlowTorch=1,
+		keep Hammer/HammerStone/Sledgehammer/BallPeenHammer/ClubHammer,
+
+		Result:ScrapMetal=2,
+		OnCreate:Recipe.OnCreate.RecycleMetal,
+		Sound:BlowTorch,
+		Time:50.0,
+        	Category:Ammo Maker,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding5,
+		NeedToBeLearn:false,
+	}
+
+	recipe Recycle Plastic
+	{
+		WaterBottleEmpty/PopBottleEmpty/MayonnaiseEmpty/Garbagebag/Plasticbag/CatToy/Disc/Toothbrush/BleachEmpty/Cube/Razor/Lunchbox/Lunchbox2/BucketEmpty/Cooler,
+		keep Scissors,
+
+		Result:ammomaker_RecPlastic=1,
+		OnCreate:Recipe.OnCreate.RecyclePlastic,
+		Sound:OpenCannedFood,
+		Time:50.0,
+        	Category:Ammo Maker,
+		NeedToBeLearn:false,
+	}
+
+}

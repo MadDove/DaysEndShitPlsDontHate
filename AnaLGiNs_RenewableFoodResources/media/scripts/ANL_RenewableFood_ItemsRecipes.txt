@@ -1,0 +1,351 @@
+module ANL{
+
+  imports {
+    Base, farming
+  }
+
+  /*---- Salt Renew Items ----*/
+  item SmallSaltRock {
+    Type=Normal,
+    DisplayName=Small Salt Rock,
+    Icon=SmallSaltRock,
+    Weight=0.1,
+    WorldStaticModel = Stone,
+  }
+
+  /*---- Salt Renew Recipes ----*/
+  recipe Crush Small Salt Rocks {
+	SmallSaltRock=6,
+	keep MortarPestle,
+    Result:Salt,
+    OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    Time:500,
+
+  }
+
+  /*---- Yeast Renew Items ----*/
+
+  item WildYeastBase {
+    HungerChange	=	-2,
+	ThirstChange	=	+7,
+	Type=Food,
+	FoodType    =   Vegetables,
+    DisplayName=Wild Yeast Base,
+    Icon=WildYeastBase,
+	Carbohydrates = 2.5,
+    Proteins = 0,
+    Lipids = 0,
+    Calories = 7,
+    Weight=0.1,
+
+  }
+  item JarOfYeast {
+	Type	=	Normal,
+	DisplayName	=	Jar of Yeast,
+	Icon	=	JarOfYeast,
+	Weight	=	0.5,
+    isFermentable = 1,
+    onFermentationFinish= ANL.RF.YeastFermented,
+    daysToFerment=10,
+    StaticModel = CanClosed,
+    WorldStaticModel = JarFoodPotatoes_Ground,
+  }
+  item DryJarOfYeast {
+	Type=Normal,
+	DisplayName=Jar of Ready Yeast (OBSOLETED),
+	Icon=JarOfYeastReady,
+	Weight=0.5,
+  }
+  item AnlRenewMag1 {
+    Weight	=	0.1,
+    Type	=	Literature,
+    DisplayName	=	Fermented World,
+    Icon	=	MagazineFood,
+    TeachedRecipes  =   Grind Mushrooms To Yeast Base;Make Yeast;Ferment Berries;Make Vinegar,
+    ReplaceOnUse    =   AnlRenewMag1,
+    StaticModel = Magazine,
+    WorldStaticModel = MagazineMetal1Ground,
+  }
+
+  /*---- Yeast Renew Recipes ----*/
+
+  recipe Grind Mushrooms To Yeast Base {
+	MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7,
+	keep MortarPestle,
+    Result:WildYeastBase,
+    Time:200,
+    Category:Cooking,
+	NeedToBeLearn:true,
+	OnGiveXP:Recipe.OnGiveXP.Cooking3,
+
+  }
+
+  recipe Make Yeast {
+	WildYeastBase=5,
+	Water = 2,
+	EmptyJar = 1,
+	JarLid = 1,
+    Result:JarOfYeast,
+    Time:500,
+    Category:Cooking,
+	NeedToBeLearn:true,
+	OnGiveXP:Recipe.OnGiveXP.Cooking10,
+  }
+
+  recipe Open Yeast Jar {
+	DryJarOfYeast = 1,
+    Result:Yeast,
+	OnCreate: Recipe.OnCreate.ANLOpenJar,
+    Time:100,
+    Category:Cooking,
+	OnGiveXP:Recipe.OnGiveXP.Cooking3,
+
+  }
+
+  /*---- Sugar Renew Items ----*/
+
+  item SugarBeet
+	{
+	    DisplayCategory = Food,
+		Type				=		Food,
+		DisplayName			=		Sugar Beet,
+		Icon				=		SugarBeet,
+		Weight				=		0.1,
+		HungerChange 		=		-5,
+		DaysFresh 			=		3,
+		DaysTotallyRotten 	=	 	7,
+		ThirstChange	=	+5,
+		FoodType    =   Vegetables,
+        Carbohydrates = 0.15,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 1,
+		EvolvedRecipe       =       Salad:4;FruitSalad:4;Pancakes:4,
+	}
+
+	item SugarBeetSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Sugar Beet Seeds,
+		Icon				=		TZ_LRRadishSeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+        WorldStaticModel = Seeds_Ground,
+	}
+
+	item SugarBeetBagSeed
+	{
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Sugar Beet Seeds Packet,
+		Icon				=		TZ_SeedpackLRRadish,
+		Weight				=		0.1,
+		SurvivalGear = TRUE,
+        WorldStaticModel = RadishSeedBag_Ground,
+	}
+
+	item SlicedSugarBeets
+	{
+	    DisplayCategory = Cooking,
+		Type				=		Food,
+		DisplayName			=		Sliced Sugar Beets,
+		Icon				=		SlicedSugarBeets,
+		Weight				=		0.5,
+		HungerChange 		=		-15,
+		DaysFresh 			=		3,
+		DaysTotallyRotten 	=	 	7,
+		ThirstChange	=	+10,
+		FoodType    =   Vegetables,
+        Carbohydrates = 0.15,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 15,
+		IsCookable	=	TRUE,
+		MinutesToCook	=	50,
+		ReplaceOnCooked = ANL.DriedSugarBeets,
+		EvolvedRecipe       =       Salad:15;FruitSalad:15;Pancakes:15,
+	}
+
+	item DriedSugarBeets{
+		DisplayCategory = Cooking,
+		DisplayName			=		Dried Sugar Beets,
+		Icon				=		DriedSugarBeets,
+		Weight				=		0.2,
+		HungerChange 		=		-2,
+		ThirstChange	=	+10,
+		Carbohydrates = 0.01,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 1,
+	}
+
+	item AnlRenewMag2 {
+		Weight	=	0.1,
+		Type	=	Literature,
+		DisplayName	=	Handmade Sugar,
+		Icon	=	MagazineFood,
+		TeachedRecipes  =   Make Sugar,
+		ReplaceOnUse    =   AnlRenewMag2,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineMetal1Ground,
+	}
+
+	/*---- Sugar Renew Recipes ----*/
+
+	recipe Open Packet of Sugar Beet Seeds
+	{
+        SugarBeetBagSeed,
+        Result:SugarBeetSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+	recipe Put Sugar Beet Seeds in Packet
+    {
+        SugarBeetSeed=50,
+
+        Result:SugarBeetBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+	recipe Slice Sugar Beets
+    {
+        SugarBeet=10,
+		keep HuntingKnife/KitchenKnife/Saw/Axe/HandAxe/AxeStone/WoodAxe/MeatCleaver/FlintKnife/Machete,
+        Result:SlicedSugarBeets,
+        Time:70.0,
+        Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+	recipe Make Sugar
+	{
+		DriedSugarBeets,
+		keep MortarPestle,
+		Result:Sugar,
+		Time:500,
+		Category:Cooking,
+		NeedToBeLearn:true,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    /*---- Misc stuff items ----*/
+
+    item GratedBerries {
+        Type	=	Food,
+        DisplayCategory = Food,
+		HungerChange	=	-10,
+        DisplayName	=	Grated Berries,
+        DaysTotallyRotten	=	10,
+        DaysFresh	=	6,
+        EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        FoodType    =   Fruits,
+        ThirstChange	=	-1,
+        Carbohydrates = 5,
+        Proteins = 4,
+        Lipids = 0,
+        Calories = 23,
+        CustomEatSound = EatingFruit,
+        Icon	=	GratedBerries,
+        Weight	=	0.1,
+    }
+
+    item JarOfCrushedBerries {
+      Type	=	Normal,
+      DisplayCategory = Food,
+      DisplayName	=	Jar Of Crushed Berries,
+      Icon	=	JarOfFermentedBerries,
+      Weight	=	0.4,
+      isFermentable = 1,
+      onFermentationFinish= ANL.RF.BerriesFermented,
+      daysToFerment=14,
+      StaticModel = RedWineBottle,
+      WorldStaticModel = WineRedGround,
+    }
+
+    item WildBerryWine {
+        DisplayCategory = Food,
+        HungerChange	=	-20,
+        Weight	=	1,
+        Type	=	Food,
+        ThirstChange	=	-20,
+        UnhappyChange	=	-20,
+        DisplayName	=	Wild Berry Wine,
+        Alcoholic	=	TRUE,
+        Icon	=	WildBerryWine,
+        ReplaceOnUse	=	EmptyJar,
+        CustomContextMenu = Drink,
+        CustomEatSound = DrinkingFromBottleGlass,
+        Carbohydrates = 0,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 481,
+        Packaged = TRUE,
+        CantBeFrozen = TRUE,
+        StaticModel = RedWineBottle,
+        WorldStaticModel = WineRedGround,
+        EatType = Bourbon,
+    }
+
+    /*---- Misc stuff recipes ----*/
+
+    recipe Crush Berries{
+        BerryGeneric5/BerryGeneric4/BerryGeneric3/BerryGeneric2/BerryGeneric1/BerryBlue/BerryBlack,
+        keep MortarPestle,
+        Result:GratedBerries,
+        Time:100,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+    recipe Ferment Berries
+    {
+        GratedBerries = 10,
+        Sugar = 1,
+        Water = 2,
+    	EmptyJar = 1,
+    	JarLid = 1,
+        Result:JarOfCrushedBerries,
+        Time:500,
+        Category:Cooking,
+    	NeedToBeLearn:true,
+        SkillRequired:Cooking=3,
+    	OnGiveXP:Recipe.OnGiveXP.Cooking10,
+        OnCreate:Recipe.OnCreate.StartFermentation,
+    }
+
+    /*---- Vinegar renew items ----*/
+
+    item JarOfVinegarBase {
+      Type	=	Normal,
+      DisplayCategory = Food,
+      DisplayName	=	Jar Of Vinegar Base,
+      Icon	=	JarOfVinegarBase,
+      Weight	=	0.5,
+      isFermentable = 1,
+      onFermentationFinish= ANL.RF.VinegarFermented,
+      daysToFerment=20,
+      StaticModel = CanOpen,
+      WorldStaticModel = JarFoodCabbage_Ground,
+    }
+
+    /*---- Vinegar renew recipes ----*/
+
+    recipe Make Vinegar {
+  	  Vinegar,
+      Water = 2,
+      Wine/Wine2/WildBerryWine,
+      EmptyJar = 1,
+      Result:JarOfVinegarBase,
+      Time:500,
+      Category:Cooking,
+      NeedToBeLearn:true,
+      SkillRequired:Cooking=5,
+      OnGiveXP:Recipe.OnGiveXP.Cooking10,
+      OnCreate:Recipe.OnCreate.StartFermentation,
+    }
+
+}

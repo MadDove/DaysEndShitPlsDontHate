@@ -1,0 +1,40 @@
+/* Ammo Maker by STIMP_TM */
+
+module ammomaker {
+
+	imports
+	{
+		Base
+	}
+
+	item ammomaker_BirdExcrement
+	{
+	    	DisplayCategory				=	Material,
+		Type					=	Normal,
+		DisplayName				=	Bird Excrement,
+		Icon					=	ammomaker_BirdExcrement,
+		UseWhileEquipped			=	FALSE,
+		Weight					=	0.1,
+	}
+	
+	item ammomaker_Sulfur
+	{
+	    	DisplayCategory				=	Material,
+		Type					=	Normal,
+		DisplayName				=	Sulfur,
+		Icon					=	ammomaker_Sulfur,
+		UseWhileEquipped			=	FALSE,
+		Weight					=	0.1,
+	}
+
+	item ammomaker_RecPlastic
+	{
+	    	DisplayCategory				=	Material,
+		Type					=	Normal,
+		DisplayName				=	Recycled Plastic,
+		Icon					=	ammomaker_RecPlastic,
+		UseWhileEquipped			=	FALSE,
+		Weight					=	0.1,
+	}
+
+}
