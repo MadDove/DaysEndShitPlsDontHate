@@ -1,0 +1,109 @@
+module Base
+{
+    fixing Fix Stalker Knife
+    {
+       Require : StalkerKnife,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+	
+    fixing Fix Prepper Knife Swing
+    {
+       Require : PrepperKnifeSwing,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+	
+    fixing Fix Prepper Knife Stab
+    {
+       Require : PrepperKnifeStab,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+
+    recipe Stab Prepper Knife
+    {
+        PrepperKnifeSwing,
+
+        Result:PrepperKnifeStab,
+        OnCreate:Recipe.OnCreate.PrepperKnifeStab,
+        Time:2.0,
+    }
+	
+    recipe Swing Prepper Knife
+    {
+        PrepperKnifeStab,
+
+        Result:PrepperKnifeSwing,
+        OnCreate:Recipe.OnCreate.PrepperKnifeSwing,
+        Time:2.0,
+    }
+	
+	recipe Make Prepper Vest with bags
+    {
+        PrepperVest,
+		PrepperBags,
+		OnCreate:AddBags,
+        Result:PrepperVestPacked,
+        Sound:PutItemInBag,
+        Time:50.0,
+		AnimNode:RipSheets,
+    }
+	
+	recipe Remove Bags from Prepper Vest
+    {
+        PrepperVestPacked,
+        Result:PrepperBags,
+		OnCreate:RemoveBags,
+        Sound:PutItemInBag,
+        Time:50.0,
+		AnimNode:RipSheets,
+    }
+	
+	recipe Remove Battery from Prepper Flashlight
+   {
+     keep PrepperFlashlight,
+
+     Result:Battery,
+     Time:30,
+     OnTest:TorchBatteryRemoval_TestIsValid,
+     OnCreate:UndeadSurvivorTorchBatteryRemoval_OnCreate,
+      Prop2:PrepperFlashlight,
+   }
+
+  	 recipe Insert Battery into Prepper Flashlight
+   {
+     destroy PrepperFlashlight,
+     destroy Battery,
+
+     Result:PrepperFlashlight,
+     Time:30,
+     OnTest:UndeadSurvivorTorchBatteryInsert_TestIsValid,
+     OnCreate:TorchBatteryInsert_OnCreate,
+      Prop2:PrepperFlashlight,
+   }
+   
+   	recipe Dismantle Prepper Flashlight
+   {
+      destroy PrepperFlashlight,
+      keep Screwdriver,
+
+      Result:ElectronicsScrap,
+      Time:30.0,
+      OnTest:TorchBatteryInsert_TestIsValid,
+      OnGiveXP:DismantleElectronics_OnGiveXP,
+      OnCreate:TorchDismantle_OnCreate,
+      Category:Electrical,
+      AnimNode:Disassemble,
+      Prop1:Screwdriver,
+      Prop2:PrepperFlashlight,
+   }
+
+
+
+
+	
+}

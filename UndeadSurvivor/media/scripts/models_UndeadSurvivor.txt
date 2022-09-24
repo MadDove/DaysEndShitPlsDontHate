@@ -1,0 +1,152 @@
+module Base
+{
+
+		model PrepperKnife
+	{
+		mesh = weapons/PrepperKnife,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+
+		model PrepperFlashlight
+	{
+		mesh = Stuff/PrepperFlashlight,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+	model PrepperHelmet_Ground
+    {
+        mesh = WorldItems/PrepperHelmet_ground,
+        texture = Clothes/PrepperHelmet,
+        scale = 1,
+    }
+	model PrepperMask_Ground
+    {
+        mesh = WorldItems/PrepperMask_ground,
+        texture = Clothes/PrepperMask,
+        scale = 1,
+    }
+	model PrepperJacket_Ground
+    {
+        mesh = WorldItems/PrepperJacket_ground,
+        texture = Clothes/PrepperJacket,
+        scale = 1,
+    }
+	model PrepperVest_Ground
+    {
+        mesh = WorldItems/PrepperVest_ground,
+        texture = Clothes/PrepperVest,
+        scale = 1,
+    }
+	model PrepperVestPacked_Ground
+    {
+        mesh = WorldItems/PrepperVestPacked_ground,
+        texture = Clothes/PrepperVest,
+        scale = 1,
+    }
+	model PrepperBags_Ground
+    {
+        mesh = WorldItems/PrepperBags_Ground,
+        texture = Clothes/PrepperVest,
+        scale = 1,
+    }
+	model PrepperTrousers_Ground
+    {
+        mesh = WorldItems/PrepperTrousers_ground,
+        texture = Clothes/PrepperTrousers,
+        scale = 1,
+    }
+	model StalkerBoots_Ground
+    {
+        mesh = WorldItems/StalkerBoots_ground,
+        texture = Clothes/StalkerBoots,
+        scale = 1,
+    }
+	model StalkerCloak_Ground
+    {
+        mesh = WorldItems/StalkerCloak_ground,
+        texture = Clothes/StalkerCloak,
+        scale = 1,
+    }
+	model StalkerGloves_Ground
+    {
+        mesh = WorldItems/StalkerGloves_ground,
+        texture = Clothes/StalkerGloves,
+        scale = 1,
+    }
+	model StalkerJacket_Ground
+    {
+        mesh = WorldItems/StalkerJacket_ground,
+        texture = Clothes/StalkerJacket,
+        scale = 1,
+    }
+	model StalkerMask_Ground
+    {
+        mesh = WorldItems/StalkerMask_ground,
+        texture = Clothes/StalkerMask,
+        scale = 1,
+    }
+	model StalkerTrousers_Ground
+    {
+        mesh = WorldItems/StalkerTrousers_ground,
+        texture = Clothes/StalkerTrousers,
+        scale = 1,
+    }
+	model StalkerKnife
+	{
+		mesh = Weapons/StalkerKnife,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+	model NomadBoots_Ground
+    {
+        mesh = WorldItems/NomadBoots_ground,
+        texture = Clothes/NomadBoots,
+        scale = 1,
+    }
+	model NomadBackpack_Ground
+    {
+        mesh = WorldItems/NomadBackpack_ground,
+        texture = Clothes/NomadBackpack,
+        scale = 1,
+    }
+	model NomadParka_Ground
+    {
+        mesh = WorldItems/NomadParka_ground,
+        texture = Clothes/NomadParka,
+        scale = 1,
+    }
+	model NomadMask_Ground
+    {
+        mesh = WorldItems/NomadMask_ground,
+        texture = Clothes/NomadMask,
+        scale = 1,
+    }
+	model NomadTrousers_Ground
+    {
+        mesh = WorldItems/NomadTrousers_ground,
+        texture = Clothes/NomadTrousers,
+        scale = 1,
+    }
+	model OminousNomadParka_Ground
+    {
+        mesh = WorldItems/NomadParka_ground,
+        texture = Clothes/OminousNomadParka,
+        scale = 1,
+    }
+	model OminousNomadMask_Ground
+    {
+        mesh = WorldItems/NomadMask_ground,
+        texture = Clothes/OminousNomadMask,
+        scale = 1,
+    }
+}

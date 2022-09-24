@@ -1,0 +1,435 @@
+require("ItemTweaker_Copy_ogsnaddon");
+
+-- Addon Vanilla Tweaks
+OGSNTweakItem("Base.Book","Icon","book_chocolate");
+
+-- Eliaz Fitness & Strength Books
+OGSNTweakItem("base.BookStrength1","Icon","book_chocolate_Strength1");
+OGSNTweakItem("base.BookStrength2","Icon","book_chocolate_Strength2");
+OGSNTweakItem("base.BookStrength3","Icon","book_chocolate_Strength3");
+OGSNTweakItem("base.BookStrength4","Icon","book_chocolate_Strength4");
+OGSNTweakItem("base.BookStrength5","Icon","book_chocolate_Strength5");
+OGSNTweakItem("base.BookFitness1","Icon","book_chocolate_Fitness1");
+OGSNTweakItem("base.BookFitness2","Icon","book_chocolate_Fitness2");
+OGSNTweakItem("base.BookFitness3","Icon","book_chocolate_Fitness3");
+OGSNTweakItem("base.BookFitness4","Icon","book_chocolate_Fitness4");
+OGSNTweakItem("base.BookFitness5","Icon","book_chocolate_Fitness5");
+
+-- Soul Filcher's Blacksmith
+OGSNTweakItem("filcher.BookSmithing1","Icon","book_chocolate_Blacksmith1");
+OGSNTweakItem("filcher.BookSmithing2","Icon","book_chocolate_Blacksmith2");
+OGSNTweakItem("filcher.BookSmithing3","Icon","book_chocolate_Blacksmith3");
+OGSNTweakItem("filcher.BookSmithing4","Icon","book_chocolate_Blacksmith4");
+OGSNTweakItem("filcher.BookSmithing5","Icon","book_chocolate_Blacksmith5");
+OGSNTweakItem("filcher.SFGuideSmithing","Icon","book_chocolate_SFSmith");
+
+-- Soul Filcher's Farming Time
+OGSNTweakItem("filcher.SFBookFarm","Icon","book_chocolate_SFFlour");
+
+-- Soul Filcher's Building Time
+OGSNTweakItem("filcher.BookMasonry1","Icon","book_chocolate_Masonry1");
+OGSNTweakItem("filcher.BookMasonry2","Icon","book_chocolate_Masonry2");
+OGSNTweakItem("filcher.BookMasonry3","Icon","book_chocolate_Masonry3");
+OGSNTweakItem("filcher.BookMasonry4","Icon","book_chocolate_Masonry4");
+OGSNTweakItem("filcher.BookMasonry5","Icon","book_chocolate_Masonry5");
+
+-- Soul Filcher's Learning Time
+OGSNTweakItem("filcher.BookMaintenance1","Icon","book_chocolate_Maintenance1");
+OGSNTweakItem("filcher.BookMaintenance2","Icon","book_chocolate_Maintenance2");
+OGSNTweakItem("filcher.BookMaintenance3","Icon","book_chocolate_Maintenance3");
+OGSNTweakItem("filcher.BookMaintenance4","Icon","book_chocolate_Maintenance4");
+OGSNTweakItem("filcher.BookMaintenance5","Icon","book_chocolate_Maintenance5");
+OGSNTweakItem("filcher.SFGuideCooking","Icon","book_chocolate_SFBake");
+OGSNTweakItem("filcher.SFGuideEletronics","Icon","book_chocolate_SFElectric");
+OGSNTweakItem("filcher.SFGuideEngineering","Icon","book_chocolate_SFEngine");
+OGSNTweakItem("filcher.SFGuideFishing","Icon","book_chocolate_SFFish");
+OGSNTweakItem("filcher.SFGuideMechanics","Icon","book_chocolate_SFCars");
+OGSNTweakItem("filcher.SFGuideMetalworking","Icon","book_chocolate_SFMetal");
+OGSNTweakItem("filcher.SFGuideRadio","Icon","book_chocolate_SFRadio");
+OGSNTweakItem("filcher.SFGuideTrapping","Icon","book_chocolate_SFTrap");
+
+-- Soul Filcher's Cooking Time
+OGSNTweakItem("filcher.SFCookingGuide","Icon","book_chocolate_SFCook");
+
+-- Zombie Virus vaccine Update 41+ MP
+OGSNTweakItem("LabBooks.BkLaboratoryEquipment1","Icon","book_chocolate_LaboratoryEquipment1");
+OGSNTweakItem("LabBooks.BkLaboratoryEquipment2","Icon","book_chocolate_LaboratoryEquipment2");
+OGSNTweakItem("LabBooks.BkLaboratoryEquipment3","Icon","book_chocolate_LaboratoryEquipment3");
+OGSNTweakItem("LabBooks.BkVirologyCourses1","Icon","book_chocolate_VirologyCourses1");
+OGSNTweakItem("LabBooks.BkVirologyCourses2","Icon","book_chocolate_VirologyCourses2");
+OGSNTweakItem("LabBooks.BkChemistryCourse","Icon","book_chocolate_ChemistryCourse");
+
+-- Kap's Kombat Techniques
+OGSNTweakItem("KKT.BookAxe1","Icon","book_chocolate_Axe1");
+OGSNTweakItem("KKT.BookAxe2","Icon","book_chocolate_Axe2");
+OGSNTweakItem("KKT.BookAxe3","Icon","book_chocolate_Axe3");
+OGSNTweakItem("KKT.BookAxe4","Icon","book_chocolate_Axe4");
+OGSNTweakItem("KKT.BookAxe5","Icon","book_chocolate_Axe5");
+OGSNTweakItem("KKT.BookSpear1","Icon","book_chocolate_Spear1");
+OGSNTweakItem("KKT.BookSpear2","Icon","book_chocolate_Spear2");
+OGSNTweakItem("KKT.BookSpear3","Icon","book_chocolate_Spear3");
+OGSNTweakItem("KKT.BookSpear4","Icon","book_chocolate_Spear4");
+OGSNTweakItem("KKT.BookSpear5","Icon","book_chocolate_Spear5");
+OGSNTweakItem("KKT.BookBlunt1","Icon","book_chocolate_Blunt1");
+OGSNTweakItem("KKT.BookBlunt2","Icon","book_chocolate_Blunt2");
+OGSNTweakItem("KKT.BookBlunt3","Icon","book_chocolate_Blunt3");
+OGSNTweakItem("KKT.BookBlunt4","Icon","book_chocolate_Blunt4");
+OGSNTweakItem("KKT.BookBlunt5","Icon","book_chocolate_Blunt5");
+OGSNTweakItem("KKT.BookSmallBlunt1","Icon","book_chocolate_SmallBlunt1");
+OGSNTweakItem("KKT.BookSmallBlunt2","Icon","book_chocolate_SmallBlunt2");
+OGSNTweakItem("KKT.BookSmallBlunt3","Icon","book_chocolate_SmallBlunt3");
+OGSNTweakItem("KKT.BookSmallBlunt4","Icon","book_chocolate_SmallBlunt4");
+OGSNTweakItem("KKT.BookSmallBlunt5","Icon","book_chocolate_SmallBlunt5");
+OGSNTweakItem("KKT.BookLongBlade1","Icon","book_chocolate_LongBlade1");
+OGSNTweakItem("KKT.BookLongBlade2","Icon","book_chocolate_LongBlade2");
+OGSNTweakItem("KKT.BookLongBlade3","Icon","book_chocolate_LongBlade3");
+OGSNTweakItem("KKT.BookLongBlade4","Icon","book_chocolate_LongBlade4");
+OGSNTweakItem("KKT.BookLongBlade5","Icon","book_chocolate_LongBlade5");
+OGSNTweakItem("KKT.BookSmallBlade1","Icon","book_chocolate_SmallBlade1");
+OGSNTweakItem("KKT.BookSmallBlade2","Icon","book_chocolate_SmallBlade2");
+OGSNTweakItem("KKT.BookSmallBlade3","Icon","book_chocolate_SmallBlade3");
+OGSNTweakItem("KKT.BookSmallBlade4","Icon","book_chocolate_SmallBlade4");
+OGSNTweakItem("KKT.BookSmallBlade5","Icon","book_chocolate_SmallBlade5");
+
+-- Xelite's Skillbooks
+OGSNTweakItem("xelite.BookGuns1","Icon","book_chocolate_Guns1");
+OGSNTweakItem("xelite.BookGuns2","Icon","book_chocolate_Guns2");
+OGSNTweakItem("xelite.BookGuns3","Icon","book_chocolate_Guns3");
+OGSNTweakItem("xelite.BookGuns4","Icon","book_chocolate_Guns4");
+OGSNTweakItem("xelite.BookGuns5","Icon","book_chocolate_Guns5");
+OGSNTweakItem("xelite.BookReload1","Icon","book_chocolate_Reload1");
+OGSNTweakItem("xelite.BookReload2","Icon","book_chocolate_Reload2");
+OGSNTweakItem("xelite.BookReload3","Icon","book_chocolate_Reload3");
+OGSNTweakItem("xelite.BookReload4","Icon","book_chocolate_Reload4");
+OGSNTweakItem("xelite.BookReload5","Icon","book_chocolate_Reload5");
+OGSNTweakItem("xelite.BookSprint1","Icon","book_chocolate_Sprint1");
+OGSNTweakItem("xelite.BookSprint2","Icon","book_chocolate_Sprint2");
+OGSNTweakItem("xelite.BookSprint3","Icon","book_chocolate_Sprint3");
+OGSNTweakItem("xelite.BookSprint4","Icon","book_chocolate_Sprint4");
+OGSNTweakItem("xelite.BookSprint5","Icon","book_chocolate_Sprint5");
+OGSNTweakItem("xelite.BookLightfooted1","Icon","book_chocolate_Lightfooted1");
+OGSNTweakItem("xelite.BookLightfooted2","Icon","book_chocolate_Lightfooted2");
+OGSNTweakItem("xelite.BookLightfooted3","Icon","book_chocolate_Lightfooted3");
+OGSNTweakItem("xelite.BookLightfooted4","Icon","book_chocolate_Lightfooted4");
+OGSNTweakItem("xelite.BookLightfooted5","Icon","book_chocolate_Lightfooted5");
+OGSNTweakItem("xelite.BookNimble1","Icon","book_chocolate_Nimble1");
+OGSNTweakItem("xelite.BookNimble2","Icon","book_chocolate_Nimble2");
+OGSNTweakItem("xelite.BookNimble3","Icon","book_chocolate_Nimble3");
+OGSNTweakItem("xelite.BookNimble4","Icon","book_chocolate_Nimble4");
+OGSNTweakItem("xelite.BookNimble5","Icon","book_chocolate_Nimble5");
+OGSNTweakItem("xelite.BookSneak1","Icon","book_chocolate_Sneak1");
+OGSNTweakItem("xelite.BookSneak2","Icon","book_chocolate_Sneak2");
+OGSNTweakItem("xelite.BookSneak3","Icon","book_chocolate_Sneak3");
+OGSNTweakItem("xelite.BookSneak4","Icon","book_chocolate_Sneak4");
+OGSNTweakItem("xelite.BookSneak5","Icon","book_chocolate_Sneak5");
+OGSNTweakItem("xelite.BookLockpick1","Icon","book_chocolate_Lockpick1");
+OGSNTweakItem("xelite.BookLockpick2","Icon","book_chocolate_Lockpick2");
+OGSNTweakItem("xelite.BookLockpick3","Icon","book_chocolate_Lockpick3");
+OGSNTweakItem("xelite.BookLockpick4","Icon","book_chocolate_Lockpick4");
+OGSNTweakItem("xelite.BookLockpick5","Icon","book_chocolate_Lockpick5");
+OGSNTweakItem("xelite.BookAxe1","Icon","book_chocolate_Axe1");
+OGSNTweakItem("xelite.BookAxe2","Icon","book_chocolate_Axe2");
+OGSNTweakItem("xelite.BookAxe3","Icon","book_chocolate_Axe3");
+OGSNTweakItem("xelite.BookAxe4","Icon","book_chocolate_Axe4");
+OGSNTweakItem("xelite.BookAxe5","Icon","book_chocolate_Axe5");
+OGSNTweakItem("xelite.BookSpear1","Icon","book_chocolate_Spear1");
+OGSNTweakItem("xelite.BookSpear2","Icon","book_chocolate_Spear2");
+OGSNTweakItem("xelite.BookSpear3","Icon","book_chocolate_Spear3");
+OGSNTweakItem("xelite.BookSpear4","Icon","book_chocolate_Spear4");
+OGSNTweakItem("xelite.BookSpear5","Icon","book_chocolate_Spear5");
+OGSNTweakItem("xelite.BookLBlunt1","Icon","book_chocolate_Blunt1");
+OGSNTweakItem("xelite.BookLBlunt2","Icon","book_chocolate_Blunt2");
+OGSNTweakItem("xelite.BookLBlunt3","Icon","book_chocolate_Blunt3");
+OGSNTweakItem("xelite.BookLBlunt4","Icon","book_chocolate_Blunt4");
+OGSNTweakItem("xelite.BookLBlunt5","Icon","book_chocolate_Blunt5");
+OGSNTweakItem("xelite.BookSBlunt1","Icon","book_chocolate_SmallBlunt1");
+OGSNTweakItem("xelite.BookSBlunt2","Icon","book_chocolate_SmallBlunt2");
+OGSNTweakItem("xelite.BookSBlunt3","Icon","book_chocolate_SmallBlunt3");
+OGSNTweakItem("xelite.BookSBlunt4","Icon","book_chocolate_SmallBlunt4");
+OGSNTweakItem("xelite.BookSBlunt5","Icon","book_chocolate_SmallBlunt5");
+OGSNTweakItem("xelite.BookLBlade1","Icon","book_chocolate_LongBlade1");
+OGSNTweakItem("xelite.BookLBlade2","Icon","book_chocolate_LongBlade2");
+OGSNTweakItem("xelite.BookLBlade3","Icon","book_chocolate_LongBlade3");
+OGSNTweakItem("xelite.BookLBlade4","Icon","book_chocolate_LongBlade4");
+OGSNTweakItem("xelite.BookLBlade5","Icon","book_chocolate_LongBlade5");
+OGSNTweakItem("xelite.BookSBlade1","Icon","book_chocolate_SmallBlade1");
+OGSNTweakItem("xelite.BookSBlade2","Icon","book_chocolate_SmallBlade2");
+OGSNTweakItem("xelite.BookSBlade3","Icon","book_chocolate_SmallBlade3");
+OGSNTweakItem("xelite.BookSBlade4","Icon","book_chocolate_SmallBlade4");
+OGSNTweakItem("xelite.BookSBlade5","Icon","book_chocolate_SmallBlade5");
+OGSNTweakItem("xelite.BookMaintenance1","Icon","book_chocolate_Maintenance1");
+OGSNTweakItem("xelite.BookMaintenance2","Icon","book_chocolate_Maintenance2");
+OGSNTweakItem("xelite.BookMaintenance3","Icon","book_chocolate_Maintenance3");
+OGSNTweakItem("xelite.BookMaintenance4","Icon","book_chocolate_Maintenance4");
+OGSNTweakItem("xelite.BookMaintenance5","Icon","book_chocolate_Maintenance5");
+
+-- Afterworlds's Scavenger Skill
+OGSNTweakItem("ScavengerSkill.ScavengerSkill_BookScavenging1","Icon","book_chocolate_Scav1");
+OGSNTweakItem("ScavengerSkill.ScavengerSkill_BookScavenging2","Icon","book_chocolate_Scav2");
+OGSNTweakItem("ScavengerSkill.ScavengerSkill_BookScavenging3","Icon","book_chocolate_Scav3");
+OGSNTweakItem("ScavengerSkill.ScavengerSkill_BookScavenging4","Icon","book_chocolate_Scav4");
+OGSNTweakItem("ScavengerSkill.ScavengerSkill_BookScavenging5","Icon","book_chocolate_Scav5");
+
+-- Afterworlds's Driving Skill
+OGSNTweakItem("DrivingSkill.DrivingSkill_BookDriving1","Icon","book_chocolate_Drive1");
+OGSNTweakItem("DrivingSkill.DrivingSkill_BookDriving2","Icon","book_chocolate_Drive2");
+OGSNTweakItem("DrivingSkill.DrivingSkill_BookDriving3","Icon","book_chocolate_Drive3");
+OGSNTweakItem("DrivingSkill.DrivingSkill_BookDriving4","Icon","book_chocolate_Drive4");
+OGSNTweakItem("DrivingSkill.DrivingSkill_BookDriving5","Icon","book_chocolate_Drive5");
+
+-- Snake mods: Le Gourmet Revolution
+OGSNTweakItem("Base.LGRBookHunting1","Icon","book_chocolate_snake_hunt1");
+OGSNTweakItem("Base.LGRBookHunting2","Icon","book_chocolate_snake_hunt2");
+OGSNTweakItem("Base.LGRBookHunting3","Icon","book_chocolate_snake_hunt3");
+OGSNTweakItem("Base.LGRBookHunting4","Icon","book_chocolate_snake_hunt4");
+OGSNTweakItem("Base.LGRBookHunting5","Icon","book_chocolate_snake_hunt5");
+
+-- All Skill Books
+if getActivatedMods():contains("AllSkillBooks") then
+	OGSNTweakItem("AllSkillBooks.BookStrength1","Icon","book_chocolate_Strength1");
+	OGSNTweakItem("AllSkillBooks.BookStrength2","Icon","book_chocolate_Strength2");
+	OGSNTweakItem("AllSkillBooks.BookStrength3","Icon","book_chocolate_Strength3");
+	OGSNTweakItem("AllSkillBooks.BookStrength4","Icon","book_chocolate_Strength4");
+	OGSNTweakItem("AllSkillBooks.BookStrength5","Icon","book_chocolate_Strength5");
+	OGSNTweakItem("AllSkillBooks.BookFitness1","Icon","book_chocolate_Fitness1");
+	OGSNTweakItem("AllSkillBooks.BookFitness2","Icon","book_chocolate_Fitness2");
+	OGSNTweakItem("AllSkillBooks.BookFitness3","Icon","book_chocolate_Fitness3");
+	OGSNTweakItem("AllSkillBooks.BookFitness4","Icon","book_chocolate_Fitness4");
+	OGSNTweakItem("AllSkillBooks.BookFitness5","Icon","book_chocolate_Fitness5");
+	OGSNTweakItem("AllSkillBooks.BookSprinting1","Icon","book_chocolate_Sprint1");
+	OGSNTweakItem("AllSkillBooks.BookSprinting2","Icon","book_chocolate_Sprint2");
+	OGSNTweakItem("AllSkillBooks.BookSprinting3","Icon","book_chocolate_Sprint3");
+	OGSNTweakItem("AllSkillBooks.BookSprinting4","Icon","book_chocolate_Sprint4");
+	OGSNTweakItem("AllSkillBooks.BookSprinting5","Icon","book_chocolate_Sprint5");
+	OGSNTweakItem("AllSkillBooks.BookLightfooted1","Icon","book_chocolate_Lightfooted1");
+	OGSNTweakItem("AllSkillBooks.BookLightfooted2","Icon","book_chocolate_Lightfooted2");
+	OGSNTweakItem("AllSkillBooks.BookLightfooted3","Icon","book_chocolate_Lightfooted3");
+	OGSNTweakItem("AllSkillBooks.BookLightfooted4","Icon","book_chocolate_Lightfooted4");
+	OGSNTweakItem("AllSkillBooks.BookLightfooted5","Icon","book_chocolate_Lightfooted5");
+	OGSNTweakItem("AllSkillBooks.BookNimble1","Icon","book_chocolate_Nimble1");
+	OGSNTweakItem("AllSkillBooks.BookNimble2","Icon","book_chocolate_Nimble2");
+	OGSNTweakItem("AllSkillBooks.BookNimble3","Icon","book_chocolate_Nimble3");
+	OGSNTweakItem("AllSkillBooks.BookNimble4","Icon","book_chocolate_Nimble4");
+	OGSNTweakItem("AllSkillBooks.BookNimble5","Icon","book_chocolate_Nimble5");
+	OGSNTweakItem("AllSkillBooks.BookSneaking1","Icon","book_chocolate_Sneak1");
+	OGSNTweakItem("AllSkillBooks.BookSneaking2","Icon","book_chocolate_Sneak2");
+	OGSNTweakItem("AllSkillBooks.BookSneaking3","Icon","book_chocolate_Sneak3");
+	OGSNTweakItem("AllSkillBooks.BookSneaking4","Icon","book_chocolate_Sneak4");
+	OGSNTweakItem("AllSkillBooks.BookSneaking5","Icon","book_chocolate_Sneak5");
+	OGSNTweakItem("AllSkillBooks.BookAxe1","Icon","book_chocolate_Axe1");
+	OGSNTweakItem("AllSkillBooks.BookAxe2","Icon","book_chocolate_Axe2");
+	OGSNTweakItem("AllSkillBooks.BookAxe3","Icon","book_chocolate_Axe3");
+	OGSNTweakItem("AllSkillBooks.BookAxe4","Icon","book_chocolate_Axe4");
+	OGSNTweakItem("AllSkillBooks.BookAxe5","Icon","book_chocolate_Axe5");
+	OGSNTweakItem("AllSkillBooks.BookSpear1","Icon","book_chocolate_Spear1");
+	OGSNTweakItem("AllSkillBooks.BookSpear2","Icon","book_chocolate_Spear2");
+	OGSNTweakItem("AllSkillBooks.BookSpear3","Icon","book_chocolate_Spear3");
+	OGSNTweakItem("AllSkillBooks.BookSpear4","Icon","book_chocolate_Spear4");
+	OGSNTweakItem("AllSkillBooks.BookSpear5","Icon","book_chocolate_Spear5");
+	OGSNTweakItem("AllSkillBooks.BookBlunt1","Icon","book_chocolate_Blunt1");
+	OGSNTweakItem("AllSkillBooks.BookBlunt2","Icon","book_chocolate_Blunt2");
+	OGSNTweakItem("AllSkillBooks.BookBlunt3","Icon","book_chocolate_Blunt3");
+	OGSNTweakItem("AllSkillBooks.BookBlunt4","Icon","book_chocolate_Blunt4");
+	OGSNTweakItem("AllSkillBooks.BookBlunt5","Icon","book_chocolate_Blunt5");
+	OGSNTweakItem("AllSkillBooks.BookSmallBlunt1","Icon","book_chocolate_SmallBlunt1");
+	OGSNTweakItem("AllSkillBooks.BookSmallBlunt2","Icon","book_chocolate_SmallBlunt2");
+	OGSNTweakItem("AllSkillBooks.BookSmallBlunt3","Icon","book_chocolate_SmallBlunt3");
+	OGSNTweakItem("AllSkillBooks.BookSmallBlunt4","Icon","book_chocolate_SmallBlunt4");
+	OGSNTweakItem("AllSkillBooks.BookSmallBlunt5","Icon","book_chocolate_SmallBlunt5");
+	OGSNTweakItem("AllSkillBooks.BookLongBlade1","Icon","book_chocolate_LongBlade1");
+	OGSNTweakItem("AllSkillBooks.BookLongBlade2","Icon","book_chocolate_LongBlade2");
+	OGSNTweakItem("AllSkillBooks.BookLongBlade3","Icon","book_chocolate_LongBlade3");
+	OGSNTweakItem("AllSkillBooks.BookLongBlade4","Icon","book_chocolate_LongBlade4");
+	OGSNTweakItem("AllSkillBooks.BookLongBlade5","Icon","book_chocolate_LongBlade5");
+	OGSNTweakItem("AllSkillBooks.BookSmallBlade1","Icon","book_chocolate_SmallBlade1");
+	OGSNTweakItem("AllSkillBooks.BookSmallBlade2","Icon","book_chocolate_SmallBlade2");
+	OGSNTweakItem("AllSkillBooks.BookSmallBlade3","Icon","book_chocolate_SmallBlade3");
+	OGSNTweakItem("AllSkillBooks.BookSmallBlade4","Icon","book_chocolate_SmallBlade4");
+	OGSNTweakItem("AllSkillBooks.BookSmallBlade5","Icon","book_chocolate_SmallBlade5");
+	OGSNTweakItem("AllSkillBooks.BookMaintenance1","Icon","book_chocolate_Maintenance1");
+	OGSNTweakItem("AllSkillBooks.BookMaintenance2","Icon","book_chocolate_Maintenance2");
+	OGSNTweakItem("AllSkillBooks.BookMaintenance3","Icon","book_chocolate_Maintenance3");
+	OGSNTweakItem("AllSkillBooks.BookMaintenance4","Icon","book_chocolate_Maintenance4");
+	OGSNTweakItem("AllSkillBooks.BookMaintenance5","Icon","book_chocolate_Maintenance5");
+	OGSNTweakItem("AllSkillBooks.BookAiming1","Icon","book_chocolate_Guns1");
+	OGSNTweakItem("AllSkillBooks.BookAiming2","Icon","book_chocolate_Guns2");
+	OGSNTweakItem("AllSkillBooks.BookAiming3","Icon","book_chocolate_Guns3");
+	OGSNTweakItem("AllSkillBooks.BookAiming4","Icon","book_chocolate_Guns4");
+	OGSNTweakItem("AllSkillBooks.BookAiming5","Icon","book_chocolate_Guns5");
+	OGSNTweakItem("AllSkillBooks.BookReloading1","Icon","book_chocolate_Reload1");
+	OGSNTweakItem("AllSkillBooks.BookReloading2","Icon","book_chocolate_Reload2");
+	OGSNTweakItem("AllSkillBooks.BookReloading3","Icon","book_chocolate_Reload3");
+	OGSNTweakItem("AllSkillBooks.BookReloading4","Icon","book_chocolate_Reload4");
+	OGSNTweakItem("AllSkillBooks.BookReloading5","Icon","book_chocolate_Reload5");
+	end
+
+-- Occupations Expertises
+if getActivatedMods():contains("OccupationsExpertises") then
+	OGSNTweakItem("OccupationsExpertises.BookStrength1","Icon","book_chocolate_Strength1");
+	OGSNTweakItem("OccupationsExpertises.BookStrength2","Icon","book_chocolate_Strength2");
+	OGSNTweakItem("OccupationsExpertises.BookStrength3","Icon","book_chocolate_Strength3");
+	OGSNTweakItem("OccupationsExpertises.BookStrength4","Icon","book_chocolate_Strength4");
+	OGSNTweakItem("OccupationsExpertises.BookStrength5","Icon","book_chocolate_Strength5");
+	OGSNTweakItem("OccupationsExpertises.BookFitness1","Icon","book_chocolate_Fitness1");
+	OGSNTweakItem("OccupationsExpertises.BookFitness2","Icon","book_chocolate_Fitness2");
+	OGSNTweakItem("OccupationsExpertises.BookFitness3","Icon","book_chocolate_Fitness3");
+	OGSNTweakItem("OccupationsExpertises.BookFitness4","Icon","book_chocolate_Fitness4");
+	OGSNTweakItem("OccupationsExpertises.BookFitness5","Icon","book_chocolate_Fitness5");
+	OGSNTweakItem("OccupationsExpertises.BookSprinting1","Icon","book_chocolate_Sprint1");
+	OGSNTweakItem("OccupationsExpertises.BookSprinting2","Icon","book_chocolate_Sprint2");
+	OGSNTweakItem("OccupationsExpertises.BookSprinting3","Icon","book_chocolate_Sprint3");
+	OGSNTweakItem("OccupationsExpertises.BookSprinting4","Icon","book_chocolate_Sprint4");
+	OGSNTweakItem("OccupationsExpertises.BookSprinting5","Icon","book_chocolate_Sprint5");
+	OGSNTweakItem("OccupationsExpertises.BookLightfooted1","Icon","book_chocolate_Lightfooted1");
+	OGSNTweakItem("OccupationsExpertises.BookLightfooted2","Icon","book_chocolate_Lightfooted2");
+	OGSNTweakItem("OccupationsExpertises.BookLightfooted3","Icon","book_chocolate_Lightfooted3");
+	OGSNTweakItem("OccupationsExpertises.BookLightfooted4","Icon","book_chocolate_Lightfooted4");
+	OGSNTweakItem("OccupationsExpertises.BookLightfooted5","Icon","book_chocolate_Lightfooted5");
+	OGSNTweakItem("OccupationsExpertises.BookNimble1","Icon","book_chocolate_Nimble1");
+	OGSNTweakItem("OccupationsExpertises.BookNimble2","Icon","book_chocolate_Nimble2");
+	OGSNTweakItem("OccupationsExpertises.BookNimble3","Icon","book_chocolate_Nimble3");
+	OGSNTweakItem("OccupationsExpertises.BookNimble4","Icon","book_chocolate_Nimble4");
+	OGSNTweakItem("OccupationsExpertises.BookNimble5","Icon","book_chocolate_Nimble5");
+	OGSNTweakItem("OccupationsExpertises.BookSneaking1","Icon","book_chocolate_Sneak1");
+	OGSNTweakItem("OccupationsExpertises.BookSneaking2","Icon","book_chocolate_Sneak2");
+	OGSNTweakItem("OccupationsExpertises.BookSneaking3","Icon","book_chocolate_Sneak3");
+	OGSNTweakItem("OccupationsExpertises.BookSneaking4","Icon","book_chocolate_Sneak4");
+	OGSNTweakItem("OccupationsExpertises.BookSneaking5","Icon","book_chocolate_Sneak5");
+	OGSNTweakItem("OccupationsExpertises.BookAxe1","Icon","book_chocolate_Axe1");
+	OGSNTweakItem("OccupationsExpertises.BookAxe2","Icon","book_chocolate_Axe2");
+	OGSNTweakItem("OccupationsExpertises.BookAxe3","Icon","book_chocolate_Axe3");
+	OGSNTweakItem("OccupationsExpertises.BookAxe4","Icon","book_chocolate_Axe4");
+	OGSNTweakItem("OccupationsExpertises.BookAxe5","Icon","book_chocolate_Axe5");
+	OGSNTweakItem("OccupationsExpertises.BookSpear1","Icon","book_chocolate_Spear1");
+	OGSNTweakItem("OccupationsExpertises.BookSpear2","Icon","book_chocolate_Spear2");
+	OGSNTweakItem("OccupationsExpertises.BookSpear3","Icon","book_chocolate_Spear3");
+	OGSNTweakItem("OccupationsExpertises.BookSpear4","Icon","book_chocolate_Spear4");
+	OGSNTweakItem("OccupationsExpertises.BookSpear5","Icon","book_chocolate_Spear5");
+	OGSNTweakItem("OccupationsExpertises.BookBlunt1","Icon","book_chocolate_Blunt1");
+	OGSNTweakItem("OccupationsExpertises.BookBlunt2","Icon","book_chocolate_Blunt2");
+	OGSNTweakItem("OccupationsExpertises.BookBlunt3","Icon","book_chocolate_Blunt3");
+	OGSNTweakItem("OccupationsExpertises.BookBlunt4","Icon","book_chocolate_Blunt4");
+	OGSNTweakItem("OccupationsExpertises.BookBlunt5","Icon","book_chocolate_Blunt5");
+	OGSNTweakItem("OccupationsExpertises.BookSmallBlunt1","Icon","book_chocolate_SmallBlunt1");
+	OGSNTweakItem("OccupationsExpertises.BookSmallBlunt2","Icon","book_chocolate_SmallBlunt2");
+	OGSNTweakItem("OccupationsExpertises.BookSmallBlunt3","Icon","book_chocolate_SmallBlunt3");
+	OGSNTweakItem("OccupationsExpertises.BookSmallBlunt4","Icon","book_chocolate_SmallBlunt4");
+	OGSNTweakItem("OccupationsExpertises.BookSmallBlunt5","Icon","book_chocolate_SmallBlunt5");
+	OGSNTweakItem("OccupationsExpertises.BookLongBlade1","Icon","book_chocolate_LongBlade1");
+	OGSNTweakItem("OccupationsExpertises.BookLongBlade2","Icon","book_chocolate_LongBlade2");
+	OGSNTweakItem("OccupationsExpertises.BookLongBlade3","Icon","book_chocolate_LongBlade3");
+	OGSNTweakItem("OccupationsExpertises.BookLongBlade4","Icon","book_chocolate_LongBlade4");
+	OGSNTweakItem("OccupationsExpertises.BookLongBlade5","Icon","book_chocolate_LongBlade5");
+	OGSNTweakItem("OccupationsExpertises.BookSmallBlade1","Icon","book_chocolate_SmallBlade1");
+	OGSNTweakItem("OccupationsExpertises.BookSmallBlade2","Icon","book_chocolate_SmallBlade2");
+	OGSNTweakItem("OccupationsExpertises.BookSmallBlade3","Icon","book_chocolate_SmallBlade3");
+	OGSNTweakItem("OccupationsExpertises.BookSmallBlade4","Icon","book_chocolate_SmallBlade4");
+	OGSNTweakItem("OccupationsExpertises.BookSmallBlade5","Icon","book_chocolate_SmallBlade5");
+	OGSNTweakItem("OccupationsExpertises.BookMaintenance1","Icon","book_chocolate_Maintenance1");
+	OGSNTweakItem("OccupationsExpertises.BookMaintenance2","Icon","book_chocolate_Maintenance2");
+	OGSNTweakItem("OccupationsExpertises.BookMaintenance3","Icon","book_chocolate_Maintenance3");
+	OGSNTweakItem("OccupationsExpertises.BookMaintenance4","Icon","book_chocolate_Maintenance4");
+	OGSNTweakItem("OccupationsExpertises.BookMaintenance5","Icon","book_chocolate_Maintenance5");
+	OGSNTweakItem("OccupationsExpertises.BookAiming1","Icon","book_chocolate_Guns1");
+	OGSNTweakItem("OccupationsExpertises.BookAiming2","Icon","book_chocolate_Guns2");
+	OGSNTweakItem("OccupationsExpertises.BookAiming3","Icon","book_chocolate_Guns3");
+	OGSNTweakItem("OccupationsExpertises.BookAiming4","Icon","book_chocolate_Guns4");
+	OGSNTweakItem("OccupationsExpertises.BookAiming5","Icon","book_chocolate_Guns5");
+	OGSNTweakItem("OccupationsExpertises.BookReloading1","Icon","book_chocolate_Reload1");
+	OGSNTweakItem("OccupationsExpertises.BookReloading2","Icon","book_chocolate_Reload2");
+	OGSNTweakItem("OccupationsExpertises.BookReloading3","Icon","book_chocolate_Reload3");
+	OGSNTweakItem("OccupationsExpertises.BookReloading4","Icon","book_chocolate_Reload4");
+	OGSNTweakItem("OccupationsExpertises.BookReloading5","Icon","book_chocolate_Reload5");
+	end
+
+-- LittleYoschi's Skillbooks
+if getActivatedMods():contains("LY_Skillbooks_passive") then
+	OGSNTweakItem("LY_Skillbooks.BookStrength1","Icon","book_chocolate_Strength1");
+	OGSNTweakItem("LY_Skillbooks.BookStrength2","Icon","book_chocolate_Strength2");
+	OGSNTweakItem("LY_Skillbooks.BookStrength3","Icon","book_chocolate_Strength3");
+	OGSNTweakItem("LY_Skillbooks.BookStrength4","Icon","book_chocolate_Strength4");
+	OGSNTweakItem("LY_Skillbooks.BookStrength5","Icon","book_chocolate_Strength5");
+	OGSNTweakItem("LY_Skillbooks.BookFitness1","Icon","book_chocolate_Fitness1");
+	OGSNTweakItem("LY_Skillbooks.BookFitness2","Icon","book_chocolate_Fitness2");
+	OGSNTweakItem("LY_Skillbooks.BookFitness3","Icon","book_chocolate_Fitness3");
+	OGSNTweakItem("LY_Skillbooks.BookFitness4","Icon","book_chocolate_Fitness4");
+	OGSNTweakItem("LY_Skillbooks.BookFitness5","Icon","book_chocolate_Fitness5");
+	end
+if getActivatedMods():contains("LY_Skillbooks_agility") then
+	OGSNTweakItem("LY_Skillbooks.BookSprinting1","Icon","book_chocolate_Sprint1");
+	OGSNTweakItem("LY_Skillbooks.BookSprinting2","Icon","book_chocolate_Sprint2");
+	OGSNTweakItem("LY_Skillbooks.BookSprinting3","Icon","book_chocolate_Sprint3");
+	OGSNTweakItem("LY_Skillbooks.BookSprinting4","Icon","book_chocolate_Sprint4");
+	OGSNTweakItem("LY_Skillbooks.BookSprinting5","Icon","book_chocolate_Sprint5");
+	OGSNTweakItem("LY_Skillbooks.BookLightfooted1","Icon","book_chocolate_Lightfooted1");
+	OGSNTweakItem("LY_Skillbooks.BookLightfooted2","Icon","book_chocolate_Lightfooted2");
+	OGSNTweakItem("LY_Skillbooks.BookLightfooted3","Icon","book_chocolate_Lightfooted3");
+	OGSNTweakItem("LY_Skillbooks.BookLightfooted4","Icon","book_chocolate_Lightfooted4");
+	OGSNTweakItem("LY_Skillbooks.BookLightfooted5","Icon","book_chocolate_Lightfooted5");
+	OGSNTweakItem("LY_Skillbooks.BookNimble1","Icon","book_chocolate_Nimble1");
+	OGSNTweakItem("LY_Skillbooks.BookNimble2","Icon","book_chocolate_Nimble2");
+	OGSNTweakItem("LY_Skillbooks.BookNimble3","Icon","book_chocolate_Nimble3");
+	OGSNTweakItem("LY_Skillbooks.BookNimble4","Icon","book_chocolate_Nimble4");
+	OGSNTweakItem("LY_Skillbooks.BookNimble5","Icon","book_chocolate_Nimble5");
+	OGSNTweakItem("LY_Skillbooks.BookSneaking1","Icon","book_chocolate_Sneak1");
+	OGSNTweakItem("LY_Skillbooks.BookSneaking2","Icon","book_chocolate_Sneak2");
+	OGSNTweakItem("LY_Skillbooks.BookSneaking3","Icon","book_chocolate_Sneak3");
+	OGSNTweakItem("LY_Skillbooks.BookSneaking4","Icon","book_chocolate_Sneak4");
+	OGSNTweakItem("LY_Skillbooks.BookSneaking5","Icon","book_chocolate_Sneak5");
+	end
+if getActivatedMods():contains("LY_Skillbooks_melee") then
+	OGSNTweakItem("LY_Skillbooks.BookAxe1","Icon","book_chocolate_Axe1");
+	OGSNTweakItem("LY_Skillbooks.BookAxe2","Icon","book_chocolate_Axe2");
+	OGSNTweakItem("LY_Skillbooks.BookAxe3","Icon","book_chocolate_Axe3");
+	OGSNTweakItem("LY_Skillbooks.BookAxe4","Icon","book_chocolate_Axe4");
+	OGSNTweakItem("LY_Skillbooks.BookAxe5","Icon","book_chocolate_Axe5");
+	OGSNTweakItem("LY_Skillbooks.BookSpear1","Icon","book_chocolate_Spear1");
+	OGSNTweakItem("LY_Skillbooks.BookSpear2","Icon","book_chocolate_Spear2");
+	OGSNTweakItem("LY_Skillbooks.BookSpear3","Icon","book_chocolate_Spear3");
+	OGSNTweakItem("LY_Skillbooks.BookSpear4","Icon","book_chocolate_Spear4");
+	OGSNTweakItem("LY_Skillbooks.BookSpear5","Icon","book_chocolate_Spear5");
+	OGSNTweakItem("LY_Skillbooks.BookBlunt1","Icon","book_chocolate_Blunt1");
+	OGSNTweakItem("LY_Skillbooks.BookBlunt2","Icon","book_chocolate_Blunt2");
+	OGSNTweakItem("LY_Skillbooks.BookBlunt3","Icon","book_chocolate_Blunt3");
+	OGSNTweakItem("LY_Skillbooks.BookBlunt4","Icon","book_chocolate_Blunt4");
+	OGSNTweakItem("LY_Skillbooks.BookBlunt5","Icon","book_chocolate_Blunt5");
+	OGSNTweakItem("LY_Skillbooks.BookSmallBlunt1","Icon","book_chocolate_SmallBlunt1");
+	OGSNTweakItem("LY_Skillbooks.BookSmallBlunt2","Icon","book_chocolate_SmallBlunt2");
+	OGSNTweakItem("LY_Skillbooks.BookSmallBlunt3","Icon","book_chocolate_SmallBlunt3");
+	OGSNTweakItem("LY_Skillbooks.BookSmallBlunt4","Icon","book_chocolate_SmallBlunt4");
+	OGSNTweakItem("LY_Skillbooks.BookSmallBlunt5","Icon","book_chocolate_SmallBlunt5");
+	OGSNTweakItem("LY_Skillbooks.BookLongBlade1","Icon","book_chocolate_LongBlade1");
+	OGSNTweakItem("LY_Skillbooks.BookLongBlade2","Icon","book_chocolate_LongBlade2");
+	OGSNTweakItem("LY_Skillbooks.BookLongBlade3","Icon","book_chocolate_LongBlade3");
+	OGSNTweakItem("LY_Skillbooks.BookLongBlade4","Icon","book_chocolate_LongBlade4");
+	OGSNTweakItem("LY_Skillbooks.BookLongBlade5","Icon","book_chocolate_LongBlade5");
+	OGSNTweakItem("LY_Skillbooks.BookSmallBlade1","Icon","book_chocolate_SmallBlade1");
+	OGSNTweakItem("LY_Skillbooks.BookSmallBlade2","Icon","book_chocolate_SmallBlade2");
+	OGSNTweakItem("LY_Skillbooks.BookSmallBlade3","Icon","book_chocolate_SmallBlade3");
+	OGSNTweakItem("LY_Skillbooks.BookSmallBlade4","Icon","book_chocolate_SmallBlade4");
+	OGSNTweakItem("LY_Skillbooks.BookSmallBlade5","Icon","book_chocolate_SmallBlade5");
+	OGSNTweakItem("LY_Skillbooks.BookMaintenance1","Icon","book_chocolate_Maintenance1");
+	OGSNTweakItem("LY_Skillbooks.BookMaintenance2","Icon","book_chocolate_Maintenance2");
+	OGSNTweakItem("LY_Skillbooks.BookMaintenance3","Icon","book_chocolate_Maintenance3");
+	OGSNTweakItem("LY_Skillbooks.BookMaintenance4","Icon","book_chocolate_Maintenance4");
+	OGSNTweakItem("LY_Skillbooks.BookMaintenance5","Icon","book_chocolate_Maintenance5");
+	end
+if getActivatedMods():contains("LY_Skillbooks_firearms") then
+	OGSNTweakItem("LY_Skillbooks.BookAiming1","Icon","book_chocolate_Guns1");
+	OGSNTweakItem("LY_Skillbooks.BookAiming2","Icon","book_chocolate_Guns2");
+	OGSNTweakItem("LY_Skillbooks.BookAiming3","Icon","book_chocolate_Guns3");
+	OGSNTweakItem("LY_Skillbooks.BookAiming4","Icon","book_chocolate_Guns4");
+	OGSNTweakItem("LY_Skillbooks.BookAiming5","Icon","book_chocolate_Guns5");
+	OGSNTweakItem("LY_Skillbooks.BookReloading1","Icon","book_chocolate_Reload1");
+	OGSNTweakItem("LY_Skillbooks.BookReloading2","Icon","book_chocolate_Reload2");
+	OGSNTweakItem("LY_Skillbooks.BookReloading3","Icon","book_chocolate_Reload3");
+	OGSNTweakItem("LY_Skillbooks.BookReloading4","Icon","book_chocolate_Reload4");
+	OGSNTweakItem("LY_Skillbooks.BookReloading5","Icon","book_chocolate_Reload5");
+	end
+if getActivatedMods():contains("LY_Skillbooks_lockpicking") then
+	OGSNTweakItem("LY_Skillbooks.BookLockpicking1","Icon","book_chocolate_Lockpick1");
+	OGSNTweakItem("LY_Skillbooks.BookLockpicking2","Icon","book_chocolate_Lockpick2");
+	OGSNTweakItem("LY_Skillbooks.BookLockpicking3","Icon","book_chocolate_Lockpick3");
+	OGSNTweakItem("LY_Skillbooks.BookLockpicking4","Icon","book_chocolate_Lockpick4");
+	OGSNTweakItem("LY_Skillbooks.BookLockpicking5","Icon","book_chocolate_Lockpick5");
+	end

@@ -1,0 +1,4 @@
+/************************SMOKER************************/
+ItemName_PTBR = {
+ItemName_Base.Cigarettes = "Pacote de Cigarros",
+}

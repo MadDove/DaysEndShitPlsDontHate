@@ -1,0 +1,84 @@
+module Base
+{
+
+recipe Roll Dice
+    {
+	Dice,
+    Result:Dice,
+    Time:30,
+    OnCreate:RollDice_OnCreate,
+	RemoveResultItem:true,
+	AnimNode:Forage,
+    }
+
+recipe Roll D4
+    {
+	DiceD4,
+    Result:DiceD4,
+    Time:30,
+    OnCreate:RollDiceD4_OnCreate,
+	RemoveResultItem:true,
+	AnimNode:Forage,
+    }
+
+recipe Roll D6
+    {
+	DiceD6,
+    Result:DiceD6,
+    Time:30,
+    OnCreate:RollDiceD6_OnCreate,
+	RemoveResultItem:true,
+	AnimNode:Forage,
+    }
+
+recipe Roll D8
+    {
+	DiceD8,
+    Result:DiceD8,
+    Time:30,
+    OnCreate:RollDiceD8_OnCreate,
+	RemoveResultItem:true,
+	AnimNode:Forage,
+    }
+
+recipe Roll D10
+    {
+	DiceD10,
+    Result:DiceD10,
+    Time:30,
+    OnCreate:RollDiceD10_OnCreate,
+	RemoveResultItem:true,
+	AnimNode:Forage,
+    }
+
+recipe Roll D12
+    {
+	DiceD12,
+    Result:DiceD12,
+    Time:30,
+    OnCreate:RollDiceD12_OnCreate,
+	RemoveResultItem:true,
+	AnimNode:Forage,
+    }
+
+recipe Roll D20
+    {
+	DiceD20,
+    Result:DiceD20,
+    Time:30,
+    OnCreate:RollDiceD20_OnCreate,
+	RemoveResultItem:true,
+	AnimNode:Forage,
+    }
+
+recipe Roll D100
+    {
+	DiceD100,
+    Result:DiceD100,
+    Time:30,
+    OnCreate:RollDiceD100_OnCreate,
+	RemoveResultItem:true,
+	AnimNode:Forage,
+    }
+
+}

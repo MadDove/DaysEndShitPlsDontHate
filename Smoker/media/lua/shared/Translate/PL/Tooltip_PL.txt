@@ -1,0 +1,3 @@
+Tooltip_PL = {
+    Tooltip_Pills_Nicorette = "Zmniejsza chêæ palenia papierosów",
+}

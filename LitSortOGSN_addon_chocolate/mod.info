@@ -1,0 +1,6 @@
+name=An Exhilaratingly Organized Lit Mod 5a: Addon Chocolate Icons
+id=LitSortOGSN_addon_chocolate
+require=LitSortOGSN_addon_base
+require=LitSortOGSN_chocolate
+description=Replaces the mods books with chocolate ones.
+poster=addon.png

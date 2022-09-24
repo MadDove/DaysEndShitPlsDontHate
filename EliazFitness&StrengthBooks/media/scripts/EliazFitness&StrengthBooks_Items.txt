@@ -1,0 +1,143 @@
+module Base
+{
+
+    item BookStrength1
+	{
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Strength Vol.1 : Beginner,
+		Icon	=	Book5,
+        SkillTrained = Strength,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookPurple_Ground,
+	}
+
+    item BookStrength2
+	{
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Strength Vol.2 : Intermediate,
+		Icon	=	Book5,
+        SkillTrained = Strength,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookPurple_Ground,
+	}
+
+    item BookStrength3
+	{
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Strength Vol.3 : Advanced,
+		Icon	=	Book5,
+        SkillTrained = Strength,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookPurple_Ground,
+	}
+
+    item BookStrength4
+	{
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Strength Vol.4 : Expert,
+		Icon	=	Book5,
+        SkillTrained = Strength,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookPurple_Ground,
+	}
+
+    item BookStrength5
+	{
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Strength Vol.5 : Master,
+		Icon	=	Book5,
+        SkillTrained = Strength,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookPurple_Ground,
+	}
+
+	 item BookFitness1
+	{
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Fitness Vol.1 : Beginner,
+		Icon	=	Book8,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookBrown_Ground,
+	}
+
+    item BookFitness2
+	{
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Fitness Vol.2 : Intermediate,
+		Icon	=	Book8,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookBrown_Ground,
+	}
+
+    item BookFitness3
+	{
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Fitness Vol.3 : Advanced,
+		Icon	=	Book8,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookBrown_Ground,
+	}
+
+    item BookFitness4
+	{
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Fitness Vol.4 : Expert,
+		Icon	=	Book8,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookBrown_Ground,
+	}
+
+    item BookFitness5
+	{
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Fitness Vol.5 : Master,
+		Icon	=	Book8,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookBrown_Ground,
+	}
+}

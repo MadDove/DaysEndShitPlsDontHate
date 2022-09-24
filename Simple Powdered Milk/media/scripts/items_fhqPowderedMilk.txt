@@ -1,0 +1,11 @@
+module Base
+{
+	item fhqPowderedMilkPouch
+	{
+		DisplayCategory = Food,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Powdered Milk Pouch,
+		Icon	=	fhqPowderedMilkPouch,
+	}
+}

@@ -1,0 +1,29 @@
+module TsarPlus {
+    imports {
+        Base
+    }
+
+    recipe Create Saddlebag
+    {
+		Bag_Satchel,
+		Thread, 
+		LeatherStrips,
+        keep Needle,
+		
+		Result:ATAMotoBagBMW1,
+        Time:300.0,
+      	SkillRequired:Tailoring=4,
+    }
+
+    recipe Create Saddlebag
+    {
+		Bag_Satchel,
+		Thread, 
+		LeatherStrips,
+        keep Needle,
+		
+		Result:ATAMotoHarleyBag,
+        Time:300.0,
+      	SkillRequired:Tailoring=4,
+    }
+}

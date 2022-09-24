@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+ <files>
+ <path>media/clothing/clothingItems/Hat_UNHelmet.xml</path>
+ <guid>7c520c48-f189-41d2-a327-84dbade4941a</guid>
+ </files>
+ <files>
+ <path>media/clothing/clothingItems/Vest_UNVest.xml</path>
+ <guid>3a8f2653-009a-4f2b-a12d-261f86730d10</guid>
+ </files>
+ <files>
+ <path>media/clothing/clothingItems/Gloves_UNGloves.xml</path>
+ <guid>f3fd164a-e9e2-4047-b60f-099b23afa1a9</guid>
+ </files>
+ <files>
+ <path>media/clothing/clothingItems/Hat_UNBeret.xml</path>
+ <guid>ec679fbb-9cd9-4c13-8560-888278a6699c</guid>
+ </files>
+</fileGuidTable>

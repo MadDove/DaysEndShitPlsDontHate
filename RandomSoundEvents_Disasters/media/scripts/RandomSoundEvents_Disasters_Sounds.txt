@@ -1,0 +1,26 @@
+module Base {
+
+    sound EarthQuake1
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/EarthQuake/earthquake1.ogg, distanceMax = 2000, volume = 0, }
+    }
+
+    sound EarthQuake2
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/EarthQuake/earthquake2.ogg, distanceMax = 2000, volume = 0, }
+    }
+    sound EarthQuake3
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/EarthQuake/rumble.ogg, distanceMax = 10000, volume = 2, }
+    }
+
+    sound EarthQuake4
+    {
+        category = RandomSoundEvent, loop = false, is3D = true,
+        clip { file = media/sound/EarthQuake/rumblefar.ogg, distanceMax = 10000, volume = 2, }
+    }
+
+}

@@ -1,0 +1,9 @@
+Recipes_FR = {
+	Recipe_Make_Brick_Mold = "Fabriquer un moule de brique",
+	Recipe_Make_Brick_Kiln = "Fabriquer un four à briques",
+	Recipe_Make_Bricks = "Faire des briques",
+	Recipe_Make_Bucket_of_Concrete = "Préparer un seau de béton",
+	Recipe_Make_Chisel = "Fabriquer un ciseau à brique",
+	Recipe_Put_Clay_in_Bag = "Mettre l'argile dans un sac",
+	Recipe_Take_Clay_from_Bag = "Prendre de l'argile",
+}

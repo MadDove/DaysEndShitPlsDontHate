@@ -1,0 +1,360 @@
+module Base 
+{
+
+        item Hat_Army
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Woodland PASGT Helmet,
+		ClothingItem = Hat_Army,
+		BodyLocation = Hat,
+        Icon = MilitaryHelmet,
+		BloodLocation = Head,
+        BiteDefense = 100,
+		ScratchDefense = 100,
+        BulletDefense = 100,
+        CanHaveHoles = false,
+        ClothingItemExtra = SMUIClothing.Hat_MilitaryHelmetStrapless,
+        ClothingItemExtraOption = Unstrap,
+        ClothingExtraSubmenu = Strap,
+        Insulation = 0.10,
+        Weight = 1,
+        WorldStaticModel = MilitaryHelmet_WorldItem,
+	}
+
+    item Vest_BulletArmy
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Woodland PASGT Vest,
+        ClothingItem = Vest_BulletArmy,
+        BodyLocation = TorsoExtra,
+        Icon = WoodlandPASGT,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.75,
+        WindResistance = 0.45,
+        BiteDefense = 75,
+        ScratchDefense = 75,
+        BulletDefense = 100,
+        WorldStaticModel = PASGTWoodland_WorldItem,
+    }
+    	item Shoes_ArmyBoots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Black Combat Boots,
+		ClothingItem = Shoes_ArmyBoots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = BlackCombatBoots,
+		StompPower = 2.5,
+		ConditionLowerChanceOneIn = 20,
+        ConditionMax = 30,
+        RunSpeedModifier = 0.9,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 0.8,
+        WorldStaticModel = BlackCombatBoots_WorldItem,
+	}
+    	item Shoes_ArmyBootsDesert
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Desert Combat Boots,
+		ClothingItem = Shoes_ArmyBootsDesert,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = DesertCombatBoots,
+		StompPower = 2.5,
+		ConditionLowerChanceOneIn = 20,
+        ConditionMax = 30,
+        RunSpeedModifier = 0.9,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.5,
+        WindResistance = 0.60,
+        WaterResistance = 0.5,
+        WorldStaticModel = DesertCombatBoots_WorldItem,
+	}
+
+        item Hat_BonnieHat_CamoGreen
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Woodland Boonie Hat,
+        ClothingItem = Hat_BonnieHat_CamoGreen,
+        BodyLocation = Hat,
+        Icon = BoonieHatWoodland,
+        ClothingItemExtra = SMUIClothing.Hat_BoonieHatWoodlandFolded,
+        ClothingItemExtraOption = Fold,
+        ClothingExtraSubmenu = Unfold,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        BloodLocation = Head,
+        Insulation = 0.5,
+        WindResistance = 0.3,
+        Weight = 0.1,
+        WorldStaticModel = BoonieHatWoodland_WorldItem,
+    }
+
+    	item Hat_NBCmask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = M17 w/ Doff Hood,
+		ClothingItem = Hat_NBCmask,
+        BodyLocation = MaskEyes,
+        BloodLocation = Head,
+        Icon = M17Doff,
+        CanHaveHoles = false,
+        Weight = 0.0,
+        ScratchDefense = 20,
+        BiteDefense = 5,
+        Insulation = 0.90,
+        WindResistance = 0.65,
+        WaterResistance = 1.0,
+        WorldStaticModel = M17Doff_WorldItem,
+    }
+
+        item Tshirt_CamoGreen
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Woodland Pattern Jacket,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoGreen,
+        ClothingItem = Tshirt_CamoGreen,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoGreenRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+    	item Shirt_CamoGreen
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Woodland Pattern Jacket,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoGreen,
+        ClothingItem = Shirt_CamoGreen,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoGreenRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+	}
+    
+        item Jacket_ArmyCamoGreen
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Woodland Pattern Jacket,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoGreen,
+        ClothingItem = Jacket_ArmyCamoGreen,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoGreenRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+        item Tshirt_CamoDesert
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoSand,
+        DisplayName = Desert Battle Pattern Jacket,
+        ClothingItem = Tshirt_CamoDesert,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoDesertRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+    	item Shirt_CamoDesert
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoSand,
+        DisplayName = Desert Battle Pattern Jacket,
+        ClothingItem = Shirt_CamoGreen,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoDesertRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+	}
+    
+        item Jacket_ArmyCamoDesert
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Desert Battle Pattern Jacket,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoSand,
+        DisplayName = Desert Combat Pattern Jacket,
+        ClothingItem = Jacket_ArmyCamoDesert,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoDesertRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+        item Tshirt_CamoUrban
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoGrey,
+        DisplayName = Urban Pattern Jacket,
+        ClothingItem = Jacket_ArmyCamoUrban,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoUrbanRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+    	item Shirt_CamoUrban
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Urban Pattern Jacket,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoGrey,
+        DisplayName = Urban Pattern Jacket,
+        ClothingItem = Jacket_ArmyCamoUrban,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoUrbanRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+	}
+    
+        item Trousers_CamoGreen
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Woodland Pattern Pants,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGreen,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.4,   
+        ClothingItem = Trousers_CamoGreen,
+        ClothingItemExtra = SMUIClothing.Trousers_CamoGreenTucked,
+        ClothingItemExtraOption = TuckIn,
+        ClothingExtraSubmenu = TuckOut,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+
+        item Trousers_CamoDesert
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Desert Combat Pattern Pants,
+        BodyLocation = Pants,
+        Icon = TrousersCamoSand,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.4,      
+        ClothingItem = Trousers_CamoDesert,
+        ClothingItemExtra = SMUIClothing.Trousers_CamoDesertTucked,
+        ClothingItemExtraOption = TuckIn,
+        ClothingExtraSubmenu = TuckOut,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+
+        item Trousers_CamoUrban
+    
+    {   
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Urban Pattern Pants,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGrey,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        ClothingItem = Trousers_CamoUrban,
+        ClothingItemExtra = SMUIClothing.Trousers_CamoUrbanTucked,
+        ClothingItemExtraOption = TuckIn,
+        ClothingExtraSubmenu = TuckOut,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+
+
+}

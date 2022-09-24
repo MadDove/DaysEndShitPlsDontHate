@@ -1,0 +1,12 @@
+module Base
+{
+	recipe Create Milk From Milk Powder
+    {
+        fhqPowderedMilkPouch,
+        Water=10,
+
+        Result:Milk,
+        Time:100.0,
+        Category:Cooking,
+    }
+}

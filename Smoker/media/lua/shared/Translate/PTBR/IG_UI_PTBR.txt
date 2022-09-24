@@ -1,0 +1,15 @@
+--- SMOKER ---
+IGUI_PTBR = {
+IGUI_Empty = "Vazio...",
+IGUI_One_cigarette = "Um cigarro.",
+IGUI_Two_cigarettes = "Dois cigarros.",
+IGUI_There_is_some = "Tem alguns...",
+IGUI_Less_than_half = "Menos da metade.",
+IGUI_Almost_half_a_pack = "Quase meio pacote...",
+IGUI_More_than_a_half = "Mais da metade!",
+IGUI_Almost_a_complete_pack = "Quase um pacote completo!",
+IGUI_Full_pack = "Pacote completo!",
+IGUI_Refuel_Lighter = "Reabastecer Isqueiro",
+IGUI_ContextMenu_Cant_Action = "Não é possível concluir... Mova o item para o inventário principal e clique com o botão direito novamente...",
+IGUI_The_foil_burned_out = "A folha queimou...",
+}

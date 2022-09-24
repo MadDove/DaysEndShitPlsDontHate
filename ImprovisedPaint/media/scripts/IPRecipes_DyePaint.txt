@@ -1,0 +1,139 @@
+module ImprovisedPaint
+{
+    imports 
+    {
+        Base
+    }
+
+    recipe DyePaintBlack {
+        keep WoodenStick,
+	    destroy PaintWhite,
+        HairDyeBlack=2,
+	    Result:PaintBlack,    
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyePaintBlue {
+        keep WoodenStick,
+	    destroy PaintWhite,
+        HairDyeBlue=2,
+	    Result:PaintBlue,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyePaintGreen {
+        keep WoodenStick,
+	    destroy PaintWhite,
+        HairDyeGreen=2,
+	    Result:PaintGreen,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyePaintGrey {
+        keep WoodenStick,
+        destroy PaintWhite,
+        HairDyeBlack=1,
+        Result:PaintGrey,
+	    Time:30.0,
+	    NeedToBeLearn:false,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyePaintLightBlue {
+        keep WoodenStick,
+        destroy PaintWhite,
+        HairDyeBlue=1,
+        Result:PaintLightBlue,
+	    Time:30.0,
+	    NeedToBeLearn:false,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyePaintLightBrown {
+        keep WoodenStick,
+	    destroy PaintWhite,
+        HairDyeLightBrown=2,
+	    Result:PaintLightBrown,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyePaintOrange {
+        keep WoodenStick,
+	    destroy PaintWhite,
+        HairDyeGinger=2,
+	    Result:PaintOrange,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyePaintPink {
+        keep WoodenStick,
+	    destroy PaintWhite,
+        HairDyePink=2,
+	    Result:PaintPink,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyePaintRed {
+        keep WoodenStick,
+	    destroy PaintWhite,
+        HairDyeRed=2,
+	    Result:PaintRed,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyePaintWhite {
+        keep WoodenStick,
+	    destroy PaintBlack/PaintBlue/PaintBrown/PaintCyan/PaintGrey/PaintGreen/PaintLightBlue/PaintLightBrown/PaintOrange/PaintPink/PaintPurple/PaintRed/PaintTurquoise/PaintYellow,
+        HairDyeWhite=2,
+	    Result:PaintWhite,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyePaintYellow {
+        keep WoodenStick,
+	    destroy PaintWhite,
+        HairDyeYellow/HairDyeBlonde=2,
+	    Result:PaintYellow,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+}

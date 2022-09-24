@@ -1,0 +1,4 @@
+/************************SMOKER************************/
+ItemName_TR = {
+ItemName_Base.Cigarettes = "Sigara Paketleri",
+}

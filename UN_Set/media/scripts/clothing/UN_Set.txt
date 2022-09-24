@@ -1,0 +1,74 @@
+  module UNSet
+  {
+    imports
+	{
+	Base
+	}
+
+    item Hat_UNHelmet
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = UN Helmet,
+		ClothingItem = Hat_UNHelmet,
+		BodyLocation = Hat,
+		Icon = UN_Helmet,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+	}
+
+	item Hat_UNBeret
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = UN Beret,
+        ClothingItem = Hat_UNBeret,
+        BodyLocation = Hat,
+        Icon = UN_Beret,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Insulation = 0.3,
+        BloodLocation = Head,
+        Weight = 0.5,
+    }
+
+	item Gloves_UNGloves
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = UN Gloves,
+		ClothingItem = Gloves_UNGloves,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = UN_Gloves,
+		ScratchDefense = 30,
+        BiteDefense = 15,
+        Weight = 0.1,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Leather,
+        WorldStaticModel = Gloves_Ground,
+	}
+
+	item Vest_UNVest
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = UN Bulletproof Vest,
+        ClothingItem = Vest_UNVest,
+        BodyLocation = TorsoExtra,
+        Icon = UN_Vest,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,
+        WorldStaticModel = BulletVest_Ground,
+    }
+  }

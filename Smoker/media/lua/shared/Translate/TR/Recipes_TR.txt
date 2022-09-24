@@ -1,0 +1,57 @@
+/************************SMOKER************************/
+
+Items_TR = {
+	Recipe_Open_Pack_Cigarettes = "Açýk sigara paketi",
+	Recipe_Take_Cigarette_from_Pack = "Paketten sigara al",
+	Recipe_Put_Cigarette_in_Pack = "Sigarayý pakete koy",
+	Recipe_Put_Cigarette_in_EmptyPack = "Sigarayý boþ pakete koy",
+	Recipe_Pack_in_Carton_Cigarettes = "Karton sigara paketi",
+	Recipe_Unpack_Cigarettes = "Sigaralarý aç",
+	Recipe_Close_the_full_pack = "Sigara paketini kapat",
+	Recipe_Open_the_full_pack = "Sigara paketini aç",
+	Recipe_Dismantle_Cigarette_Butt = "Ýzmariti sök",
+	Recipe_Dismantle_Cigarette = "Sigarayý kýr",
+	Recipe_Dismantle_Homemade_Cigarette = "Sigarayý kýr"
+	Recipe_Make_homemade_filter_cigarette = "Ev yapýmý filtreli sigara yap",
+	Recipe_Make_Homemade_Cigarette_Without_Filter = "Ev yapýmý filtresiz sigara yap",
+	Recipe_Make_Tobacco_Pouch = "Tütün kesesi yap",
+	Recipe_Put_Pinch_Tobacco = "Keselere bir tutam tütün koy",
+	Recipe_Put_Small_Handful_Tobacco = "Keselere avuç içi kadar tütün koy",
+	Recipe_Take_Pinch_Tobacco = "Bir tutam tütün al",
+	Recipe_Take_Small_Handful_Tobacco = "Avuç içi kadar tütün al",
+	Recipe_Divide_into_five_pinches = "Beþ tutam'a böl",
+	Recipe_Mix_in_one_handful = "Avuçunda karýþtýr",
+	Recipe_Fill_Smoking_Pipe_with_Tobacco = "Pipoya tütün doldur",
+	Recipe_Put_GreenfireTobacco = "Keselere Avuç içi kadar tütün koy",
+	Recipe_Remove_Filter_from_Cigarette_Butt = "Sigara izmaritinden filtreyi çýkar",
+	Recipe_Crumple_the_Plastic_Bottle = "Pilastik þiþeyi buruþtur",
+	Recipe_Make_a_Bottle_Cap = "Þiþe kapaðý yap",
+	Recipe_Burn_hole_in_plastic_bottle = "Buruþuk þiþede bir delik yak",
+	Recipe_Make_a_hole_in_the_bottle = "Buruþuk þiþede bir delik aç",
+	Recipe_Remove_the_Foil_from_the_Cigarette_Pack = "Sigara pakedinden folyoyu yýrt",
+	Recipe_Make_Holes_in_Foil = "Folyoda delikler aç.",
+	Recipe_Put_pinch_tobacco_in_smoking_device = "Nargileye bir tutam tütün koy",
+	Recipe_Remove_tobacco_from_smoking_device = "Nargileden bir tutam tütün al",
+	Recipe_Pull_out_the_chewing_gum = "Sakýzý cýkar",
+	Recipe_Pull_out_blister_pack = "Blister paketi diþarý çek",
+	Recipe_Rip_foil_into_strips = "Folyoyu þeritler halinde kes",
+	Recipe_Make_Lighter_out_of_Foil_and_Battery = "Pil ve folyodan çakmak yap",
+
+/************************ For Greenfire ************************/
+	Recipe_Dismantle_Spliff = "Esrarý sök",
+	Recipe_Roll_Spliff = "Esrar sar",
+	Recipe_Load_Bong_with_Smoking_Blend = "Sigara karýþýmý ile bongu doldur",
+	Recipe_Load_Smoking_Pipe_With_Smoking_Blend = "Sigara karýþýmýyla pipoyu doldur",
+	Recipe_Unload_Smoking_Blend_from_Smoking_Pipe =  "Pipo'dan sigara karýþýmýný al",
+	Recipe_Unload_Smoking_Blend_from_Bong = "Bong'dan sigara karýþýmýný al",
+	Recipe_Mix_Tobacco_and_Cannabis = "Tütün ve esrarý karýþtýr",
+	Recipe_Put_Smoking_Blend_in_smoking_device = "Sigara karýþýmýný nargileye koy",
+	Recipe_Remove_Smoking_Blend_from_smoking_device = "Nargile'den sigara karýþýmýný çýkar",
+
+/************************ For HydroCraft************************/
+	Recipe_Remove_tobacco_from_pipe = "Pipo'dan Tütünü çýkar",
+
+/************************ For littering ************************/
+	Recipe_Open_Pack_of_Menthol_Cigarettes = "Sigara paketini aç",
+	Recipe_Open_Pack_of_Lite_Cigarettes = "Sigara paketini aç",
+}

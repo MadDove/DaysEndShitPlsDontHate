@@ -1,0 +1,25 @@
+module Base
+{
+	
+	/************************Items************************/
+	
+	item ImprovisedSilencer_Broken
+	{
+		DisplayCategory                                             = WeaponPart,
+		DisplayName                                                 = Silencer,
+		Icon                                                        = FlashlightSilencer,
+		Type                                                        = Normal,
+		Weight                                                      = 0.2,
+		WorldStaticModel                                            = Silencer_Improvised_wm,
+	}
+	
+	item Silencer_PopBottle_Broken
+	{
+		DisplayCategory                                             = WeaponPart,
+		DisplayName                                                 = Silencer,
+		Icon                                                        = BottleSilencer,
+		Type                                                        = Normal,
+		Weight                                                      = 0.2,
+		WorldStaticModel                                            = Silencer_PopBottle_wm,
+	}
+}

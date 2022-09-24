@@ -1,0 +1,32 @@
+ItemName_EN = {
+--magazines
+    ItemName_SGuns.ScrapGunMag1 				= "Shooting Sports USA: The Power of Air Pressure",
+	ItemName_SGuns.ScrapGunMag2 				= "Very Illegal Notes",
+	ItemName_SGuns.ScrapGunMag4 				= "American Rifleman: Improvised Weapons In The Mekong Delta",
+--air
+	ItemName_SGuns.SSBox 					= "Shrapnel Shell Box",
+	ItemName_SGuns.MetalScraps 				= "Metal Scraps",
+	ItemName_SGuns.ShrapnelShell 				= "Shrapnel Shell",
+	ItemName_SGuns.SRMagazine 				= "Pressure Rifle Magazine",
+	ItemName_SGuns.HPS 					= "Pressure Pump Shotgun",
+	ItemName_SGuns.HP 					= "Pressure Pistol",
+	ItemName_SGuns.HDBS 					= "Double Barrel Pressure Shotgun",
+	ItemName_SGuns.SR 					= "Pressure Rifle",
+	ItemName_SGuns.SRB 					= "Pressure Rifle (Bayonet)",
+--scrap
+	ItemName_SGuns.ScrapPistol				= "Homemade Pistol",
+	ItemName_SGuns.ScrapSMG					= "Homemade Carbine",
+	ItemName_SGuns.ScrapSMGMagazine				= "Homemade Carbine Magazine",
+	ItemName_SGuns.ScrapPistolMagazine			= "Homemade Pistol Magazine",
+	ItemName_SGuns.ScrapBullets				= "Homemade Bullets",
+	ItemName_SGuns.ScrapBBox 				= "Homemade Bullet Box",
+--misc
+	ItemName_SGuns.NailBomb 				= "Nail Bomb",
+	ItemName_SGuns.GlassBomb 				= "Glass Bomb",
+	ItemName_SGuns.HPB 					= "Homemade Pipe Bomb",
+	ItemName_SGuns.HD 					= "Homemade Decoy",
+	ItemName_SGuns.TBottle 					= "Throwable Bottle",
+	ItemName_SGuns.SlamFire 				= "Zip Rifle",
+	
+}
+

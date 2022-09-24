@@ -1,0 +1,150 @@
+module SMUIClothing
+{
+
+		item Hat_MilitaryHelmetNVGUP
+
+	{
+		DisplayCategory = Helmet,
+		Type = Clothing,
+		DisplayName = Woodland PASGT Helmet /w Night Vision (Up),
+		ClothingItem = Hat_MilitaryHelmetNVGUP,
+		BodyLocation = Hat,
+		Icon = MilitaryHelmetNVG,
+		BloodLocation = FullHelmet,
+        BiteDefense = 100,
+		ScratchDefense = 100,
+        BulletDefense = 100,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+		CanHaveHoles = false,
+		ClothingItemExtra = SMUIClothing.Hat_MilitaryHelmetNVGDOWN,
+        ClothingItemExtraOption = FlipDown,
+		ClothingExtraSubmenu = FlipUp,
+		ChanceToFall = 0,
+        Weight = 1.7,
+		tooltip = Tooltip_NVGInstructionsOne,
+		WorldStaticModel = MilitaryHelmetNVGUP_WorldItem,
+    }
+
+		item Hat_MilitaryHelmetNVGDOWN
+
+	{
+		DisplayCategory = Helmet,
+		Type = Clothing,
+		DisplayName = Woodland PASGT Helmet /w Night Vision (Down),
+		ClothingItem = Hat_MilitaryHelmetNVGDOWN,
+		BodyLocation = Hat,
+		BloodLocation = FullHelmet,
+        BiteDefense = 100,
+		ScratchDefense = 100,
+        BulletDefense = 100,
+		Insulation = 0.25,
+        Icon = MilitaryHelmetNVG,
+		CanHaveHoles = false,
+		ClothingItemExtra = SMUIClothing.Hat_MilitaryHelmetNVGUP,
+        ClothingItemExtraOption = FlipUp,
+		ClothingExtraSubmenu = FlipDown,
+		ChanceToFall = 0,
+        Weight = 1.7,
+		Tooltip = Tooltip_NVGInstructionsTwo,
+		WorldStaticModel = MilitaryHelmetNVGUP_WorldItem,
+    }
+	
+		item Hat_MilitaryHelmetDesertNVGUP
+
+	{
+		DisplayCategory = Helmet,
+		Type = Clothing,
+		DisplayName = Desert Battle PASGT Helmet /w Night Vision (Up),
+		ClothingItem = Hat_MilitaryHelmetDesertNVGUP,
+		BodyLocation = Hat,
+		Icon = DesertMilitaryHelmetNVG,
+		BloodLocation = FullHelmet,
+        BiteDefense = 100,
+		ScratchDefense = 100,
+        BulletDefense = 100,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+		CanHaveHoles = false,
+		ClothingItemExtra = SMUIClothing.Hat_MilitaryHelmetDesertNVGDOWN,
+        ClothingItemExtraOption = FlipDown,
+		ClothingExtraSubmenu = FlipUp,
+		ChanceToFall = 0,
+        Weight = 1.7,
+		Tooltip = Tooltip_NVGInstructionsOne,
+		WorldStaticModel = MilitaryHelmetDesertNVGUP_WorldItem,
+    }
+
+		item Hat_MilitaryHelmetDesertNVGDOWN
+
+	{
+		DisplayCategory = Helmet,
+		Type = Clothing,
+		DisplayName = Desert Battle PASGT Helmet /w Night Vision (Down),
+		ClothingItem = Hat_MilitaryHelmetDesertNVGDOWN,
+		BodyLocation = Hat,
+		BloodLocation = FullHelmet,
+        BiteDefense = 100,
+		ScratchDefense = 100,
+        BulletDefense = 100,
+		Insulation = 0.25,
+        Icon = DesertMilitaryHelmetNVG,
+		CanHaveHoles = false,
+		ClothingItemExtra = SMUIClothing.Hat_MilitaryHelmetDesertNVGUP,
+        ClothingItemExtraOption = FlipUp,
+		ClothingExtraSubmenu = FlipDown,
+		ChanceToFall = 0,
+        Weight = 1.7,
+		Tooltip = Tooltip_NVGInstructionsTwo,
+		WorldStaticModel = MilitaryHelmetDesertNVGUP_WorldItem,
+    }
+
+		item Hat_MilitaryHelmetDesertCombatNVGUP
+
+	{
+		DisplayCategory = Helmet,
+		Type = Clothing,
+		DisplayName = Desert Combat PASGT Helmet /w Night Vision (Up),
+		ClothingItem = Hat_MilitaryHelmetDesertCombatNVGUP,
+		BodyLocation = Hat,
+		Icon = DesertMilitaryHelmetNVG,
+		BloodLocation = FullHelmet,
+        BiteDefense = 100,
+		ScratchDefense = 100,
+        BulletDefense = 100,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+		CanHaveHoles = false,
+		ClothingItemExtra = SMUIClothing.Hat_MilitaryHelmetDesertCombatNVGDOWN,
+        ClothingItemExtraOption = FlipDown,
+		ClothingExtraSubmenu = FlipUp,
+		ChanceToFall = 0,
+        Weight = 1.7,
+		Tooltip = Tooltip_NVGInstructionsOne,
+		WorldStaticModel = MilitaryHelmetDesertNVGUP_WorldItem,
+    }
+
+		item Hat_MilitaryHelmetDesertCombatNVGDOWN
+
+	{
+		DisplayCategory = Helmet,
+		Type = Clothing,
+		DisplayName = Desert Combat PASGT Helmet /w Night Vision (Down),
+		ClothingItem = Hat_MilitaryHelmetDesertCombatNVGDOWN,
+		BodyLocation = Hat,
+		BloodLocation = FullHelmet,
+        BiteDefense = 100,
+		ScratchDefense = 100,
+        BulletDefense = 100,
+		Insulation = 0.25,
+        Icon = DesertMilitaryHelmetNVG,
+		CanHaveHoles = false,
+		ClothingItemExtra = SMUIClothing.Hat_MilitaryHelmetDesertCombatNVGUP,
+        ClothingItemExtraOption = FlipUp,
+		ClothingExtraSubmenu = FlipDown,
+		ChanceToFall = 0,
+        Weight = 1.7,
+		Tooltip = Tooltip_NVGInstructionsTwo,
+		WorldStaticModel = MilitaryHelmetDesertNVGUP_WorldItem,
+    }
+}

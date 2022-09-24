@@ -1,0 +1,6 @@
+name=Yaki's Hair Salon
+id=YakiHS
+authors=Yaki
+description=New vanilla friendly haircuts for women.
+poster=poster.png
+require=FH

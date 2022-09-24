@@ -1,0 +1,28 @@
+module DiceBagRecipes {
+	imports {
+		Base
+	}
+
+	recipe BagToDice
+	{
+		DiceBag=1,
+		Result:DiceD4=1,
+		OnCreate:Get_Dice,
+		Sound:PZ_PutInBag,
+		Time:70.0,
+		Category:Decorations,
+		CanBeDoneFromFloor:True,
+		NeedToBeLearn:False,
+	}
+	
+	recipe DiceToBag
+	{
+		DiceD4,DiceD6,DiceD8,DiceD10,DiceD12,DiceD20,DiceD100=1,
+		Result:DiceBag=1,
+		Sound:PZ_PutInBag,
+		Time:70.0,
+		Category:Decorations,
+		CanBeDoneFromFloor:True,
+		NeedToBeLearn:False,
+	}
+}

@@ -1,0 +1,50 @@
+module Base
+{
+	model ChippedStone
+	{
+		mesh = Weapons/1Handed/ChippedStone,
+	}
+	model Mop
+	{
+		mesh = Weapons/2Handed/Mop,
+	}
+	model NailGun
+	{
+		mesh = Weapons/Firearm/NailGun,
+	}	
+	model Spanner
+	{
+		mesh = Weapons/1handed/Spanner,
+	}	
+	model Stone
+	{
+		mesh = Weapons/1Handed/Stone,
+	}	
+	model Umbrella_Closed_Pink
+	{
+		mesh = Weapons/2Handed/Umbrella_Closed,
+		texture = Weapons/2Handed/Umbrella_Pink,
+
+		attachment world
+		{
+			offset = 0.0000 0.2700 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model UmbrellaPink
+	{
+		mesh = Weapons/2handed/Umbrella_Open,
+		texture = Weapons/2handed/Umbrella_Pink,
+	}
+	model WalkingCane
+	{
+		mesh = Weapons/2handed/WalkingCane,
+
+	}
+	model WoodenCross
+	{
+		mesh = Weapons/1handed/WoodenCross,
+		texture = Weapons/1Handed/ChairLeg,
+
+	}
+}

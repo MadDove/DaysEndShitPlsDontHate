@@ -1,0 +1,15 @@
+IG_UI_PL = {
+    IGUI_Almost_a_complete_pack = "Prawie pe³na paczka!",
+    IGUI_Almost_half_a_pack = "Prawie po³owa paczki...",
+    IGUI_ContextMenu_Cant_Action = "Nie mo¿na tego zrobiæ... Przenieœ przedmiot do g³ównego ekwipunku i kliknij ponownie prawym przyciskiem myszy...",
+    IGUI_Empty = "Puste...",
+    IGUI_Full_pack = "Pe³na paczka!",
+    IGUI_ItemCat_Smoking = "Palenie",
+    IGUI_Less_than_half = "Mniej ni¿ po³owa.",
+    IGUI_More_than_a_half = "Wiêcej ni¿ po³owa!",
+    IGUI_One_cigarette = "Jeden papieros.",
+    IGUI_Refuel_Lighter = "Nape³nij Zapalniczkê",
+    IGUI_The_foil_burned_out = "Folia siê wypali³a...",
+    IGUI_There_is_some = "Trochê zosta³o.",
+    IGUI_Two_cigarettes = "Dwa papierosy.",
+}

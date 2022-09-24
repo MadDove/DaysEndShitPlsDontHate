@@ -1,0 +1,22 @@
+module Base
+{
+    item Shoes_CleanUpKrewSneakers
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Clean Up Krew Sneakers,
+		ClothingItem = Shoes_CleanUpKrewSneakers,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = CUKJumpsuit,
+		StompPower = 3,
+		ConditionLowerChanceOneIn = 10,
+		ConditionMax = 24,
+		RunSpeedModifier = 1.5,
+		RemoveOnBroken = false,
+		ScratchDefense = 35,
+        Insulation = 0.45,
+        WindResistance = 0.3,
+		WorldStaticModel = Shoes_Ground,			
+    }
+}

@@ -1,0 +1,19 @@
+module Base
+{
+    item CleanUpKrewJumpsuit
+    {
+        Type = Clothing,
+        DisplayName = Clean Up Krew Jumpsuit,
+        ClothingItem = CleanUpKrewJumpsuit,
+        BodyLocation = FullSuit,
+        Icon = CUKJumpsuit,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 70,
+        BiteDefense = 75,
+        Insulation = 0.65,
+        WindResistance = 0.50,
+        FabricType = Cotton,
+        WorldStaticModel = CleanUpKrewJumpsuit,
+    }
+}

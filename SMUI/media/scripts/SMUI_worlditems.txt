@@ -1,0 +1,543 @@
+module Base
+{
+
+
+	    model PatrolCapOG107_WorldItem
+	{
+		mesh = WorldItems/PatrolCap_WorldItem,
+		texture = WorldItems/PatrolCapOG107,
+		scale = 0.5,
+	}
+
+	    model PatrolCapWoodland_WorldItem
+	{
+		mesh = WorldItems/PatrolCap_WorldItem,
+		texture = WorldItems/PatrolCapWoodland,
+		scale = 0.5,
+	}
+
+	    model PatrolCapERDL_WorldItem
+	{
+		mesh = WorldItems/PatrolCap_WorldItem,
+		texture = WorldItems/PatrolCapERDL,
+		scale = 0.5,
+	}
+
+		model PatrolCapDesert_WorldItem
+	{
+		mesh = WorldItems/PatrolCap_WorldItem,
+		texture = WorldItems/PatrolCapDesert,
+		scale = 0.5,
+	}
+
+		model PatrolCapDesertCombat_WorldItem
+	{
+		mesh = WorldItems/PatrolCap_WorldItem,
+		texture = WorldItems/PatrolCapDesertCombat,
+		scale = 0.5,
+	}
+
+		model PatrolCapUrban_WorldItem
+	{
+		mesh = WorldItems/PatrolCap_WorldItem,
+		texture = WorldItems/PatrolCapUrban,
+		scale = 0.5,
+	}
+
+        model MilitaryWebbing_WorldItem
+	{
+		mesh = WorldItems/MilitaryWebbing_WorldItem,
+		texture = WorldItems/MilitaryWebbing,
+		scale = 0.5,
+	}
+
+		model WebbingSuspenders_WorldItem
+	{
+		mesh = WorldItems/WebbingSuspenders_WorldItem,
+		texture = WorldItems/MilitaryWebbing,
+		scale = 0.5,
+	}
+
+		model M1956Webbing_WorldItem
+	{
+		mesh = WorldItems/M1956Webbing_WorldItem,
+		texture = WorldItems/M1956Webbing,
+		scale = 0.5,
+	}
+
+		model WebbingBelt_WorldItem
+	{
+		mesh = WorldItems/WebbingBelt_WorldItem,
+		texture = WorldItems/MilitaryWebbing,
+		scale = 0.5,
+	}
+
+		model MilitaryTankerVest_WorldItem
+	{
+		mesh = WorldItems/TankerVest_WorldItem,
+		texture = WorldItems/MilitaryTankerVest,
+		scale = 0.5,
+	}
+
+	    model MilitaryTacticalVest_WorldItem
+	{
+		mesh = WorldItems/MilitaryTacticalVest_WorldItem,
+		texture = WorldItems/MilitaryTacticalVest,
+		scale = 0.5,
+	}
+
+		model M17_WorldItem
+	{
+		mesh = WorldItems/M17_WorldItem,
+		texture = WorldItems/M17,
+		scale = 0.5,
+	}
+
+		model M17Doff_WorldItem
+	{
+		mesh = WorldItems/M17Doff_WorldItem,
+		texture = WorldItems/M17Doff,
+		scale = 0.5,
+	}
+	
+		model M17Hood_WorldItem
+	{
+		mesh = WorldItems/M17Hood_WorldItem,
+		texture = WorldItems/M17Doff,
+		scale = 0.5,
+	}
+
+		model M40_WorldItem
+	{
+		mesh = WorldItems/M40_WorldItem,
+		texture = WorldItems/M40,
+		scale = 0.5,
+	}
+	
+		model M40Doff_WorldItem
+	{
+		mesh = WorldItems/M40Doff_WorldItem,
+		texture = WorldItems/M40Doff,
+		scale = 0.5,
+	}
+
+		model M40Hood_WorldItem
+	{
+		mesh = WorldItems/M40Hood_WorldItem,
+		texture = WorldItems/M40Doff,
+		scale = 0.5,
+	}
+
+		model NVG_WorldItem
+	{
+		mesh = WorldItems/NVG_WorldItem,
+		texture = WorldItems/NVG,
+		scale = 0.5,
+	}
+
+		model NVGStrap_WorldItem
+	{
+		mesh = WorldItems/NVGStrap_WorldItem,
+		texture = WorldItems/MilitaryHelmetNVG,
+		scale = 0.5,
+	}
+
+		model MilitaryHelmet_WorldItem
+	{
+		mesh = WorldItems/MilitaryHelmet_WorldItem,
+		texture = WorldItems/MilitaryHelmet,
+		scale = 0.5,
+	}
+
+	    model BlackCombatBoots_WorldItem
+	{
+		mesh = WorldItems/CombatBoots_WorldItem,
+		texture = WorldItems/BlackCombatBoots,
+		scale = 0.5,
+	}
+
+	    model DesertCombatBoots_WorldItem
+	{
+		mesh = WorldItems/CombatBoots_WorldItem,
+		texture = WorldItems/DesertCombatBoots,
+		scale = 0.5,
+	}
+
+	    model JungleCombatBoots_WorldItem
+	{
+		mesh = WorldItems/CombatBoots_WorldItem,
+		texture = WorldItems/JungleCombatBoots,
+		scale = 0.5,
+	}
+
+	    model HazmatBoots_WorldItem
+	{
+		mesh = WorldItems/CombatBoots_WorldItem,
+		texture = WorldItems/HazmatBoots,
+		scale = 0.5,
+	}
+
+		model MilitaryHelmetNVGMount_WorldItem
+	{
+		mesh = WorldItems/MilitaryHelmetNVGMount_WorldItem,
+		texture = WorldItems/MilitaryHelmetNVG,
+		scale = 0.5,
+	}
+
+		model MilitaryHelmetNVGUP_WorldItem
+	{
+		mesh = WorldItems/MilitaryHelmetNVGUP_WorldItem,
+		texture = WorldItems/MilitaryHelmetNVG,
+		scale = 0.5,
+	}
+
+		model MilitaryHelmetDesert_WorldItem
+	{
+		mesh = WorldItems/MilitaryHelmet_WorldItem,
+		texture = WorldItems/MilitaryHelmetDesert,
+		scale = 0.5,
+	}
+
+		model MilitaryHelmetDesert_WorldItem
+	{
+		mesh = WorldItems/MilitaryHelmet_WorldItem,
+		texture = WorldItems/MilitaryHelmetDesert,
+		scale = 0.5,
+	}
+
+		model MilitaryHelmetDesertNVGMount_WorldItem
+	{
+		mesh = WorldItems/MilitaryHelmetNVGMount_WorldItem,
+		texture = WorldItems/MilitaryHelmetDesertNVG,
+		scale = 0.5,
+	}
+
+		model MilitaryHelmetDesertCombatNVGMount_WorldItem
+	{
+		mesh = WorldItems/MilitaryHelmetNVGMount_WorldItem,
+		texture = WorldItems/MilitaryHelmetDesertCombatNVG,
+		scale = 0.5,
+	}
+
+		model MilitaryHelmetDesertNVGUP_WorldItem
+	{
+		mesh = WorldItems/MilitaryHelmetNVGUP_WorldItem,
+		texture = WorldItems/MilitaryHelmetDesertNVG,
+		scale = 0.5,
+	}
+
+		model MilitaryHelmetDesertCombatNVGUP_WorldItem
+	{
+		mesh = WorldItems/MilitaryHelmetNVGUP_WorldItem,
+		texture = WorldItems/MilitaryHelmetDesertCombatNVG,
+		scale = 0.5,
+	}
+
+		model MOPPPackageTop_WorldItem
+	{
+		mesh = WorldItems/MOPPPackage_WorldItem,
+		texture = WorldItems/MOPPPackageTop,
+		scale = 0.5,
+	}
+
+		model MOPPPackageBottom_WorldItem
+	{
+		mesh = WorldItems/MOPPPackage_WorldItem,
+		texture = WorldItems/MOPPPackageBottom,
+		scale = 0.5,
+	}
+
+		model MOPPPackageBottom_WorldItem
+	{
+		mesh = WorldItems/MOPPPackageWrapper_WorldItem,
+		texture = WorldItems/MOPPPackageBottom,
+		scale = 0.5,
+	}
+
+		model Shemagh_WorldItem
+	{
+		mesh = WorldItems/Shemagh_WorldItem,
+		texture = WorldItems/Shemagh,
+		scale = 0.5,
+	}
+	
+		model ShemaghWoodland_WorldItem
+	{
+		mesh = WorldItems/Shemagh_WorldItem,
+		texture = WorldItems/ShemaghWoodland,
+		scale = 0.5,
+	}
+
+		model ShemaghDesert_WorldItem
+	{
+		mesh = WorldItems/Shemagh_WorldItem,
+		texture = WorldItems/ShemaghDesert,
+		scale = 0.5,
+	}
+	
+		model MilitaryGoggles_WorldItem
+	{
+		mesh = WorldItems/MilitaryGoggles_WorldItem,
+		texture = WorldItems/MilitaryGoggles,
+		scale = 0.5,
+	}
+
+		model MilitaryHelmetGoggles_WorldItem
+	{
+		mesh = WorldItems/MilitaryHelmetGoggles_WorldItem,
+		texture = WorldItems/MilitaryHelmetGoggles,
+		scale = 0.5,
+	}
+
+		model MilitaryHelmetDesertGoggles_WorldItem
+	{
+		mesh = WorldItems/MilitaryHelmetGoggles_WorldItem,
+		texture = WorldItems/MilitaryHelmetDesertGoggles,
+		scale = 0.5,
+	}
+
+		model MilitaryHelmetDesertCombatGoggles_WorldItem
+	{
+		mesh = WorldItems/MilitaryHelmetGoggles_WorldItem,
+		texture = WorldItems/MilitaryHelmetDesertCombatGoggles,
+		scale = 0.5,
+	}
+
+		model MilitaryHelmetRiot_WorldItem
+	{
+		mesh = WorldItems/MilitaryHelmetRiot_WorldItem,
+		texture = WorldItems/MilitaryHelmetRiot,
+		scale = 0.5,
+	}
+
+		model MilitaryTacticalHelmet_WorldItem
+	{
+		mesh = WorldItems/MilitaryTacticalHelmet_WorldItem,
+		texture = WorldItems/MilitaryTacticalHelmet,
+		scale = 0.5,
+	}
+
+		model MilitaryTacticalHelmetGoggles_WorldItem
+	{
+		mesh = WorldItems/MilitaryTacticalHelmetGoggles_WorldItem,
+		texture = WorldItems/MilitaryTacticalHelmetGoggles,
+		scale = 0.5,
+	}
+
+		model DH132_WorldItem
+	{
+		mesh = WorldItems/DH132_WorldItem,
+		texture = WorldItems/DH132,
+		scale = 0.5,
+	}
+
+		model DH132Goggles_WorldItem
+	{
+		mesh = WorldItems/DH132Goggles_WorldItem,
+		texture = WorldItems/DH132Goggles,
+		scale = 0.5,
+	}
+
+		model MilitaryMedicalBag_WorldItem
+	{
+		mesh = WorldItems/MilitaryMedicalBag_WorldItem,
+		texture = WorldItems/MilitaryMedicalBag,
+		scale = 0.5,
+	}
+
+		model GasMaskBag_WorldItem
+	{
+		mesh = WorldItems/GasMaskBag_WorldItem,
+		texture = WorldItems/GasMaskBag,
+		scale = 0.5,
+	}
+
+		model MPBrassard_WorldItem
+	{
+		mesh = WorldItems/MPBrassard_WorldItem,
+		texture = WorldItems/MPBrassard,
+		scale = 0.5,
+	}
+	
+		model PatrolPack_WorldItem
+	{
+		mesh = WorldItems/PatrolPack_WorldItem,
+		texture = WorldItems/CFP90,
+		scale = 0.5,
+	}
+
+		model M1Helmet_WorldItem
+	{
+		mesh = WorldItems/M1Helmet_WorldItem,
+		texture = WorldItems/M1Helmet,
+		scale = 0.5,
+	}
+	
+		model M1HelmetGoggles_WorldItem
+	{
+		mesh = WorldItems/M1HelmetGoggles_WorldItem,
+		texture = WorldItems/M1HelmetGoggles,
+		scale = 0.5,
+	}
+
+		model M1HelmetWoodlandGoggles_WorldItem
+	{
+		mesh = WorldItems/M1HelmetGoggles_WorldItem,
+		texture = WorldItems/M1HelmetWoodlandGoggles,
+		scale = 0.5,
+	}
+
+		model M1HelmetThreeColor_WorldItem
+	{
+		mesh = WorldItems/M1Helmet_WorldItem,
+		texture = WorldItems/M1HelmetThreeColor,
+		scale = 0.5,
+	}
+	
+		model M1HelmetThreeColorGoggles_WorldItem
+	{
+		mesh = WorldItems/M1HelmetGoggles_WorldItem,
+		texture = WorldItems/M1HelmetThreeColorGoggles,
+		scale = 0.5,
+	}
+
+		model M1HelmetMitchellGoggles_WorldItem
+	{
+		mesh = WorldItems/M1HelmetGoggles_WorldItem,
+		texture = WorldItems/M1HelmetMitchellGoggles,
+		scale = 0.5,
+	}
+
+		model BoogieGoggles_WorldItem
+	{
+		mesh = WorldItems/BoogieGoggles_WorldItem,
+		texture = WorldItems/BoogieGoggles,
+		scale = 0.5,
+	}
+
+		model WatchCap_WorldItem
+	{
+		mesh = WorldItems/WatchCap_WorldItem,
+		texture = WorldItems/WatchCap,
+		scale = 0.5,
+	}
+
+		model GarrisonCap_WorldItem
+	{
+		mesh = WorldItems/GarrisonCap_WorldItem,
+		texture = WorldItems/GarrisonCap,
+		scale = 0.5,
+	}
+
+		model PASGTWoodland_WorldItem
+	{
+		mesh = WorldItems/PASGTVest_WorldItem,
+		texture = WorldItems/PASGTWoodland,
+		scale = 0.5,
+	}
+	
+        model PASGTDesert_WorldItem
+	{
+		mesh = WorldItems/PASGTVest_WorldItem,
+		texture = WorldItems/PASGTDesert,
+		scale = 0.5,
+	}
+	
+		model PASGTOD_WorldItem
+	{
+		mesh = WorldItems/PASGTVest_WorldItem,
+		texture = WorldItems/PASGTOD,
+		scale = 0.5,
+	}
+
+		model M69Vest_WorldItem
+	{
+		mesh = WorldItems/M69Vest_WorldItem,
+		texture = WorldItems/M69Vest,
+		scale = 0.5,
+	}
+
+		model GIGlasses_WorldItem
+	{
+		mesh = WorldItems/GIGlasses_WorldItem,
+		texture = WorldItems/GIGlasses,
+		scale = 0.5,
+	}
+
+		model BoonieHatWoodland_WorldItem
+	{
+		mesh = WorldItems/BoonieHat_WorldItem,
+		texture = WorldItems/BoonieHatWoodland,
+		scale = 0.5,
+	}
+
+		model BoonieHatSixColor_WorldItem
+	{
+		mesh = WorldItems/BoonieHat_WorldItem,
+		texture = WorldItems/BoonieHatSixColor,
+		scale = 0.5,
+	}
+
+		model BoonieHatThreeColor_WorldItem
+	{
+		mesh = WorldItems/BoonieHat_WorldItem,
+		texture = WorldItems/BoonieHatSixColor,
+		scale = 0.5,
+	}
+
+		model BoonieHatERDL_WorldItem
+	{
+		mesh = WorldItems/BoonieHat_WorldItem,
+		texture = WorldItems/BoonieHatERDL,
+		scale = 0.5,
+	}
+
+		model BoonieHatTigerStripe_WorldItem
+	{
+		mesh = WorldItems/BoonieHat_WorldItem,
+		texture = WorldItems/BoonieHatTigerStripe,
+		scale = 0.5,
+	}
+
+		model TigerStripeBeret_WorldItem
+	{
+		mesh = WorldItems/Beret_WorldItem,
+		texture = WorldItems/TigerStripeBeret,
+		scale = 0.5,
+	}
+
+		model ERDLBeret_WorldItem
+	{
+		mesh = WorldItems/Beret_WorldItem,
+		texture = WorldItems/ERDLBeret,
+		scale = 0.5,
+	}
+
+		model HBTBeret_WorldItem
+	{
+		mesh = WorldItems/Beret_WorldItem,
+		texture = WorldItems/HBTBeret,
+		scale = 0.5,
+	}
+
+		model M65Jacket_WorldItem
+	{
+		mesh = WorldItems/M65Jacket_WorldItem,
+		texture = WorldItems/M65Jacket,
+		scale = 0.5,
+	}
+
+		model CavalryHat_WorldItem
+	{
+		mesh = WorldItems/CavalryHat_WorldItem,
+		texture = WorldItems/CavalryHat,
+		scale = 0.5,
+	}
+
+		model OG106Cap_WorldItem
+	{
+		mesh = WorldItems/OG106Cap_WorldItem,
+		texture = WorldItems/OG106Cap,
+		scale = 0.5,
+	}
+}

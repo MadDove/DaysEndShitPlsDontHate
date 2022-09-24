@@ -1,0 +1,14 @@
+///module Base
+///{
+///	model fhqPowderedMilkPouch
+///	{
+///		mesh = WorldItems/fhqPowderedMilkPouch,
+///		texture = WorldItems/fhqPowderedMilkPouch,
+///
+///		attachment world
+///		{
+///			offset = 0.0000 0.0000 0.0000,
+///			rotate = 0.0000 0.0000 0.0000,
+///		}
+///	}
+///}

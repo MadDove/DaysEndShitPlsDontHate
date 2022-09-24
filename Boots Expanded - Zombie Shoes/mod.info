@@ -1,0 +1,5 @@
+name=Boots Expanded B41 by SM4 (Add-on) Zombies with Drip
+poster=Poster.png
+id=SM4BootsExpandedZOMBIES
+description= Adds updated sneakers and shoes to zombies. Previously a core feature, now made as a separate addon for performance improvements.
+require=SM4BootsExpanded

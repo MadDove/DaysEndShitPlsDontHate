@@ -1,0 +1,123 @@
+module Base
+{		
+	item ScrapHandPlate2R
+	{
+	Type = Clothing,
+	DisplayName = Right Scrap Hand Plate,
+	ClothingItem = ScrapHandPlate2R,
+	BodyLocation = HandPlateRight,
+	BloodLocation = Hands,
+	CombatSpeedModifier = 0.75,
+	Icon = ScrapHandPlates2,
+	ScratchDefense = 20,
+    BiteDefense = 20,
+	BulletDefense = 5,
+	DisplayCategory = Armor,
+    Weight = 0.9,
+    Insulation = 0,
+    WindResistance = 0,
+	Tooltip    =    Tooltip_ScrapHandPlate,
+	Tags = MetalArmor,
+	}
+	
+	item ScrapHandPlate2L
+	{
+	Type = Clothing,
+	DisplayName = Left Scrap Hand Plate,
+	ClothingItem = ScrapHandPlate2L,
+	BodyLocation = HandPlateLeft,
+	BloodLocation = Hands,
+	CombatSpeedModifier = 0.75,
+	Icon = ScrapHandPlates2,
+	ScratchDefense = 20,
+    BiteDefense = 20,
+	BulletDefense = 5,
+	DisplayCategory = Armor,
+    Weight = 0.9,
+    Insulation = 0,
+    WindResistance = 0,
+	Tooltip    =    Tooltip_ScrapHandPlate,
+	Tags = MetalArmor,
+	}
+	
+	item ScrapHandPlateR
+	{
+	Type = Clothing,
+	DisplayName = Right Reinforced Hand Plate,
+	ClothingItem = ScrapHandPlateR,
+	BodyLocation = HandPlateRight,
+	BloodLocation = Hands,
+	CombatSpeedModifier = 0.75,
+	Icon = ScrapHandPlates,
+	ScratchDefense = 20,
+    BiteDefense = 20,
+	BulletDefense = 20,
+	DisplayCategory = Armor,
+    Weight = 1.2,
+    Insulation = 0,
+    WindResistance = 0,
+	Tooltip    =    Tooltip_ScrapHandPlate,
+	Tags = MetalArmor,
+	}
+	
+	item ScrapHandPlateL
+	{
+	Type = Clothing,
+	DisplayName = Left Reinforced Hand Plate,
+	ClothingItem = ScrapHandPlateL,
+	BodyLocation = HandPlateLeft,
+	BloodLocation = Hands,
+	CombatSpeedModifier = 0.75,
+	Icon = ScrapHandPlates,
+	ScratchDefense = 20,
+    BiteDefense = 20,
+	BulletDefense = 20,
+	DisplayCategory = Armor,
+    Weight = 1.2,
+    Insulation = 0,
+    WindResistance = 0,
+	Tooltip    =    Tooltip_ScrapHandPlate,
+	Tags = MetalArmor,
+	}
+	
+	item ScrapHandPlateStuddedR
+	{
+	Type = Clothing,
+	DisplayName = Right Scrap Hand Plate Studded,
+	ClothingItem = ScrapHandPlateStuddedR,
+	BodyLocation = HandPlateRight,
+	BloodLocation = Hands,
+	CombatSpeedModifier = 0.75,
+	Icon = ScrapHandPlatesStudded,
+	ScratchDefense = 35,
+    BiteDefense = 35,
+	BulletDefense = 10,
+	DisplayCategory = Armor,
+    Weight = 1.5,
+    Insulation = 0,
+    WindResistance = 0,
+	Tooltip    =    Tooltip_ScrapHandPlate,
+	Tags = MetalArmor,
+	}
+	
+	item ScrapHandPlateStuddedL
+	{
+	Type = Clothing,
+	DisplayName = Left Scrap Hand Plate Studded,
+	ClothingItem = ScrapHandPlateStuddedL,
+	BodyLocation = HandPlateLeft,
+	BloodLocation = Hands,
+	CombatSpeedModifier = 0.75,
+	Icon = ScrapHandPlatesStudded,
+	ScratchDefense = 35,
+    BiteDefense = 35,
+	BulletDefense = 10,
+	DisplayCategory = Armor,
+    Weight = 1.5,
+    Insulation = 0,
+    WindResistance = 0,
+	Tooltip    =    Tooltip_ScrapHandPlate,
+	Tags = MetalArmor,
+	}
+	
+}

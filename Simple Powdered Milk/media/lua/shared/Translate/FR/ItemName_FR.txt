@@ -1,0 +1,4 @@
+ItemName_FR = {
+
+	ItemName_Base.fhqPowderedMilkPouch = "Lait en poudre",
+}

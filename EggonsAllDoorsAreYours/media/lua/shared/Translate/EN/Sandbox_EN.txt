@@ -1,0 +1,5 @@
+Sandbox_EN = {
+    Sandbox_eggonsAllDoorsAreYours = "Eggon's All Doors Are Yours",
+    Sandbox_eggonsAllDoorsAreYours_AllowTransportInLargeTrunksOnly = "Allow transport of doors in large trunks only",
+    Sandbox_eggonsAllDoorsAreYours_AllowTransportInLargeTrunksOnly_tooltip = "Doors can be transported only in trunks of TOTAL capacity of at leats 90. <LINE>Free capacity must be enough to fit the door. <LINE>E.g. door weighting 30 will fit into a trunk which is 60/90 full.",
+}

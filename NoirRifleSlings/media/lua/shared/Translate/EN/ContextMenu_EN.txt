@@ -1,0 +1,5 @@
+ContextMenu_EN = {
+    ContextMenu_SlingStyle1 = "Position \",
+    ContextMenu_SlingStyle2 = "Position /",
+    ContextMenu_SlingStyle3 = "Position --",
+} 

@@ -1,0 +1,82 @@
+module Base
+{
+	item DiceD4
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	D4 Dice,
+		Icon	=	DiceD4,
+		WorldStaticModel = DiceD4,
+	}
+
+	item DiceD6
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	D6 Dice,
+		Icon	=	DiceD6,
+		WorldStaticModel = DiceD6,
+	}
+
+	item DiceD8
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	D8 Dice,
+		Icon	=	DiceD8,
+		WorldStaticModel = DiceD8,
+	}
+
+	item DiceD10
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	D10 Dice,
+		Icon	=	DiceD10,
+		WorldStaticModel = DiceD10,
+	}
+
+	item DiceD12
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	D12 Dice,
+		Icon	=	DiceD12,
+		WorldStaticModel = DiceD12,
+	}
+
+	item DiceD20
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	D20 Dice,
+		Icon	=	DiceD20,
+		WorldStaticModel = DiceD20,
+	}
+
+	item DiceD100
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	D100 Dice,
+		Icon	=	DiceD100,
+		WorldStaticModel = DiceD100,
+	}
+
+	item DiceBag
+	{
+	    DisplayCategory = Junk,
+		Weight	=	.5,
+		Type	=	Normal,
+		DisplayName	=	Dice Bag,
+		Icon	=	DiceBag,
+		WorldStaticModel = DiceBag,
+	}
+}

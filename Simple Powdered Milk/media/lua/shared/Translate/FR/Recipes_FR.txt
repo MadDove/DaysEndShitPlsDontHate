@@ -1,0 +1,4 @@
+Recipes_FR = {
+
+	Recipe_Create_Milk_From_Milk_Powder = "Reconstituer le lait en poudre en lait liquide",
+}

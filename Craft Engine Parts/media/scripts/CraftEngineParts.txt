@@ -1,0 +1,114 @@
+module CraftEngineParts
+{
+    imports 
+    {
+        Base
+    }
+	
+	item TheMachinist {
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = TheMachinist,
+		Icon = TheMachinist,
+		TeachedRecipes = MakeEnginePart,
+		ReplaceOnUse = TheMachinist,
+		StaticModel = Magazine,
+		Tooltip = Tooltip_TheMachinist,
+	}
+	
+	
+    recipe MakeEnginePart
+    {
+	BlowTorch=10,
+	keep WeldingMask,
+    keep Hammer/BallPeenHammer,
+	keep Screwdriver,
+	keep Saw,
+	keep Wrench,
+	keep PipeWrench,
+	WeldingRods=5,
+	
+    ScrapMetal,
+	MetalPipe=2,
+	SheetMetal=1,
+	MetalBar,
+	Screws=8,
+	
+	Result:EngineParts=5,
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	OnGiveXP:Recipe.OnGiveXP.Give20MechanicsXP,
+	SkillRequired:MetalWelding=3,
+    Time:120.0,
+	Sound:BlowTorch,
+	NeedToBeLearn:True,
+    }
+	
+	
+	
+	
+	
+
+	
+	recipe MakeEnginePart
+    {
+	keep Wrench,
+	keep Hammer/BallPeenHammer,
+	keep WeldingMask,
+	keep Screwdriver,
+	keep Saw,
+	keep PipeWrench,
+	BlowTorch=7,
+	WeldingRods=3,
+	
+	MetalPipe=1,
+	SmallSheetMetal=1,
+	RubberBand,
+	Hinge,
+	DuctTape=2,
+	Screws=16,
+	
+    Result:EngineParts=5,
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	OnGiveXP:Recipe.OnGiveXP.Give20MechanicsXP,
+	SkillRequired:Mechanics=6,
+	
+    Time:120.0,
+	Sound:BlowTorch,
+	NeedToBeLearn:True,
+    }
+	
+	
+	
+	
+	
+	
+	
+	recipe MakeEnginePart
+    {
+	keep Screwdriver,
+    keep Hammer/BallPeenHammer,
+	keep WeldingMask,
+	keep Saw,
+	keep Wrench,
+	keep PipeWrench,
+	BlowTorch=5,
+	WeldingRods=2,
+	
+	MetalPipe=1,
+	SheetMetal=1,
+	DuctTape=1,
+	Screws=24,
+	ElectricWire,
+	ElectronicsScrap=3,
+	
+    Result:EngineParts=5,
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
+	OnGiveXP:Recipe.OnGiveXP.Give10MechanicsXP,
+	SkillRequired:Electricity=2,
+	
+    Time:120.0,
+	Sound:BlowTorch,
+	NeedToBeLearn:True,
+    }
+}

@@ -1,0 +1,4 @@
+UI_ES = {
+    UI_optionscreen_binding_SlingBindings = "Teclas de acceso rapido extras",
+    UI_optionscreen_binding_Hotbar 6 = "Barra de acceso rapido 6",
+}

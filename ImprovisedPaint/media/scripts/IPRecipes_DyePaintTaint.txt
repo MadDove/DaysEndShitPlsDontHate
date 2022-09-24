@@ -1,0 +1,213 @@
+module ImprovisedPaint
+{
+    imports 
+    {
+        Base
+    }
+
+    recipe DyeMixTaintBrown {
+        keep WoodenStick,
+        destroy PaintGreen,
+        HairDyeRed,
+        Result:PaintBrown,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintBrown2 {
+        keep WoodenStick,
+        destroy PaintRed,
+        HairDyeGreen,
+        Result:PaintBrown,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintCyan {
+        keep WoodenStick,
+        destroy PaintBlue,
+        HairDyeGreen,
+        Result:PaintCyan,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintCyan2 {
+        keep WoodenStick,
+        destroy PaintGreen,
+        HairDyeBlue,
+        Result:PaintCyan,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintGrey {
+        keep WoodenStick,
+        destroy PaintBlack,
+        HairDyeWhite,
+        Result:PaintGrey,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintGreen {
+        keep WoodenStick,
+        destroy PaintBlue,
+        HairDyeYellow,
+        Result:PaintGreen,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintGreen2 {
+        keep WoodenStick,
+        destroy PaintYellow,
+        HairDyeBlue,
+        Result:PaintGreen,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintLightBlue {
+        keep WoodenStick,
+        destroy PaintBlue,
+        HairDyeWhite,
+        Result:PaintLightBlue,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintLightBrown {
+        keep WoodenStick,
+        destroy PaintBrown,
+        HairDyeWhite,
+        Result:PaintLightBrown,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintOrange {
+        keep WoodenStick,
+        destroy PaintRed,
+        HairDyeYellow,
+        Result:PaintOrange,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintOrange2 {
+        keep WoodenStick,
+        destroy PaintYellow,
+        HairDyeRed,
+        Result:PaintOrange,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintPink {
+        keep WoodenStick,
+        destroy PaintRed,
+        HairDyeWhite,
+        Result:PaintPink,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintPurple {
+        keep WoodenStick,
+        destroy PaintBlue,
+        HairDyeRed,
+        Result:PaintPurple,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintPurple2 {
+        keep WoodenStick,
+        destroy PaintRed,
+        HairDyeBlue,
+        Result:PaintPurple,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintRed {
+        keep WoodenStick,
+        destroy PaintPurple,
+        HairDyeYellow,
+        Result:PaintRed,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintTurquoise {
+        keep WoodenStick,
+        destroy PaintGreen,
+        HairDyeBlue,
+        HairDyeWhite=1,
+        Result:PaintTurquoise,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixTaintTurquoise2 {
+        keep WoodenStick,
+        destroy PaintBlue,
+        HairDyeGreen,
+        HairDyeWhite=1,
+        Result:PaintTurquoise,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+}

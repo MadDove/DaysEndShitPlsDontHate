@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_InsulatedPack</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_InsulatedPack</m_FemaleModel>
+	<m_GUID>88913858-a3e8-47b8-8184-d218bcb14b42</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>InsulatedPack_Red</textureChoices>
+	<textureChoices>InsulatedPack_Green</textureChoices>
+	<textureChoices>InsulatedPack_Blue</textureChoices>
+	<textureChoices>InsulatedPack_Yellow</textureChoices>
+	<textureChoices>InsulatedPack_Olive</textureChoices>
+	<textureChoices>InsulatedPack_Grey</textureChoices>
+</clothingItem>

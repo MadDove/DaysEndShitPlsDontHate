@@ -1,0 +1,243 @@
+module DBDA
+{
+	imports
+	{
+		Base
+	}
+
+    item DBDA1
+	{
+		DisplayName	    =	To Build a Fire by Jack London,
+        Icon	        =	DBDA1,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+		Tooltip			=	Tooltip_Fire
+	}
+
+    item DBDA2
+	{
+		DisplayName	    =	Moby Dick by Herman Melville,
+        Icon	        =	DBDA2,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+		Tooltip			=	Tooltip_Dick
+	}
+
+    item DBDA3
+	{
+		DisplayName	    =	The Holy Bible - King James Version,
+        Icon	        =	DBDA3,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-5,
+		StressChange	=	+20,
+		BoredomChange	=	+70,
+		ReplaceOnUse 	=	DBDA3,
+	}
+
+    item DBDA4
+	{
+		DisplayName	    =	The Satanic Bible by Anton LaVey,
+        Icon	        =	DBDA4,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-5,
+		StressChange	=	+20,
+		BoredomChange	=	+70,
+		ReplaceOnUse 	=	DBDA4,
+	}
+
+    item TW
+	{
+		DisplayName	    =	English-French Dictionary,
+        Icon	        =	TW,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-5,
+		StressChange	=	+20,
+		BoredomChange	=	+70,
+		ReplaceOnUse 	=	TW,
+	}
+
+    item TWSR
+	{
+		DisplayName	    =	Burden of Command by Quentin R. Irwin,
+        Icon	        =	TWSR,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+		Tooltip			=	Tooltip_Burd
+	}
+
+	item Carrie
+	{
+		DisplayName	    =	1984 by George Orwell,
+        Icon	        =	Carrie,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	+30,
+		BoredomChange	=	-70,
+		Tooltip			=	Tooltip_1984
+	}
+
+	item Shine
+	{
+		DisplayName	    =	The Shining,
+        Icon	        =	Shine,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	+20,
+		BoredomChange	=	-70,
+		Tooltip			=	Tooltip_Shin
+	}
+
+	item Stand
+	{
+		DisplayName	    =	The Giver by Lois Lowry,
+        Icon	        =	Stand,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+		Tooltip			=	Tooltip_Give
+	}
+
+	item Cujo
+	{
+		DisplayName	    =	Harry Potter and the Philosopher's Stone by J.K. Rowling,
+        Icon	        =	Cujo,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+		Tooltip			=	Tooltip_Harr
+	}
+
+	item Pet
+	{
+		DisplayName	    =	American Psycho,
+        Icon	        =	Pet,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+		Tooltip			=	Tooltip_Amer
+	}
+
+	item Green
+	{
+		DisplayName	    =	The Lord of the Rings by J.R.R. Tolkien,
+        Icon	        =	Green,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-70,
+		StressChange	=	-50,
+		BoredomChange	=	-70,
+		Tooltip			=	Tooltip_LOTR
+	}
+
+	item Dream
+	{
+		DisplayName	    =	Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream by Hunter S. Thompson,
+        Icon	        =	Dream,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+		Tooltip			=	Tooltip_Fear
+	}
+
+	item Mist
+	{
+		DisplayName	    =	The Communist Manifesto by Karl Marx and Friedrich Engels,
+        Icon	        =	Mist,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-5,
+		StressChange	=	+20,
+		BoredomChange	=	+70,
+		ReplaceOnUse 	=	Mist,
+		Tooltip			=	Tooltip_Comm
+	}
+
+	item Doc
+	{
+		DisplayName	    =	Holes by Louis Sachar,
+        Icon	        =	Doc,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+		Tooltip			=	Tooltip_Hole
+	}
+
+	item Out
+	{
+		DisplayName	    =	A Pickle for the Knowing Ones: Lord Timothy Dexter,
+        Icon	        =	Out,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-5,
+		StressChange	=	+20,
+		BoredomChange	=	+70,
+		AngerChange		=	+50,
+		Tooltip			=	Tooltip_Pick
+	}
+
+	item Who
+	{
+		DisplayName	    =	Extreme Teen Bible,
+        Icon	        =	Who,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+		Tooltip			=	Tooltip_Extr
+	}
+
+	item It
+	{
+		DisplayName	    =	IT,
+        Icon	        =	It,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-40,
+		StressChange	=	-40,
+		BoredomChange	=	-50,
+		Tooltip			=	Tooltip_IT
+	}
+}

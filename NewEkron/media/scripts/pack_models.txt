@@ -1,0 +1,12 @@
+module Base
+{
+    
+model TheBong
+    {
+        mesh = weapons/1handed/TheBong,
+    }
+model Rusty
+    {
+        mesh = weapons/firearm/Rusty,
+    }	
+}

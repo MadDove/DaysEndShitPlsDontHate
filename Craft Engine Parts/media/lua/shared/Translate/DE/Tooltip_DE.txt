@@ -1,0 +1,3 @@
+Tooltip_DE = {
+	Tooltip_TheMachinist = "Alles was man wissen muss, um  Teile maschinell herzustellen. Zum Beispiel für Motorreparaturen Marke Eigenbau!",
+}

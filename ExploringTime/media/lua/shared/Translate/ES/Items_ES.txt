@@ -1,0 +1,13 @@
+Items_ES = {
+DisplayNameBottle_With_Gas = "Botella con gasolina",
+DisplayNameEmpty_Gas_Lantern = "Linterna a gasolina vacía",
+DisplayNameFlare = "Bengala",
+DisplayNameHappy_Celebrations_1 = "Revista de Celebraciones 1",
+DisplayNameHead_Flashlight = "Linterna de cabeza",
+DisplayNameJack_o'_Lantern = "Linterna de calabaza",
+DisplayNameGas_Lantern = "Linterna a gasolina",
+DisplayNameLit_Gas_Lantern = "Linterna a gasolina encendida",
+DisplayNameLit_Torch = "Antorcha encendida",
+DisplayNameSurvivalist_Magazine_1 = "Revista del Superviviente 1",
+DisplayNameTorch = "Antorcha",
+}

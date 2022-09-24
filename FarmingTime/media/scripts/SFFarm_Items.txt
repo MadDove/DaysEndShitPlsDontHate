@@ -1,0 +1,506 @@
+module filcher
+{
+	imports
+	{
+		Base
+	}
+
+/************************Food************************/
+
+    item SFBeetSyrupPot
+    {
+        Weight	=	1.5,
+        Type	=	Food,
+        DisplayName	=	Pot With Beet Syrup,
+        Icon	=	SFBeetSyrupPot,
+        HungerChange    =   -5,
+        Carbohydrates = 0.6,
+        Proteins = 0.01,
+        Lipids = 0.03,
+        Calories = 10,
+        IsCookable	=	true,
+        MinutesToBurn   =   60,
+        MinutesToCook   =   40,
+        ReplaceOnUse    =   Pot,
+        WorldStaticModel = CookingPotGround,
+    }
+
+    item SFBeetPot
+    {
+        Weight	=	4,
+        Type	=	Food,
+        DisplayName	=	Pot With Beets,
+        Icon	=	SFBeetSyrupPot,
+        HungerChange    =   -90,
+        Carbohydrates = 95.6,
+        Proteins = 16.1,
+        Lipids = 1.7,
+        Calories = 430,
+        IsCookable	=	true,
+        MinutesToBurn   =   30,
+        MinutesToCook   =   15,
+        BadInMicrowave	=	true,
+        ReplaceOnUse    =   Pot,
+        WorldStaticModel = CookingPotGround,
+    }
+
+    	item Beetroot
+	{
+		Type		=		Food,
+		DisplayName	=		Beetroot,
+		Icon		=		SFBeetroot,
+		Weight		=		0.2,
+		HungerChange 	=		-18,
+		DaysFresh 	=		14,
+		DaysTotallyRotten =	 	28,
+        	EvolvedRecipe   =       Soup:18;Stew:18;Pie:18;Stir fry:18;Salad:9;Roasted Vegetables:18,
+        	FoodType    	=   Vegetables,
+        	Carbohydrates 	= 19.12,
+        	Proteins 	= 3.22,
+        	Lipids 		= 0.34,
+        	Calories 	= 86,
+        	WorldStaticModel = RedRadish_Ground,
+	}
+
+    	item Cauliflower
+	{
+		Type				=		Food,
+		DisplayName			=		Cauliflower,
+		Icon				=		Cauliflower,
+		Weight				=		0.2,
+		HungerChange 		=		-25,
+		ThirstChange		=		-15,
+		DaysFresh 			=		2,
+		DaysTotallyRotten 	=	 	4,
+		EvolvedRecipe       =       Soup:15;Stew:15;Stir fry:15;Sandwich:10;Burger:10;Salad:15;Roasted Vegetables:15,
+		ThirstChange	=	-10,
+		FoodType    =   Vegetables,
+        	Carbohydrates = 41.41,
+        	Proteins = 9.14,
+        	Lipids = 0.71,
+        	Calories = 178,
+        	StaticModel = RoundFood_Green,
+        	WorldStaticModel = Cabbage_Ground,
+	}
+
+    item SFWheat
+	{
+		Type				=		Normal,
+		DisplayName			=		Wheat,
+		Icon				=		SFWheat,
+		Weight				=		0.05,
+	}
+
+
+/************************Seeds************************/
+
+    item BeetSeed
+	{
+		Type				=		Normal,
+		DisplayName			=		Beet Seeds,
+		Icon				=		TZ_LRRadishSeeds,
+		Weight				=		0.009,
+		WorldStaticModel	= Seeds_Ground,
+	}
+
+    item BeetBagSeed
+	{
+		Type			=		Normal,
+		DisplayName		=		Beet Seeds Packet,
+		Icon			=		SFBeetSeedBag,
+		Weight			=		0.1,
+		WorldStaticModel	= RadishSeedBag_Ground,
+	}
+
+    item CornSeed
+	{
+		Type				=		Normal,
+		DisplayName			=		Corn Seeds,
+		Icon				=		SFCornSeeds,
+		Weight				=		0.02,
+		WorldStaticModel	= Seeds_Ground,
+	}
+
+    item CornBagSeed
+	{
+		Type				=		Normal,
+		DisplayName			=		Corn Seeds Packet,
+		Icon				=		TZ_SeedpackCarrots,
+		Weight				=		0.1,
+		WorldStaticModel = BroccoliSeedBag_Ground,
+	}
+
+    item CauliflowerSeed
+	{
+		Type				=		Normal,
+		DisplayName			=		Cauliflower Seeds,
+		Icon				=		TZ_CabbageLettuceSeeds,
+		Weight				=		0.009,
+		WorldStaticModel	= Seeds_Ground,
+	}
+
+    item CauliflowerBagSeed
+	{
+		Type				=		Normal,
+		DisplayName			=		Cauliflower Seeds Packet,
+		Icon				=		SFCauliflowerSeedBag,
+		Weight				=		0.1,
+		WorldStaticModel = CabbageSeedBag_Ground,
+	}
+
+    item SFLemonGrassSeed
+	{
+		Type				=		Normal,
+		DisplayName			=		Lemon Grass Seeds,
+		Icon				=		TZ_CabbageLettuceSeeds,
+		Weight				=		0.009,
+		WorldStaticModel	= Seeds_Ground,
+	}
+
+    item SFLemonGrassBagSeed
+	{
+		Type				=		Normal,
+		DisplayName			=		Lemon Grass Seeds Packet,
+		Icon				=		SFLemonGrassSeedBag,
+		Weight				=		0.1,
+		WorldStaticModel = BroccoliSeedBag_Ground,
+	}
+
+    item LettuceSeed
+	{
+		Type			=		Normal,
+		DisplayName		=		Lettuce Seeds,
+		Icon			=		TZ_CabbageLettuceSeeds,
+		Weight			=		0.009,
+		WorldStaticModel	= Seeds_Ground,
+	}
+
+    item LettuceBagSeed
+	{
+		Type				=		Normal,
+		DisplayName			=		Lettuce Seeds Packet,
+		Icon				=		SFLettuceSeedBag,
+		Weight				=		0.1,
+		WorldStaticModel = CabbageSeedBag_Ground,
+	}
+
+    item SFWheatSeed
+	{
+		Type			=		Normal,
+		DisplayName		=		Wheat Grain,
+		Icon			=		TZ_LRRadishSeeds,
+		Weight			=		0.009,
+		WorldStaticModel	= Seeds_Ground,
+	}
+
+    item SFWheatBagSeed
+	{
+		Type				=		Normal,
+		DisplayName			=		Wheat Grain Packet,
+		Icon				=		SFWheatSeedBag,
+		Weight				=		0.1,
+		WorldStaticModel = BroccoliSeedBag_Ground,
+	}
+
+/************************Literature************************/
+
+    item SFBookFarm
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Complete Farming Guide,
+        Icon	=	SFBookFlour,
+        TeachedRecipes  =   Make Mildew Cure;Make Flies Cure;Make Cornflour;Make Flour;Place Beets in Cooking Pot;Make Beet Syrup;Remove Sugar From Pot,
+        ReplaceOnUse    =   SFBookFarm,
+	WorldStaticModel = BookClosedGround,
+    }
+
+    item SFFarmMag2
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	The Farming Magazine 2,
+        Icon	=	SFFarmMag2,
+        TeachedRecipes  =   Make Cornflour;Make Flour,
+        ReplaceOnUse    =   SFFarmMag2,
+        WorldStaticModel = MagazineOpenGround,
+    }
+
+    item SFFarmMag3
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	The Farming Magazine 3,
+        Icon	=	SFFarmMag3,
+        TeachedRecipes  =   Place Beets in Cooking Pot;Make Beet Syrup;Remove Sugar From Pot,
+        ReplaceOnUse    =   SFFarmMag3,
+        WorldStaticModel = MagazineOpenGround,
+    }
+
+/************************Miscellaneous************************/
+
+    item GardeningSprayCigarettes
+ 	{
+    		Type			=	Drainable,
+		DisplayName		=	Insecticide Spray,
+		Icon			=	SFInsectSpray,
+		Weight			=	1.0,
+    		UseDelta		=	0.025,
+    		UseWhileEquipped	=	false,
+  	}
+
+    item GardeningSprayMilk
+  	{
+    		Type			=	Drainable,
+		DisplayName		=	Mildew Spray,
+		Icon			=	SFMildewSpray,
+		Weight			=	1.0,
+    		UseDelta		=	0.025,
+	    	UseWhileEquipped	=	false,
+  	}
+
+    item SFGrainGrinder
+	{
+		Type		=	Normal,
+		DisplayName	=	Grain Grinder,
+		Icon		=	SFGrainGrinder,
+		Weight		=	1.5,
+		MetalValue	=	20,
+	}
+
+    item SFCloth
+	{
+		Type		=	Normal,
+		DisplayName	=	Cloth,
+		Icon		=	SFCloth,
+		Weight		=	0.3,
+		ReplaceOnUse    =   filcher.SFClothDirty,
+	}
+
+    item SFClothDirty
+	{
+		Type		=	Normal,
+		DisplayName	=	Dirty Cloth,
+		Icon		=	SFClothDirty,
+		Weight		=	0.3,
+	}
+
+
+
+/************************Recipes************************/
+
+    recipe Open Packet of Beet Seeds
+	{
+        BeetBagSeed,
+
+        Result:BeetSeed=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Beet Seeds in Packet
+    {
+        BeetSeed=50,
+
+        Result:BeetBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Corn Seeds
+	{
+        CornBagSeed,
+
+        Result:CornSeed=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Corn Seeds in Packet
+    {
+        CornSeed=50,
+
+        Result:CornBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Cauliflower Seeds
+	{
+        CauliflowerBagSeed,
+
+        Result:CauliflowerSeed=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Cauliflower Seeds in Packet
+    {
+        CauliflowerSeed=50,
+
+        Result:CauliflowerBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Lemon Grass Seeds
+	{
+        SFLemonGrassBagSeed,
+
+        Result:SFLemonGrassSeed=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Lemon Grass Seeds in Packet
+    {
+        SFLemonGrassSeed=50,
+
+        Result:SFLemonGrassBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Lettuce Seeds
+	{
+        LettuceBagSeed,
+
+        Result:LettuceSeed=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Lettuce Seeds in Packet
+    {
+        LettuceSeed=50,
+
+        Result:LettuceBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Wheat Seeds
+	{
+        SFWheatBagSeed,
+
+        Result:SFWheatSeed=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Wheat Seeds in Packet
+    {
+        SFWheatSeed=50,
+
+        Result:SFWheatBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+	recipe Thresh Corn
+	{
+	   Corn,
+
+	   Result:filcher.CornSeed=5,
+	   Time:40.0,
+	   Category:Farming,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Thresh Wheat
+	{
+	   filcher.SFWheat,
+
+	   Result:filcher.SFWheatSeed=5,
+	   Time:40.0,
+	   Category:Farming,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Make Cornflour
+	{
+	   keep filcher.SFGrainGrinder,
+	   filcher.CornSeed=100,
+
+	   Result:Cornflour,
+	   Time:200.0,
+	   Category:Farming,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Make Cornflour
+	{
+	   keep MortarPestle,
+	   filcher.CornSeed=100,
+
+	   Result:Cornflour,
+	   Time:600.0,
+	   Category:Farming,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Make Flour
+	{
+	   keep filcher.SFGrainGrinder,
+	   filcher.SFWheatSeed=200,
+
+	   Result:Flour,
+	   Time:200.0,
+	   Category:Farming,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Make Flour
+	{
+	   keep MortarPestle,
+	   filcher.SFWheatSeed=200,
+
+	   Result:Flour,
+	   Time:600.0,
+	   Category:Farming,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+    recipe Place Beets in Cooking Pot
+	{
+	   filcher.Beetroot;18,
+	   filcher.Beetroot;18,
+	   filcher.Beetroot;18,
+	   filcher.Beetroot;18,
+	   filcher.Beetroot;18,
+	   keep KitchenKnife/ButterKnife/HuntingKnife,
+	   destroy WaterPot,
+
+	   Result:SFBeetPot,
+           Sound:PZ_FoodSwoosh,
+	   Time:50.0,
+	   Category:Cooking,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+    recipe Make Beet Syrup
+	{
+	   destroy RippedSheets/AlcoholRippedSheets,
+	   destroy filcher.SFBeetPot,
+
+	   Result:SFBeetSyrupPot,
+	   Time:50.0,
+	   Category:Cooking,
+	   OnTest:OnlyIfCooked_TestIsValid,
+	   OnCreate:Recipe.OnCreate.AddDirtyRag,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+    recipe Remove Sugar From Pot
+	{
+	   filcher.SFBeetSyrupPot,
+
+	   Result:Sugar,
+	   Time:50.0,
+	   Category:Cooking,
+	   OnTest:OnlyIfCooked_TestIsValid,
+	   OnCreate:SFMakeSugar_OnCreate,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+}

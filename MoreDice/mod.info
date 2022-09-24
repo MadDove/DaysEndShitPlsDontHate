@@ -1,0 +1,13 @@
+name=More Dice!
+id=MoreDice
+description=Ever want to play a game within a game? With this mod you now have usable D4, D6, D8, D10, D12, D20, and D100 dice. 
+description=This mod also adds a Dice Bag which holds the whole set. If you collect them all you can place them in a bag, or vice versa pull them out to use!
+description=Setup to spawn in toy stores, schools, bars, and general crates/shelves. 
+
+pzversion=41
+tags=Zombie
+authors=RyanHayes
+
+poster=poster1.png
+poster=poster2.png
+poster=poster3.png

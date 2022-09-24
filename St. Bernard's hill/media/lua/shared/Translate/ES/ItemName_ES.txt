@@ -1,0 +1,4 @@
+ItemName_ES = {
+
+		ItemName_Base.STBernardHillMap = "Mapa de St. Bernard's Hill",
+}

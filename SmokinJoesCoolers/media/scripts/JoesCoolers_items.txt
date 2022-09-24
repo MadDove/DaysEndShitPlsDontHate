@@ -1,0 +1,104 @@
+module Base {
+    item LargeIcePack
+    {
+        DisplayCategory = Junk,
+        Weight	=	1,
+        Type	=	Food,
+        DisplayName	=	Large Ice Pack,
+        Icon	=	IcePack,
+		CanBeFrozen = true,
+        WorldStaticModel = LargeIcePack,
+    }
+	model LargeIcePack {
+		mesh=IcePack,
+		scale=1,
+		texture=IcePack,
+	}
+	
+    item SmallIcePack
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.5,
+        Type	=	Food,
+        DisplayName	=	Small Ice Pack,
+        Icon	=	SmallIcePack,
+		CanBeFrozen = true,
+        WorldStaticModel = SmallIcePack,
+    }
+	model SmallIcePack {
+		mesh=SmallIcePack,
+		scale=1,
+		texture=IcePack,
+	}
+	
+    item RedCooler
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	1.5,
+        Type	=	Container,
+        Capacity	=	8,
+        DisplayName	=	Cooler,
+        Icon	=	Cooler_Red,
+        MetalValue = 15,
+        RunSpeedModifier = 0.9,
+        ReplaceInSecondHand = Bag_RedCooler_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_RedCooler_RHand holdingbagright,
+        WorldStaticModel = RedCooler_Ground,
+    }
+    model RedCooler_Ground
+    {
+        mesh = WorldItems/Clothing/Cooler_Ground,
+        texture = Cooler_Red,
+        scale = 0.4,
+    }
+    item OrganCooler
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	1.5,
+        Type	=	Container,
+        Capacity	=	8,
+        DisplayName	=	Cooler,
+        Icon	=	OrganCooler,
+        MetalValue = 15,
+        RunSpeedModifier = 0.9,
+        ReplaceInSecondHand = Bag_OrganCooler_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_OrganCooler_RHand holdingbagright,
+        WorldStaticModel = OrganCooler_Ground,
+    }
+    model OrganCooler_Ground
+    {
+        mesh = WorldItems/Clothing/Cooler_Ground,
+        texture = Cooler_Organ,
+        scale = 0.4,
+    }
+	
+	/*Insulated Pack*/
+	item Bag_InsulatedPack
+	{
+		Type = Container,
+		DisplayName = Insulated Backpack,
+		ClothingItem = Bag_InsulatedPack,
+		CanBeEquipped = Back,
+		WeightReduction	=	40,
+		Weight	=	3,
+		Capacity	=	38,
+		IconsForTexture = InsulatedPack_Red;InsulatedPack_Green;InsulatedPack_Blue;InsulatedPack_Yellow;InsulatedPack_Olive;InsulatedPack_Grey,
+		OpenSound   =   OpenBag,
+		CloseSound   =   CloseBag,
+		PutInSound   =   PutItemInBag,
+		RunSpeedModifier = 0.94,
+		CanHaveHoles = false,
+		AttachmentReplacement = Bag,
+        /*AttachmentsProvided = LeatherbagLeft;Leatherbag;LeatherbagRight;LeatherbagRoll,*/
+        ReplaceInSecondHand = Bag_InsulatedPack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_InsulatedPack_RHand holdingbagright,
+        WorldStaticModel = InsulatedPack_Ground,
+	}
+    model InsulatedPack_Ground
+    {
+        mesh = InsulatedPack_Ground,
+        scale = 1,
+    }
+}

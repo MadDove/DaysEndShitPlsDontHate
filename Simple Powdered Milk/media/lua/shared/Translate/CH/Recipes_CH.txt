@@ -1,0 +1,3 @@
+Recipes_CH = {
+	Recipe_Create_Milk_From_Milk_Powder = "¨Rªw¥¤¯»",
+}

@@ -1,0 +1,10 @@
+IGUI_EN = {
+
+    IGUI_RSE_Disasters_Shout_1 = "HOLY SHIT!!!",
+    IGUI_RSE_Disasters_Shout_2 = "IS THAT An EARTHQUAKE?!",
+
+    IGUI_RSE_Disasters_Say_4 = "Earthquake...",
+    IGUI_RSE_Disasters_Say_5 = "What the heck...",
+
+
+}

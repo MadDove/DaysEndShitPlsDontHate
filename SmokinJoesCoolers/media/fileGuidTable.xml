@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+	<path>media/clothing/clothingItems/Bag_RedCooler_LHand.xml</path>
+	<guid>69806cbe-86f7-4c32-ac7a-434371bf73e3</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/Bag_RedCooler_RHand.xml</path>
+	<guid>8088fffd-3f3f-4e53-9e2a-822396471477</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/Bag_OrganCooler_LHand.xml</path>
+	<guid>7868fefe-cf2a-4bad-9ea8-6760b58e1a91</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/Bag_OrganCooler_RHand.xml</path>
+	<guid>fbe90e94-5b78-4d69-83e6-7ee494c30cb2</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/Bag_InsulatedPack.xml</path>
+	<guid>88913858-a3e8-47b8-8184-d218bcb14b42</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/Bag_InsulatedPack_LHand.xml</path>
+	<guid>52b4cb97-8625-45d1-a17b-11099f3a1968</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/Bag_InsulatedPack_RHand.xml</path>
+	<guid>bf201de8-39aa-4b75-a483-b5c3ed7868af</guid>
+	</files>
+</fileGuidTable>

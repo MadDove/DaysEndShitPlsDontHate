@@ -1,0 +1,10 @@
+Tooltip_FR = {
+	-- Crafting tooltip
+	Tooltip_craft_ConcreteFloorDesc = "Un sol basique bétonné.",
+	Tooltip_craft_BrickFenceDesc = "Fournit une protection limitée contre les hordes.",
+	Tooltip_craft_BrickOvenDesc	= "Utilisé pour cuire des briques.",
+	Tooltip_craft_DisplayCounterDess = "Affiche votre dernière récolte.",
+
+	-- Item tooltip
+	Tooltip_item_HandTruck = "Vous ne pouvez pas combattre tant qu'il est équipé dans une main.<br>Ne transporte que de gros objets.",
+}

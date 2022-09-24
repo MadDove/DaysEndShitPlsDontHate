@@ -1,0 +1,336 @@
+module Base
+{
+	item PigPlushie
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Pinky Pig,
+		Icon = PigPlushie,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = PigPlush,
+		StaticModel = PigPlush_Static,
+	}
+	
+	model PigPlush
+	{
+		mesh = plushpig,
+        	texture = PigTexture,
+        	scale = 0.4,
+	}
+	
+	model PigPlush_Static
+	{
+		mesh = plushpig_static,
+        	texture = PigTexture,
+        	scale = 0.4,
+	}
+
+	item AxolotlPlushie
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Marshmallow the Axolotl,
+		Icon = AxolotlPlushie,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = AxolotlPlush,
+		StaticModel = AxolotlPlush_Static,
+	}
+	
+	model AxolotlPlush
+	{
+		mesh = plushaxolotl,
+        	texture = AxolotlTexture,
+        	scale = 0.4,
+	}
+	
+	model AxolotlPlush_Static
+	{
+		mesh = plushaxolotl_static,
+        	texture = AxolotlTexture,
+        	scale = 0.4,
+	}
+
+	item RoyalePlushie
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Royale Burger,
+		Icon = RoyalePlushie,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = RoyalePlush,
+		StaticModel = RoyalePlush_Static,
+	}
+	
+	model RoyalePlush
+	{
+		mesh = plushroyale,
+        	texture = RoyaleTexture,
+        	scale = 0.4,
+	}
+	
+	model RoyalePlush_Static
+	{
+		mesh = plushroyale_static,
+        	texture = RoyaleTexture,
+        	scale = 0.4,
+	}
+
+	item BioPlushie
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Bio Spiffo,
+		Icon = BioPlushie,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = BioPlush,
+		StaticModel = BioPlush_Static,
+	}
+	
+	model BioPlush
+	{
+		mesh = plushspiffo,
+        	texture = BioTexture,
+        	scale = 0.4,
+	}
+	
+	model BioPlush_Static
+	{
+		mesh = plushspiffo_static,
+        	texture = BioTexture,
+        	scale = 0.4,
+	}
+
+	item BatmanPlushie
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Batman Spiffo,
+		Icon = BatmanPlushie,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = BatmanPlush,
+		StaticModel = BatmanPlush_Static,
+	}
+	
+	model BatmanPlush
+	{
+		mesh = plushspiffo,
+        	texture = BatmanTexture,
+        	scale = 0.4,
+	}
+	
+	model BatmanPlush_Static
+	{
+		mesh = plushspiffo_static,
+        	texture = BatmanTexture,
+        	scale = 0.4,
+	}
+
+	item StitchesPlushie
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Stitches Spiffo,
+		Icon = StitchesPlushie,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = StitchesPlush,
+		StaticModel = StitchesPlush_Static,
+	}
+	
+	model StitchesPlush
+	{
+		mesh = plushspiffo,
+        	texture = StitchesTexture,
+        	scale = 0.4,
+	}
+	
+	model StitchesPlush_Static
+	{
+		mesh = plushspiffo_static,
+        	texture = StitchesTexture,
+        	scale = 0.4,
+	}
+
+	item ChocobiPlushie
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Chocobi,
+		Icon = ChocobiPlushie,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = ChocobiPlush,
+		StaticModel = ChocobiPlush_Static,
+	}
+	
+	model ChocobiPlush
+	{
+		mesh = plushchocobi,
+        	texture = ChocobiTexture,
+        	scale = 0.4,
+	}
+	
+	model ChocobiPlush_Static
+	{
+		mesh = plushchocobi_static,
+        	texture = ChocobiTexture,
+        	scale = 0.4,
+	}
+
+	item GrebdiozPlushie
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Grebdioz,
+		Icon = GrebdiozPlushie,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = GrebdiozPlush,
+		StaticModel = GrebdiozPlush_Static,
+	}
+	
+	model GrebdiozPlush
+	{
+		mesh = plushgrebdioz,
+        	texture = GrebdiozTexture,
+        	scale = 0.4,
+	}
+	
+	model GrebdiozPlush_Static
+	{
+		mesh = plushgrebdioz_static,
+        	texture = GrebdiozTexture,
+        	scale = 0.4,
+	}
+	item GIRPlushie
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = GIR Disguise,
+		Icon = GIRPlushie,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = GIRPlush,
+		StaticModel = GIRPlush_Static,
+	}
+	
+	model GIRPlush
+	{
+		mesh = plushgir,
+        	texture = GIRTexture,
+        	scale = 0.4,
+	}
+	
+	model GIRPlush_Static
+	{
+		mesh = plushGIR_static,
+        	texture = GIRTexture,
+        	scale = 0.4,
+	}
+	item GIR2Plushie
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = GIR,
+		Icon = GIR2Plushie,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = GIR2Plush,
+		StaticModel = GIR2Plush_Static,
+	}
+	
+	model GIR2Plush
+	{
+		mesh = plushgir2,
+        	texture = GIR2Texture,
+        	scale = 0.4,
+	}
+	
+	model GIR2Plush_Static
+	{
+		mesh = plushGIR2_static,
+        	texture = GIR2Texture,
+        	scale = 0.4,
+	}
+
+	item DeathBeePlushie
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Death Bee,
+		Icon = DeathBeePlushie,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = DeathBeePlush,
+		StaticModel = DeathBeePlush_Static,
+	}
+	
+	model DeathBeePlush
+	{
+		mesh = plushdeathbee,
+        	texture = DeathBeeTexture,
+        	scale = 0.4,
+	}
+	
+	model DeathBeePlush_Static
+	{
+		mesh = plushdeathbee_static,
+        	texture = DeathBeeTexture,
+        	scale = 0.4,
+	}
+	item GroguPlushie
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Grogu,
+		Icon = GroguPlushie,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = GroguPlush,
+		StaticModel = GroguPlush_Static,
+	}
+	
+	model GroguPlush
+	{
+		mesh = plushgrogu,
+        	texture = GroguTexture,
+        	scale = 0.4,
+	}
+	
+	model GroguPlush_Static
+	{
+		mesh = plushgrogu_static,
+        	texture = GroguTexture,
+        	scale = 0.4,
+	}
+	item MiniMoosePlushie
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Mini Moose,
+		Icon = MiniMoosePlushie,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = MiniMoosePlush,
+		StaticModel = MiniMoosePlush_Static,
+	}
+	
+	model MiniMoosePlush
+	{
+		mesh = plushminimoose,
+        	texture = MiniMooseTexture,
+        	scale = 0.4,
+	}
+	
+	model MiniMoosePlush_Static
+	{
+		mesh = plushminimoose_static,
+        	texture = MiniMooseTexture,
+        	scale = 0.4,
+	}
+}

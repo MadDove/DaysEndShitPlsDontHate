@@ -1,0 +1,51 @@
+module Base
+{
+	model DiceD4
+	{
+		mesh = WorldItems/DiceD4,
+		texture = WorldItems/DiceD4,
+		scale = 0.6,
+	}
+
+	model DiceD6
+	{
+		mesh = WorldItems/DiceD6,
+		texture = WorldItems/DiceD6,
+		scale = 0.6,
+	}
+
+	model DiceD8
+	{
+		mesh = WorldItems/DiceD8,
+		texture = WorldItems/DiceD8,
+		scale = 0.6,
+	}
+
+	model DiceD10
+	{
+		mesh = WorldItems/DiceD10,
+		texture = WorldItems/DiceD10,
+		scale = 0.6,
+	}
+
+	model DiceD12
+	{
+		mesh = WorldItems/DiceD12,
+		texture = WorldItems/DiceD12,
+		scale = 0.6,
+	}
+
+	model DiceD20
+	{
+		mesh = WorldItems/DiceD20,
+		texture = WorldItems/DiceD20,
+		scale = 0.6,
+	}
+
+	model DiceD100
+	{
+		mesh = WorldItems/DiceD100,
+		texture = WorldItems/DiceD100,
+		scale = 0.6,
+	}
+}

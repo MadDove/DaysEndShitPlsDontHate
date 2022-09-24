@@ -1,0 +1,4 @@
+Recipes_RU = {
+
+	Recipe_Create_Milk_From_Milk_Powder = "Сделать молоко из сухого молока",
+}

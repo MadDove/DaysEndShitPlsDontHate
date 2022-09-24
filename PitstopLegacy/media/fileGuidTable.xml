@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+		<files>
+		<path>media/clothing/clothingItems/CleanUpKrewJumpsuit.xml</path>
+		<guid>1a95a0a4-ba88-4e88-8189-dfd2c9cf962d</guid>
+	</files>
+                <files>
+
+               <path>media/clothing/clothingItems/Shoes_CleanUpKrewSneakers.xml</path>
+               <guid>3cb9f7cc-9911-4791-ba4e-b8cc92e14afe</guid>
+        </files>
+                <files>
+
+               <path>media/clothing/clothingItems/KleanBackPack.xml</path>
+               <guid>8b3f943c-e903-431b-bf8d-8f2eb86c9ef3</guid>
+
+</files>
+	
+		
+</fileGuidTable>

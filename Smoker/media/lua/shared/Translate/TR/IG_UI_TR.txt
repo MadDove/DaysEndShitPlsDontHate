@@ -1,0 +1,17 @@
+--- SMOKER ---
+IGUI_TR = {
+IGUI_ItemCat_Smoking =	"Sigara",
+IGUI_Empty = "Boþ...",
+IGUI_One_cigarette = "Bir sigara.",
+IGUI_Two_cigarettes = "Ýki sigara.",
+IGUI_There_is_some = "Biraz var...",
+IGUI_Less_than_half = "Yarýdan daha az.",
+IGUI_Almost_half_a_pack = "Neredeyse yarým paket...",
+IGUI_More_than_a_half = "Yarýdan fazla!",
+IGUI_Almost_a_complete_pack = "Ýcinden bir,iki dal alýnmýþ paket!",
+IGUI_Full_pack = "Tam paket!",
+IGUI_Refuel_Lighter = "Çakmaðý doldur",
+IGUI_ContextMenu_Cant_Action = "Tamamlanamýyor... Ögeyi ana envantere taþýyýn ve tekrar sag týklayýn...",
+IGUI_The_foil_burned_out = "folyo yandý...",
+IGUI_MovingCigarettes = "Bütün sigaralarý bir pakete koy",
+}

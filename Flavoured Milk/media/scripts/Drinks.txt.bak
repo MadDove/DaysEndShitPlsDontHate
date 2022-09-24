@@ -1,0 +1,106 @@
+module DZ
+{
+	imports
+	{
+		Base
+	}
+
+
+	item Fuic
+	{
+		HungerChange		=	-15,
+		Weight			=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		UnhappyChange	= -25,
+		ThirstChange		=	-50,
+		EnduranceChange		=	5,
+        	FatigueChange		=	-15,
+		DisplayName		=	Iced Coffee,
+		Icon			=	Fuic,
+		DaysFresh 		= 6,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		Packaged = TRUE,
+        Carbohydrates = 90,
+        Proteins = 10,
+        Lipids = 42,
+        Calories = 840,
+        	StaticModel = Fuic,
+        	WorldStaticModel = FuicGround,
+	}
+
+	
+	item ChocMilk
+	{
+		HungerChange		=	-15,
+		Weight			=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		UnhappyChange	= -25,
+		ThirstChange		=	-50,
+		DisplayName		=	Chocolate Milk,
+		Icon			=	ChocMilk,
+		DaysFresh 		= 6,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		Packaged = TRUE,
+        Carbohydrates = 90,
+        Proteins = 10,
+        Lipids = 42,
+        Calories = 840,
+        	StaticModel = ChocolateMilk,
+        	WorldStaticModel = ChocolateMilkGround,
+	}
+
+
+	
+	item StrawbMilk
+	{
+		HungerChange		=	-15,
+		Weight			=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		UnhappyChange	= -25,
+		ThirstChange		=	-50,
+		DisplayName		=	Strawberry Milk,
+		Icon			=	StrawbMilk,
+		DaysFresh 		= 6,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		Packaged = TRUE,
+        Carbohydrates = 90,
+        Proteins = 10,
+        Lipids = 42,
+        Calories = 840,
+        	StaticModel = StrawberryMilk,
+        	WorldStaticModel = StrawberryMilkGround,
+	}
+
+
+
+	
+	item BananMilk
+	{
+		HungerChange		=	-15,
+		Weight			=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		UnhappyChange	= -25,
+		ThirstChange		=	-50,
+		DisplayName		=	Banana Milk,
+		Icon			=	BananMilk,
+		DaysFresh 		= 6,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		Packaged = TRUE,
+        Carbohydrates = 90,
+        Proteins = 10,
+        Lipids = 42,
+        Calories = 840,
+        	StaticModel = BananaMilk,
+        	WorldStaticModel = BananaMilkGround,
+	}
+
+
+}

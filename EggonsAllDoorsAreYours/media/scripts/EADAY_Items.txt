@@ -1,0 +1,455 @@
+module EADAY
+{
+    imports
+	{
+		Base
+	}
+
+    item CarpentryDoor1
+    {
+        Weight	=	35,
+        Type	=	Normal,
+        DisplayName	=	Self made door (poor),
+        Icon	=	CarpentryDoor1,
+		RequiresEquippedBothHands = true,
+    }
+    item CarpentryDoor2
+    {
+        Weight	=	35,
+        Type	=	Normal,
+        DisplayName	=	Self made door (average),
+        Icon	=	CarpentryDoor2,
+		RequiresEquippedBothHands = true,
+    }
+    item CarpentryDoor3
+    {
+        Weight	=	35,
+        Type	=	Normal,
+        DisplayName	=	Self made door (excellent),
+        Icon	=	CarpentryDoor3,
+		RequiresEquippedBothHands = true,
+    }
+    item CellDoor
+    {
+        Weight	=	35,
+        Type	=	Normal,
+        DisplayName	=	Cell door,
+        Icon	=	CellDoor,
+		RequiresEquippedBothHands = true,
+    }
+    item ChurchDoor_Blue_Left
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Church door (blue) left,
+        Icon	=	ChurchDoor_Blue_Left,
+		RequiresEquippedBothHands = true,
+    }
+    item ChurchDoor_Blue_Right
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Church door (blue) right,
+        Icon	=	ChurchDoor_Blue_Right,
+		RequiresEquippedBothHands = true,
+    }
+    item ChurchDoor_Walnut_Left
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Church door (walnut) left,
+        Icon	=	ChurchDoor_Walnut_Left,
+		RequiresEquippedBothHands = true,
+    }
+    item ChurchDoor_Walnut_Right
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Church door (walnut) right,
+        Icon	=	ChurchDoor_Walnut_Right,
+		RequiresEquippedBothHands = true,
+    }
+    item ClassroomDoor_Ebony
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Classroom door (ebony),
+        Icon	=	ClassroomDoor_Ebony,
+		RequiresEquippedBothHands = true,
+    }
+    item ClassroomDoor_Pine
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Classroom door (pine),
+        Icon	=	ClassroomDoor_Pine,
+		RequiresEquippedBothHands = true,
+    }
+    item Door_Blue
+    /* Configed */
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Blue door,
+        Icon	=	Door_Blue,
+		RequiresEquippedBothHands = true,
+    }
+    item Door_Walnut
+    /* Configed */
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Walnut door,
+        Icon	=	Door_Walnut,
+		RequiresEquippedBothHands = true,
+    }
+    item Door_Mahogany
+    /* Configed */
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Mahogany door,
+        Icon	=	Door_Mahogany,
+		RequiresEquippedBothHands = true,
+    }
+    item Door_White
+    /* Configed */
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	White door,
+        Icon	=	Door_White,
+		RequiresEquippedBothHands = true,
+    }
+    item DoorWithWindow_Walnut
+    /* Configed */
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Door with window (walnut),
+        Icon	=	DoorWithWindow_Walnut,
+		RequiresEquippedBothHands = true,
+    }
+    item DoorWithWindow_White
+    /* Configed */
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Door with window (white),
+        Icon	=	DoorWithWindow_White,
+		RequiresEquippedBothHands = true,
+    }
+    item FittingRoomDoor_Beige
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Fitting room door (beige),
+        Icon	=	FittingRoomDoor_Beige,
+		RequiresEquippedBothHands = true,
+    }
+    item FittingRoomDoor_Brown
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Fitting room door (brown),
+        Icon	=	FittingRoomDoor_Brown,
+		RequiresEquippedBothHands = true,
+    }
+    item FittingRoomDoor_Graphite
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Fitting room door (graphite),
+        Icon	=	FittingRoomDoor_Graphite,
+		RequiresEquippedBothHands = true,
+    }
+    item GlassDoor_EbonyFrame
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Glass door (ebony frame),
+        Icon	=	GlassDoor_EbonyFrame,
+		RequiresEquippedBothHands = true,
+    }
+    item GlassDoor_MahoganyFrame
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Glass door (mahogany frame),
+        Icon	=	GlassDoor_MahoganyFrame,
+		RequiresEquippedBothHands = true,
+    }
+    item LargeWicket_ElaborateMetal2
+    {
+        Weight	=	40,
+        Type	=	Normal,
+        DisplayName	=	Large elaborate metal wicket,
+        Icon	=	LargeWicket_ElaborateMetal2,
+		RequiresEquippedBothHands = true,
+    }
+    item LargeWicket_WoodenWithPeephole
+    {
+        Weight	=	40,
+        Type	=	Normal,
+        DisplayName	=	Wooden wicket with peephole,
+        Icon	=	LargeWicket_WoodenWithPeephole,
+		RequiresEquippedBothHands = true,
+    }
+    item MetalDoor_Brass
+    {
+        Weight	=	40,
+        Type	=	Normal,
+        DisplayName	=	Metal door (brass),
+        Icon	=	MetalDoor_Brass,
+		RequiresEquippedBothHands = true,
+    }
+    item MetalDoor_Bronze
+    {
+        Weight	=	40,
+        Type	=	Normal,
+        DisplayName	=	Metal door (bronze),
+        Icon	=	MetalDoor_Bronze,
+		RequiresEquippedBothHands = true,
+    }
+    item MetalDoor_Grey_Left
+    {
+        Weight	=	40,
+        Type	=	Normal,
+        DisplayName	=	Metal door (grey) left,
+        Icon	=	MetalDoor_Grey_Left,
+		RequiresEquippedBothHands = true,
+    }
+    item MetalDoor_Grey_Right
+    {
+        Weight	=	40,
+        Type	=	Normal,
+        DisplayName	=	Metal door (grey) right,
+        Icon	=	MetalDoor_Grey_Right,
+		RequiresEquippedBothHands = true,
+    }
+    item MetalDoor_Steel
+    {
+        Weight	=	40,
+        Type	=	Normal,
+        DisplayName	=	Metal door (steel),
+        Icon	=	MetalDoor_Steel,
+		RequiresEquippedBothHands = true,
+    }
+    item PileOCrepeDoor_Blue
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Pile O Crepe door (blue),
+        Icon	=	PileOCrepeDoor_Blue,
+		RequiresEquippedBothHands = true,
+    }
+    item PushDoor_Blue
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Push door (blue),
+        Icon	=	PushDoor_Blue,
+		RequiresEquippedBothHands = true,
+    }
+    item PushDoor_Graphite
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Push door (graphite),
+        Icon	=	PushDoor_Graphite,
+		RequiresEquippedBothHands = true,
+    }
+    item PushDoor_Green
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Push door (green),
+        Icon	=	PushDoor_Green,
+		RequiresEquippedBothHands = true,
+    }
+    item PushDoor_Orange
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Push door (orange),
+        Icon	=	PushDoor_Orange,
+		RequiresEquippedBothHands = true,
+    }
+    item PushDoor_Reddish
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Push door (reddish),
+        Icon	=	PushDoor_Reddish,
+		RequiresEquippedBothHands = true,
+    }
+    item PushDoor_Spiffos
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Push door (Spiffos),
+        Icon	=	PushDoor_Spiffos,
+		RequiresEquippedBothHands = true,
+    }
+    item PushDoorWithWindow
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Push door with window,
+        Icon	=	PushDoorWithWindow,
+		RequiresEquippedBothHands = true,
+    }
+    item PushDoorWithWindow_Pine_Left
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Push door with window (pine) left,
+        Icon	=	PushDoorWithWindow_Pine_Left,
+		RequiresEquippedBothHands = true,
+    }
+    item PushDoorWithWindow_Pine_Right
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Push door with window (pine) right,
+        Icon	=	PushDoorWithWindow_Pine_Right,
+		RequiresEquippedBothHands = true,
+    }
+    item SecurityDoor
+    {
+        Weight	=	40,
+        Type	=	Normal,
+        DisplayName	=	Security door,
+        Icon	=	SecurityDoor,
+		RequiresEquippedBothHands = true,
+    }
+    item ShedDoor
+    /* Configed */
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Shed door,
+        Icon	=	ShedDoor,
+		RequiresEquippedBothHands = true,
+    }
+    item SmallWicket_ElaborateMetal
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Small elaborate metal wicket,
+        Icon	=	SmallWicket_ElaborateMetal,
+		RequiresEquippedBothHands = true,
+    }
+    item SmallWicket_MetalMesh
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Small metal mesh wicket,
+        Icon	=	SmallWicket_MetalMesh,
+		RequiresEquippedBothHands = true,
+    }
+    item SmallWicket_Wooden
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Small wooden wicket,
+        Icon	=	SmallWicket_Wooden,
+		RequiresEquippedBothHands = true,
+    }
+    item SlideGlassDoor_MahoganyFrame
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Slide glass door (mahogany frame),
+        Icon	=	SlideGlassDoor_MahoganyFrame,
+		RequiresEquippedBothHands = true,
+    }
+    item SlideGlassDoor_AluFrame
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Slide glass door (aluminum frame),
+        Icon	=	SlideGlassDoor_AluFrame,
+		RequiresEquippedBothHands = true,
+    }
+    item SplitGlassDoor_EbonyFrame
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Split glass door (ebony frame),
+        Icon	=	SplitGlassDoor_EbonyFrame,
+		RequiresEquippedBothHands = true,
+    }
+    item SplitGlassDoor_Fossoil
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Split glass door (Fossoil),
+        Icon	=	SplitGlassDoor_Fossoil,
+		RequiresEquippedBothHands = true,
+    }
+    item SplitGlassDoor_Gas2Go
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Split glass door (Gas2Go),
+        Icon	=	SplitGlassDoor_Gas2Go,
+		RequiresEquippedBothHands = true,
+    }
+    item SplitGlassDoor_GraphiteFrame_Left
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Split glass door (graphite frame) left,
+        Icon	=	SplitGlassDoor_GraphiteFrame_Left,
+		RequiresEquippedBothHands = true,
+    }
+    item SplitGlassDoor_GraphiteFrame_Right
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Split glass door (graphite frame) right,
+        Icon	=	SplitGlassDoor_GraphiteFrame_Right,
+		RequiresEquippedBothHands = true,
+    }
+    item SplitGlassDoor_Spiffos
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Split glass door (Spiffos),
+        Icon	=	SplitGlassDoor_Spiffos,
+		RequiresEquippedBothHands = true,
+    }
+    item SplitGlassDoor_PizzaWhirled
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Split glass door (Pizza Whirled),
+        Icon	=	SplitGlassDoor_PizzaWhirled,
+		RequiresEquippedBothHands = true,
+    }
+    item ToiletCabinDoor_Blue
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Toilet cabin door (blue),
+        Icon	=	ToiletCabinDoor_Blue,
+		RequiresEquippedBothHands = true,
+    }
+    item ToiletCabinDoor_Rose
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Toilet cabin door (rose),
+        Icon	=	ToiletCabinDoor_Rose,
+		RequiresEquippedBothHands = true,
+    }
+    item UnknownDoor
+    {
+        Weight	=	30,
+        Type	=	Normal,
+        DisplayName	=	Unknown or modded door,
+        Icon	=	UnknownDoor,
+		RequiresEquippedBothHands = true,
+    }
+}

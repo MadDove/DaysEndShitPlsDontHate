@@ -1,0 +1,48 @@
+module Base
+{
+
+
+
+
+	model Fuic
+	{
+		mesh    = MilkCarton,
+		texture = FuicCarton,
+	}
+
+
+	model FuicGround
+	{
+		mesh    = Milk,
+		texture = FuicCarton,
+		scale	= 0.4,
+	}
+
+	model ChocolateMilk
+	{
+		mesh    = MilkCarton,
+		texture = ChocCarton,
+	}
+
+	model ChocolateMilkGround
+	{
+		mesh    = Milk,
+		texture = ChocCarton,
+		scale	= 0.4,
+	}
+
+
+	model StrawberryMilk
+	{
+		mesh    = MilkCarton,
+		texture = StrawbCarton,
+	}
+
+	model StarwberryMilkGround
+	{
+		mesh    = Milk,
+		texture = StrawbCarton,
+		scale	= 0.4,
+	}
+
+}

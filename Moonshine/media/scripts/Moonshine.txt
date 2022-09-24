@@ -1,0 +1,81 @@
+module Moonshine
+{
+	imports
+	{
+		Base
+	}
+	
+    item Moonshine
+	{
+		HungerChange	=	-30,
+		Weight	=	0.8,
+		Type	=	Food,
+		ThirstChange	=	-15,
+		DisplayName	=	Moonshine,
+		Alcoholic	=	TRUE,
+        UnhappyChange	=	-5,
+		ReplaceOnUse	=	WhiskeyEmpty,
+		AlwaysWelcomeGift	=	true,
+		Icon	=	Whiskey_Water_Full,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottle,
+		AlcoholPower = 3,
+        Carbohydrates = 0,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 2000,
+        Packaged = FALSE,
+        CantBeFrozen = TRUE,
+        StaticModel = WhiskeyBottle,
+        EatType = Bourbon,
+	}
+
+	item RawMoonshine
+	{
+		HungerChange	=	-10,
+		Weight	=	0.8,
+        DaysFresh	=	0,
+        DaysTotallyRotten	=	14,
+		Type	=	Food,
+		DisplayName	=	Raw Moonshine,
+		ReplaceOnUse	=	WhiskeyEmpty,
+		Icon	=	Whiskey_Water_Full,
+        Carbohydrates = 0,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 200,
+        ReplaceOnRotten = Moonshine,
+        Packaged = FALSE,
+	}
+	
+    recipe Make Raw Moonshine
+    {
+        WhiskeyEmpty,
+		Sugar,
+		Potato=3,
+		Yeast=1,
+		Water=8,
+
+        Result:RawMoonshine,
+		SkillRequired:Cooking=5,
+        Time:150,
+		Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking20,
+    }
+	
+    recipe Distill Moonshine
+    {
+        Moonshine,
+		keep Kettle/Saucepan/Pot,
+		keep MetalPipe,
+		Lighter/Matches=3,
+		WildGarlic=4,
+		Charcoal=2,
+
+        Result:Disinfectant,
+		SkillRequired:Doctor=3,
+        Time:200,
+		Category:Health,
+        OnGiveXP:Recipe.OnGiveXP.Doctor20,
+    }
+}

@@ -1,0 +1,86 @@
+module ImprovisedPaint
+{
+    imports 
+    {
+        Base
+    }
+
+    recipe DyeMixPaintBrown {
+        keep WoodenStick,
+	    destroy PaintWhite,
+        HairDyeLightBrown=1,
+        HairDyeBlack=1,
+	    Result:PaintBrown,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixPaintCyan {
+        keep WoodenStick,
+        destroy PaintWhite,
+        HairDyeBlue=1,
+        HairDyeGreen=1,
+        Result:PaintCyan,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+    
+    recipe DyeMixPaintGreen {
+        keep WoodenStick,
+        destroy PaintWhite,
+        HairDyeBlue=1,
+        HairDyeYellow=1,
+        Result:PaintGreen,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixPaintOrange {
+        keep WoodenStick,
+        destroy PaintWhite,
+        HairDyeRed=1,
+        HairDyeYellow/HairDyeBlonde=1,
+        Result:PaintOrange,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixPaintPurple {
+        keep WoodenStick,
+        destroy PaintWhite,
+        HairDyePink=1,
+        HairDyeBlack=1,
+        Result:PaintPurple,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+    recipe DyeMixPaintTurquoise {
+        keep WoodenStick,
+        destroy PaintWhite,
+        HairDyeGreen=1,
+        HairDyeBlue=1,
+        Result:PaintTurquoise,
+	    Time:30.0,
+	    NeedToBeLearn:true,
+        Category:Paint,
+        AnimMode:Craft,
+        Sound:MakePlaster,
+    }
+
+}

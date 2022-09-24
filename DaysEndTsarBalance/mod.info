@@ -1,0 +1,6 @@
+name=Day's End Tsar Balance
+poster=poster.png
+id=DaysEndTsarBal
+description=Balance Changes
+url=
+require=tsarslib,ATA_Bus,ATA_Dadge,ATA_Petyarbuilt,amclub

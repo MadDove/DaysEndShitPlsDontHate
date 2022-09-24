@@ -1,0 +1,6 @@
+name=An Exhilaratingly Organized Lit Mod 4b: Addon Base
+id=LitSortOGSN_addon_base
+require=LitSortOGSN
+require=LitSortOGSN_addon_names
+description=Addon for An Exhilaratingly Organized Lit Mod mods supprort.
+poster=poster.png

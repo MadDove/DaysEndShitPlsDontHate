@@ -1,0 +1,21 @@
+module Base
+{
+    item CleanUpKrewJumpsuit
+    {
+        Type = Clothing,
+        DisplayName = Clean Up Krew Jumpsuit,
+        ClothingItem = Boilersuit,
+        BodyLocation = FullSuit,
+        Icon = BoilerSuitWhite,
+        ColorRed = 161,
+        ColorGreen = 161,
+        ColorBlue = 161,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.65,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = CleanUpKrewJumpsuit,
+    }
+}

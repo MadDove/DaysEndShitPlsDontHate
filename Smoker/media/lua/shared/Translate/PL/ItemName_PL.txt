@@ -1,0 +1,4 @@
+/************************SMOKER************************/
+ItemName_PL = {
+ItemName_Base.Cigarettes = "Paczka Papierosów",
+}

@@ -1,0 +1,944 @@
+module UndeadSurvivor
+{	
+	imports {
+		Base
+		}
+	
+    item PrepperFlashlight
+    {
+        DisplayCategory = LightSource,
+        LightDistance	=	20,
+        Weight	=	0.5,
+        DisappearOnUse	=	FALSE,
+        Type	=	Drainable,
+        TorchCone	=	TRUE,
+		UseDelta	=	0.0009,
+		LightStrength	=	2,
+		TorchDot = 0.66,
+        DisplayName	=	Prepper Flashlight,
+        ActivatedItem	=	TRUE,
+        Icon	=	PrepperFlashlight,
+        MetalValue = 10,
+        cantBeConsolided = TRUE,
+        StaticModel = PrepperFlashlight,
+		AttachmentType = PrepperFlashlight,
+        primaryAnimMask = holdingTorchRightVertical,
+        secondaryAnimMask = holdingTorchLeftVertical,
+    }
+	
+	item PrepperMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Prepper Gasmask,
+		ClothingItem = PrepperMask,
+		BodyLocation = MaskEyes,
+		Icon = PrepperMask,
+        BloodLocation = Head,
+		BiteDefense = 10,
+        ScratchDefense = 20,
+        ChanceToFall = 0,
+        Insulation = 0.75,
+        WindResistance = 0.60,
+        WaterResistance = 1.0,
+		WorldStaticModel = PrepperMask_Ground,
+	}
+
+	item PrepperHelmet
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Prepper Helmet,
+		ClothingItem = PrepperHelmet,
+		BodyLocation = Hat,
+		Icon = PrepperHelmet,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 1,
+		Insulation = 0.25,
+		WaterResistance = 0.2,,
+		WorldStaticModel = PrepperHelmet_Ground,
+	}
+	
+	item PrepperVest
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prepper Vest,
+        ClothingItem = PrepperVest,
+        BodyLocation = TorsoExtra,
+        Icon = PrepperVest,
+		CanHaveHoles = false,
+        BloodLocation = Trousers;Jumper,
+        Weight	=	0.7,
+        WorldStaticModel = PrepperVest_Ground,
+		AttachmentsProvided = PrepperVestKnife;PrepperVestFlashlight;PrepperGunMagazine1;PrepperGunMagazine2;PrepperGunMagazine3;PrepperGunMagazine4,
+    }
+	
+	item PrepperVestPacked
+    {
+        WeightReduction	=	95,
+        Weight	=	1,
+        Capacity	=	12,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        CanBeEquipped = Back,
+        DisplayCategory = Clothing,
+        Type	=	Container,
+        DisplayName = Prepper Vest with bags,
+        ClothingItem = PrepperVestPacked,
+        BodyLocation = TorsoExtra,
+        Icon = PrepperVestPacked,
+		CanHaveHoles = false,
+        BloodLocation = Trousers;Jumper,
+        AttachmentReplacement = Bag,
+        WorldStaticModel = PrepperVestPacked_Ground,
+		AttachmentsProvided = PrepperVestKnife;PrepperVestFlashlight;PrepperGunMagazine1;PrepperGunMagazine2;PrepperGunMagazine3;PrepperGunMagazine4,
+    }	
+	
+	item PrepperBags
+	{
+        DisplayCategory = Container,
+        WeightReduction	=	30,
+        Weight	=	0.3,
+        Type	=	Container,
+        Capacity	=	12,
+		DisplayName	=	Mountable Prepper Bags,
+		Icon	=	PrepperBags,
+		ReplaceInSecondHand = PrepperBags_LHand holdingbagleft,
+        ReplaceInPrimaryHand = PrepperBags_RHand holdingbagright,
+		WorldStaticModel = PrepperBags_Ground,
+	}
+	
+	item PrepperJacket
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prepper Jacket,
+        ClothingItem = PrepperJacket,
+        BodyLocation = Jacket,
+        Icon = PrepperJacket,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 25,
+        ScratchDefense = 45,
+        Insulation = 0.60,
+        WindResistance = 0.40,
+        FabricType = Cotton,
+        WaterResistance = 0.55,
+        Weight = 1,
+        WorldStaticModel = PrepperJacket_Ground,
+    }
+	
+	item PrepperTrousers
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prepper Trousers,
+        ClothingItem = PrepperTrousers,
+        BodyLocation = Pants,
+        Icon = PrepperTrousers,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.45,
+        WindResistance = 0.3,
+        WaterResistance = 0.45,
+        FabricType = Cotton,
+		AttachmentsProvided = PrepperHolster, 
+        WorldStaticModel = PrepperTrousers_Ground,
+		ClothingItemExtra = UndeadSurvivor.PrepperTrousersTucked,
+        ClothingItemExtraOption = TuckIn,
+    }
+	
+	item PrepperTrousersTucked
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prepper Trousers Tucked,
+        ClothingItem = PrepperTrousersTUCKED,
+        BodyLocation = Pants,
+        Icon = PrepperTrousers,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.45,
+        WindResistance = 0.3,
+        WaterResistance = 0.45,
+        FabricType = Cotton,
+		AttachmentsProvided = PrepperHolster, 
+        WorldStaticModel = PrepperTrousers_Ground,
+		ClothingItemExtra = UndeadSurvivor.PrepperTrousers,
+        ClothingItemExtraOption = TuckOut,
+    }
+	
+		item PrepperKnifeSwing
+	{
+		MaxRange					=	0.7,
+		WeaponSprite				=	PrepperKnife,
+		MinAngle					=	0.65,
+		Type						=	Weapon,
+		MinimumSwingTime			=	2,
+		KnockBackOnNoDeath			=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories					=	SmallBlade,
+		ConditionLowerChanceOneIn	=	15,
+		Weight						=	0.3,
+		SplatNumber					=	4,
+		PushBackMod					=	0.3,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax				=	25,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon			=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Bat,
+		DisplayName					=	Prepper Knife Swing,
+		MinRange					=	0.3,
+		CloseKillMove 				= Jaw_Stab,
+		SwingTime					=	2,
+		KnockdownMod				=	0,
+		SplatBloodOnNoDeath			=	TRUE,
+		Icon	=	PrepperKnife,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        TreeDamage  =   2,
+        EnduranceMod = 0.5,
+        BreakSound  =   BreakMetalItem,
+        MetalValue = 30,
+        CriticalChance	=	50,
+        CritDmgMultiplier = 3,
+        MinDamage	=	0.4,
+        MaxDamage	=	1.0,
+	 	WeaponLength = 0.15,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        HitFloorSound	=	HuntingKnifeHit,
+        ImpactSound	=	HuntingKnifeHit,
+        DoorHitSound = HuntingKnifeHit,
+		HitSound	=	HuntingKnifeHit,
+		SwingSound = HuntingKnifeSwing,
+		AttachmentType = Screwdriver,
+        Tags = CutPlant,
+		BaseSpeed = 1.2,
+	}
+
+		item PrepperKnifeStab
+	{
+		MaxRange					=	0.8,
+		WeaponSprite				=	PrepperKnife,
+		MinAngle					=	0.65,
+		Type						=	Weapon,
+		MinimumSwingTime			=	2,
+		KnockBackOnNoDeath			=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories					=	SmallBlade,
+		ConditionLowerChanceOneIn	=	20,
+		Weight						=	0.3,
+		SplatNumber					=	4,
+		PushBackMod					=	0.3,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax				=	25,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon			=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		DisplayName					=	Prepper Knife Stab,
+		MinRange					=	0.4,
+		CloseKillMove 				= Jaw_Stab,
+		SwingTime					=	2,
+		KnockdownMod				=	0,
+		SplatBloodOnNoDeath			=	TRUE,
+		Icon	=	PrepperKnife,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        TreeDamage  =   2,
+        EnduranceMod = 0.5,
+        BreakSound  =   BreakMetalItem,
+        MetalValue = 30,
+        CriticalChance	=	75,
+        CritDmgMultiplier = 3,
+        MinDamage	=	0.6,
+        MaxDamage	=	1.0,
+	 	WeaponLength = 0.15,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        HitFloorSound	=	HuntingKnifeHit,
+        ImpactSound	=	HuntingKnifeHit,
+        DoorHitSound = HuntingKnifeHit,
+		HitSound	=	HuntingKnifeHit,
+		SwingSound = HuntingKnifeSwing,
+		AttachmentType = Screwdriver,
+        Tags = CutPlant,
+		BaseSpeed = 1.0,
+		TwoHandWeapon = FALSE,
+	}
+
+	item StalkerKnife
+    {
+        DisplayCategory = Weapon,
+        MaxRange	=	1.23,
+        WeaponSprite	=	StalkerKnife,
+        MinAngle	=	0.7,
+        Type	=	Weapon,
+		SwingSound = MacheteSwing,
+        HitFloorSound	=	MacheteHit,
+		ImpactSound	=	MacheteHit,
+        DoorHitSound = MacheteHit,
+		HitSound	=	MacheteHit,
+        MinimumSwingTime	=	4,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        Categories	=	LongBlade,
+        ConditionLowerChanceOneIn	=	25,
+        Weight	=	1.6,
+        SplatNumber	=	2,
+        PushBackMod	=	0.3,
+        SubCategory	=	Swinging,
+        ConditionMax	=	20,
+        MaxHitCount	=	2,
+        DoorDamage	=	7,
+        SwingAnim	=	Bat,
+        DisplayName	=	Stalker Knife,
+        MinRange	=	0.61,
+        SwingTime	=	4,
+        KnockdownMod	=	2,
+        SplatBloodOnNoDeath	=	FALSE,
+        Icon	=	StalkerKnife,
+        TreeDamage  =   10,
+        CriticalChance	=	30,
+        CritDmgMultiplier = 5,
+        MinDamage	=	2,
+        MaxDamage	=	3,
+        BaseSpeed = 1.1,
+        WeaponLength = 0.3,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        AttachmentType = BigBlade,
+        Tags = CutPlant,
+        DoorHitSound = MacheteHit,
+		HitSound = MacheteHit,
+		HitFloorSound = MacheteHit,
+        BreakSound  =   MacheteBreak,
+		SwingSound = MacheteSwing,
+     }
+	 
+	item StalkerCloak
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Stalker Cloak,
+        ClothingItem = StalkerCloak,
+        BodyLocation = Hat,
+        Icon = StalkerCloak,
+        Weight = 0.3,
+        BloodLocation = Neck;Head,
+		ScratchDefense = 35,
+        BiteDefense = 20,
+        Insulation = 0.3,
+        WindResistance = 0.5,
+        WaterResistance = 1.0,
+        FabricType = Leather,
+	    ClothingItemExtra = UndeadSurvivor.StalkerCloakDOWN,
+        ClothingItemExtraOption = DownHoodie,
+        WorldStaticModel = StalkerCloak_ground,
+    }
+	
+    item StalkerCloakDOWN
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Stalker Cloak,
+        ClothingItem = StalkerCloakDOWN,
+        BodyLocation = Hat,
+        Icon = StalkerCloak,
+        Weight = 0.3,
+        BloodLocation = Neck;Head,
+		ScratchDefense = 35,
+        BiteDefense = 20,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        WaterResistance = 0.5,
+        FabricType = Leather,
+	    ClothingItemExtra = UndeadSurvivor.StalkerCloak,
+        ClothingItemExtraOption = UpHoodie,
+        WorldStaticModel = StalkerCloak_ground,
+    }
+		
+	item StalkerMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Stalker Mask,
+		ClothingItem = StalkerMask,
+		BodyLocation = MaskEyes,
+		Icon = StalkerMask,
+		CanHaveHoles = false,
+		BiteDefense = 10,
+        ScratchDefense = 20,
+        ChanceToFall = 0,
+        BloodLocation = Head,
+        Insulation = 0.75,
+        WindResistance = 0.60,
+        WaterResistance = 1.0,
+		WorldStaticModel = StalkerMask_ground,
+	}
+	
+    item StalkerJacket
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Stalker Jacket,
+        ClothingItem = StalkerJacket,
+        BodyLocation = Jacket,
+        IconsForTexture = StalkerJacket,
+        BloodLocation = LongJacket,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.8,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Leather,
+        WaterResistance = 0.25,
+        Weight = 1,
+        WorldStaticModel = StalkerJacket_ground,
+    }
+	
+    item StalkerTrousers
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Stalker Trousers,
+        ClothingItem = StalkerTrousers,
+        BodyLocation = Pants,
+        Icon = StalkerTrousers,
+        BloodLocation = Trousers,
+        ScratchDefense = 40,
+        BiteDefense = 20,
+        Insulation = 0.3,
+        WindResistance = 0.30,
+        FabricType = Leather,
+        WorldStaticModel = StalkerTrousers_ground,
+        ClothingItemExtra = UndeadSurvivor.StalkerTrousersTucked,
+        ClothingItemExtraOption = TuckIn,
+    }
+	
+    item StalkerTrousersTucked
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Stalker Trousers (Tucked),
+        ClothingItem = StalkerTrousersTucked,
+        BodyLocation = Pants,
+        Icon = StalkerTrousers,
+        BloodLocation = Trousers,
+        ScratchDefense = 40,
+        BiteDefense = 20,
+        Insulation = 0.3,
+        WindResistance = 0.30,
+        FabricType = Leather,
+        WorldStaticModel = StalkerTrousers_ground,
+        ClothingItemExtra = UndeadSurvivor.StalkerTrousers,
+        ClothingItemExtraOption = TuckOut,
+    }
+	
+	item StalkerBoots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Stalker Boots,
+		ClothingItem = StalkerBoots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = StalkerBoots,
+		StompPower = 2,
+		ConditionLowerChanceOneIn = 20,
+        ConditionMax = 30,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.5,
+        WindResistance = 0.5,
+        WaterResistance = 0.5,
+        WorldStaticModel = StalkerBoots_ground,
+	}
+
+	item StalkerGloves
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Stalker Gloves,
+		ClothingItem = StalkerGloves,
+		BodyLocation = Hands,
+		Icon = StalkerGloves,
+		BloodLocation = Hands,
+		ScratchDefense = 35,
+        BiteDefense = 20,
+        Weight = 0.1,
+        Insulation = 0.25,
+        WindResistance = 0.25,
+        FabricType = Leather,
+        WorldStaticModel = StalkerGloves_ground,
+	}
+	
+	item NomadParka
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Nomad Parka,
+        ClothingItem = NomadParka,
+        BodyLocation = BathRobe,
+        IconsForTexture = NomadParka,
+        BloodLocation = Trousers;Jumper,
+		RunSpeedModifier = 0.90,
+		CombatSpeedModifier = 0.90,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 1,
+        WindResistance = 0.8,
+        FabricType = Cotton,
+        WaterResistance = 0.6,
+        Weight = 2,
+	    ClothingItemExtra = UndeadSurvivor.NomadParkaDOWN,
+        ClothingItemExtraOption = DownHoodie,
+        WorldStaticModel = NomadParka_ground,
+	}
+	
+	item NomadParkaDOWN
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Nomad Parka,
+        ClothingItem = NomadParkaDOWN,
+        BodyLocation = BathRobe,
+        IconsForTexture = NomadParka,
+        BloodLocation = Trousers;Jumper,
+		RunSpeedModifier = 0.90,
+		CombatSpeedModifier = 0.90,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.8,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+        WaterResistance = 0.4,
+        Weight = 2,
+	    ClothingItemExtra = UndeadSurvivor.NomadParka,
+        ClothingItemExtraOption = UpHoodie,
+        WorldStaticModel = NomadParka_ground,
+	}
+	
+	item OminousNomadParka
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ominous Nomad Parka,
+        ClothingItem = OminousNomadParka,
+        BodyLocation = BathRobe,
+        IconsForTexture = OminousNomadParka,
+        BloodLocation = Trousers;Jumper,
+		RunSpeedModifier = 0.90,
+		CombatSpeedModifier = 0.90,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 1,
+        WindResistance = 0.8,
+        FabricType = Cotton,
+        WaterResistance = 0.6,
+        Weight = 2,
+	    ClothingItemExtra = UndeadSurvivor.OminousNomadParkaDOWN,
+        ClothingItemExtraOption = DownHoodie,
+        WorldStaticModel = OminousNomadParka_ground,
+	}
+	
+	item OminousNomadParkaDOWN
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ominous Nomad Parka,
+        ClothingItem = OminousNomadParkaDOWN,
+        BodyLocation = BathRobe,
+        IconsForTexture = OminousNomadParka,
+        BloodLocation = Trousers;Jumper,
+		RunSpeedModifier = 0.90,
+		CombatSpeedModifier = 0.90,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.8,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+        WaterResistance = 0.4,
+        Weight = 2,
+	    ClothingItemExtra = UndeadSurvivor.OminousNomadParka,
+        ClothingItemExtraOption = UpHoodie,
+        WorldStaticModel = OminousNomadParka_ground,
+	}
+	
+    item NomadBackpack
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Nomad Backpack,
+        ClothingItem = NomadBackpack,
+        CanBeEquipped = Back,
+        WeightReduction	=	88,
+        Weight	=	5,
+        Capacity	=	32,
+        Icon	=	NomadBackpack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.80,
+        CanHaveHoles = false,
+        WorldStaticModel = NomadBackpack_ground,
+	AttachmentReplacement = Bag,
+    }
+
+    item NomadMask
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Nomad Mask,
+        ClothingItem = NomadMask,
+        BodyLocation = Scarf,
+        Icon = NomadMask,
+        Weight = 0.2,
+        BloodLocation = Neck;Head,
+        ScratchDefense = 25,
+        BiteDefense = 15,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        FabricType = Cotton,
+        WorldStaticModel = NomadMask_ground,
+    }
+	
+    item OminousNomadMask
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Ominous Nomad Mask,
+        ClothingItem = OminousNomadMask,
+        BodyLocation = Scarf,
+        Icon = OminousNomadMask,
+        Weight = 0.2,
+        BloodLocation = Neck;Head,
+        ScratchDefense = 25,
+        BiteDefense = 15,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        FabricType = Cotton,
+        WorldStaticModel = OminousNomadMask_ground,
+    }
+	
+	item NomadBoots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Nomad Boots,
+		ClothingItem = NomadBoots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = NomadBoots,
+		StompPower = 2.5,
+		ConditionLowerChanceOneIn = 20,
+        ConditionMax = 30,
+        RunSpeedModifier = 0.9,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 80,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 1.0,
+		Weight = 0.7,
+        WorldStaticModel = NomadBoots_ground,
+	}
+	
+    item NomadTrousers
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Nomad Trousers,
+        ClothingItem = NomadTrousers,
+        BodyLocation = Pants,
+        Icon = NomadTrousers,
+        BloodLocation = Trousers,
+        ScratchDefense = 30,
+        BiteDefense = 15,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        WaterResistance = 0.7,
+		RunSpeedModifier = 0.95,
+        FabricType = Leather,
+        WorldStaticModel = NomadTrousers_ground,
+        ClothingItemExtra = UndeadSurvivor.NomadTrousersTucked,
+        ClothingItemExtraOption = TuckIn,
+    }
+	
+    item NomadTrousersTucked
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Nomad Trousers,
+        ClothingItem = NomadTrousersTUCKED,
+        BodyLocation = Pants,
+        Icon = NomadTrousers,
+        BloodLocation = Trousers,
+        ScratchDefense = 30,
+        BiteDefense = 15,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        WaterResistance = 0.7,
+		RunSpeedModifier = 0.95,
+        FabricType = Leather,
+        WorldStaticModel = NomadTrousers_ground,
+        ClothingItemExtra = UndeadSurvivor.NomadTrousers,
+        ClothingItemExtraOption = TuckOut,
+    }
+	
+    recipe Butcher Small Animal
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        DeadMouse/DeadSquirrel/DeadRat,
+
+        Result:Smallanimalmeat,
+        Sound:PZ_FoodSwoosh,
+        Time:50.0,
+        OnCreate:Recipe.OnCreate.CutAnimal,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Butcher Rabbit
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        DeadRabbit,
+
+        Result:Rabbitmeat,
+        Sound:PZ_FoodSwoosh,
+        Time:50.0,
+        OnCreate:Recipe.OnCreate.CutAnimal,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Butcher Bird
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        DeadBird,
+
+        Result:Smallbirdmeat,
+        Sound:PZ_FoodSwoosh,
+        Time:50.0,
+        OnCreate:Recipe.OnCreate.CutAnimal,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+	
+	recipe Create Spear
+    {
+        Plank/TreeBranch,
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+
+        Result:SpearCrafted,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CreateSpear,
+        Category:Survivalist,
+        OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+    }
+	
+    recipe Make Stake
+    {
+        TreeBranch,
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+
+        Result:Stake,
+        Time:80.0,
+        Category:Survivalist,
+        OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+    }
+	
+	recipe Slice Watermelon
+	{
+	   Watermelon,
+	   keep PrepperKnifeSwing/PrepperKnifePrecise,
+
+	   Result:WatermelonSliced=10,
+	   OnCreate:Recipe.OnCreate.SliceWatermelon,
+	   Time:70.0,
+	   Category:Cooking,
+	   OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+	
+    recipe Slice Bread
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        Bread,
+
+        Result:BreadSlices=3,
+        OnCreate:Recipe.OnCreate.SliceBread,
+        Sound:SliceBread,
+        Time:40.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+    recipe Slice Bread
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        BreadDough,
+
+        Result:BreadSlices=3,
+        Sound:SliceBread,
+        Time:40.0,
+        Category:Cooking,
+        OnTest:Recipe.OnTest.SliceBreadDough,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+	
+    recipe Slice Pie
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        PieWholeRaw,
+
+        Result:Pie=5,
+        Time:20.0,
+        OnCreate:Recipe.OnCreate.SlicePie,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+	
+    recipe Slice Cake
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        CakeRaw,
+
+        Result:CakeSlice=5,
+        Time:20.0,
+        OnCreate:Recipe.OnCreate.SlicePie,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+	
+    recipe Slice Fillet
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        Bass/Catfish/Perch/Crappie/Panfish/Pike/Trout,
+
+        Result:FishFillet=2,
+        Sound:SliceMeat,
+        Time:50.0,
+        OnTest:Recipe.OnTest.CutFish,
+        OnCreate:Recipe.OnCreate.CutFish,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+	
+    recipe Slice Ham
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        Ham,
+
+        Result:HamSlice=6,
+        OnCreate:Recipe.OnCreate.SliceHam,
+        Sound:SliceMeat,
+        Time:50.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+	
+    recipe Slice Frog
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        Frog,
+
+        Result:FrogMeat,
+        Sound:SliceMeat,
+        Time:50.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+	
+    recipe Make Fishing Rod
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        WoodenStick,
+        Twine=2,
+        Paperclip/Nails,
+
+        Result:CraftedFishingRodTwineLine,
+        Time:80.0,
+        Category:Fishing,
+        NeedToBeLearn:true,
+    }
+	
+    recipe Make Fishing Rod
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        WoodenStick,
+        FishingLine=2,
+        Paperclip/Nails,
+
+        Result:CraftedFishingRod,
+        Time:80.0,
+        Category:Fishing,
+        NeedToBeLearn:true,
+    }
+	
+    recipe Drill Plank
+    {
+        Plank/Log,
+        keep [Recipe.GetItemTypes.Screwdriver]PrepperKnifeSwing/PrepperKnifePrecise,
+
+        Result:PercedWood,
+        Time:40.0,
+        Prop1:Source=2,
+        Prop2:Source=1,
+    }
+	
+    recipe Make Squid Calamari
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        destroy Squid,
+
+        Result:SquidCalamari=2,
+        Category:Cooking,
+        Time:30,
+    }
+
+    recipe Make Halloween Pumpkin
+    {
+        Pumpkin,
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+
+        Result:HalloweenPumpkin,
+        Category:Cooking,
+        Time:60,
+    }
+
+    recipe Get Bacon Rashers
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        Bacon,
+
+        Result:BaconRashers=4,
+        Time:10.0,
+        Category:Cooking,
+    }
+
+    recipe Get Bacon Bits
+    {
+        keep PrepperKnifeSwing/PrepperKnifePrecise,
+        BaconRashers,
+
+        Result:BaconBits=4,
+        Time:10.0,
+        Category:Cooking,
+    }
+	
+}
+	

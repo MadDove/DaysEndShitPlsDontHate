@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\hitops_male.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\hitops_female.fbx</m_FemaleModel>
+	<m_GUID>5523648d-37ee-402b-8c57-f1051aff99d8</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>	
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>adadadas1</textureChoices>
+	<textureChoices>adadadas2</textureChoices>
+	<textureChoices>allstarblack</textureChoices>
+	<textureChoices>allstarred</textureChoices>
+	<textureChoices>allstarblue</textureChoices>
+	<textureChoices>allstarwhite</textureChoices>
+	<textureChoices>allstarpink</textureChoices>
+</clothingItem>	

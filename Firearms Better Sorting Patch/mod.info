@@ -1,0 +1,6 @@
+name=Firearms B41 Better Sorting Patch
+id=firearmmodbspatch
+description=Adds a lua file that should work with better sorting
+poster=poster.png
+icon=icon.png
+require=firearmmod,BetterSortCC

@@ -1,0 +1,4 @@
+Recipe_EN = {
+	Recipe_BagToDice = "Take out your dice",
+	Recipe_DiceToBag = "Bag up your dice",
+}

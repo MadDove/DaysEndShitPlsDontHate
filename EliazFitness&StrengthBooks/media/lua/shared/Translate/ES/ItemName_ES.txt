@@ -1,0 +1,15 @@
+ItemName_ES = {
+
+ItemName_Base.BookStrength1 = " Fuerza Vol.1 : Para Principiantes",
+ItemName_Base.BookStrength2 = " Fuerza Vol.2 : Intermedio",
+ItemName_Base.BookStrength3 = " Fuerza Vol.3 : Avanzado",
+ItemName_Base.BookStrength4 = " Fuerza Vol.4 : Para Expertos",
+ItemName_Base.BookStrength5 = " Fuerza Vol.5 : Para Maestros",
+	
+ItemName_Base.BookFitness1 = " Estado Fisico Vol.1 : Para Principiantes",
+ItemName_Base.BookFitness2 = " Estado Fisico Vol.2 : Intermedio",
+ItemName_Base.BookFitness3 = " Estado Fisico Vol.3 : Avanzado",
+ItemName_Base.BookFitness4 = " Estado Fisico Vol.4 : Para Expertos",
+ItemName_Base.BookFitness5 = " Estado Fisico Vol.5 : Para Maestros",
+	
+}

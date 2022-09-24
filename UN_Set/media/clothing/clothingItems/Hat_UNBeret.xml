@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>x:static\clothes\m_beretarmy</m_MaleModel>
+	<m_FemaleModel>x:static\clothes\m_beretarmy</m_FemaleModel>
+	<m_GUID>ec679fbb-9cd9-4c13-8560-888278a6699c</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>default</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>UN_Beret</textureChoices>
+</clothingItem>

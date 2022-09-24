@@ -1,0 +1,130 @@
+module SMUIClothing 
+{
+
+
+	item Vest_ODGreen
+	{   
+
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = M69 Flak Vest,
+        ClothingItem = Vest_M69FlakVest,
+        BodyLocation = TorsoExtra,
+        Icon = M69Vest,
+        BloodLocation = ShirtNoSleeves,
+		BiteDefense = 75,
+		ScratchDefense = 75,
+		BulletDefense = 65,
+		Insulation = 0.75,
+        WindResistance = 0.45,
+		RunSpeedModifier = 1,
+        WorldStaticModel = M69Vest_WorldItem,
+	}
+
+	    item Vest_RangerBodyArmorWoodland
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Woodland Ranger Body Armor,
+		ClothingItem = Vest_RangerBodyArmorWoodland,
+		BodyLocation = TorsoExtra,
+		BloodLocation = ShirtNoSleeves,
+		BiteDefense = 75,
+		ScratchDefense = 75,
+		BulletDefense = 100,
+		Insulation = 0.75,
+        WindResistance = 0.45,
+		Icon = RangerBodyArmorWoodland,
+		WorldStaticModel = MilitaryTacticalVest_WorldItem,
+	}
+
+	    item Vest_RangerBodyArmorDesert
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Desert Ranger Body Armor,
+		ClothingItem = Vest_RangerBodyArmorDesert,
+		BodyLocation = TorsoExtra,
+		BloodLocation = ShirtNoSleeves,
+		BiteDefense = 75,
+		ScratchDefense = 75,
+		BulletDefense = 100,
+		Insulation = 0.75,
+        WindResistance = 0.45,
+		Icon = RangerBodyArmorDesert,
+		WorldStaticModel = MilitaryTacticalVest_WorldItem,
+	}
+
+    	item Vest_MilitaryTacticalVest
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Military Tactical Vest,
+		ClothingItem = Vest_MilitaryTacticalVest,
+		BodyLocation = TorsoExtra,
+		BloodLocation = ShirtNoSleeves,
+		BiteDefense = 75,
+		ScratchDefense = 75,
+		BulletDefense = 100,
+		Insulation = 0.75,
+        WindResistance = 0.45,
+		WeightReduction	=	65,
+		Icon = MilitaryTacticalVest,
+		WorldStaticModel = MilitaryTacticalVest_WorldItem,
+	}
+
+	    item Vest_MilitaryTankerVest
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Combat Vehicle Crewman Vest,
+		ClothingItem = Vest_MilitaryTankerVest,
+		BodyLocation = TorsoExtra,
+		BloodLocation = ShirtNoSleeves,
+		BiteDefense = 65,
+		ScratchDefense = 65,
+		BulletDefense = 100,
+		Insulation = 0.75,
+        WindResistance = 0.30,
+		Icon = MilitaryTankerVest,
+		WorldStaticModel = MilitaryTankerVest_WorldItem,
+	}
+
+		item Vest_PASGTDesert
+	{   
+
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Desert Battle PASGT Vest,
+        ClothingItem = Vest_PASGTDesert,
+        BodyLocation = TorsoExtra,
+        Icon = PASGTDesert,
+        BloodLocation = ShirtNoSleeves,
+		BiteDefense = 75,
+		ScratchDefense = 75,
+		BulletDefense = 100,
+		Insulation = 0.75,
+        WindResistance = 0.45,
+		RunSpeedModifier = 1,
+        WorldStaticModel = PASGTDesert_WorldItem,
+	}
+
+		item Vest_PASGTOD
+	{   
+
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Green PASGT Vest,
+        ClothingItem = Vest_PASGTOD,
+        BodyLocation = TorsoExtra,
+        Icon = PASGTOD,
+        BloodLocation = ShirtNoSleeves,
+		BiteDefense = 75,
+		ScratchDefense = 75,
+		BulletDefense = 100,
+		Insulation = 0.75,
+        WindResistance = 0.45,
+		RunSpeedModifier = 1,
+        WorldStaticModel = PASGTOD_WorldItem,
+	}
+}

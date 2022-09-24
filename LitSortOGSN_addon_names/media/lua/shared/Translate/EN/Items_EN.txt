@@ -1,0 +1,9 @@
+﻿Items_RU = {
+/************** Vaccine mod **************/
+	DisplayName_BkLaboratoryEquipment1 = " Laboratory Equipment Vol. 1",
+	DisplayName_BkLaboratoryEquipment2 = " Laboratory Equipment Vol. 2",
+	DisplayName_BkLaboratoryEquipment3 = " Laboratory Equipment Vol. 3",
+	DisplayName_BkVirologyCourses1 = " Virology Courses Vol. 1",
+	DisplayName_BkVirologyCourses2 = " Virology Courses Vol. 2",
+	DisplayName_BkChemistryCourse = " Brief Chemistry Course",
+}
